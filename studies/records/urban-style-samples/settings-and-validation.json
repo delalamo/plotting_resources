@@ -1,0 +1,104 @@
+{
+  "reference": "https://urbaninstitute.github.io/graphics-styleguide/",
+  "workbook": "https://urbaninstitute.github.io/graphics-styleguide/StyleGuideGraphs.xlsx",
+  "workbook_sha256": "efe6e857c0a4fef7849bcb822cdcdf65280dd3dea657080dc2f7358de8a4ad43",
+  "chart_width_inches": 6.25,
+  "chart_height_inches": 4.35,
+  "font": "Arial",
+  "axis_title_weight": "bold",
+  "selected_style": "R1 / S3",
+  "specs": [
+    [
+      "Typography",
+      "Arial Regular; axis titles use Arial Bold. Sizes remain 11.43 / 10 / 8.57 pt for plot titles / axis titles / ticks and legends. Figure numbers and notes are 8 pt; direct bar values are 8.5 pt."
+    ],
+    [
+      "Palette and emphasis",
+      "Keep R1 category colors and S3 #EBF1F5. The emphasis example retains cobalt, five neutral grays, equal 1.25 pt strokes, dashed references and blue drawn last."
+    ],
+    [
+      "Frame, grid and marks",
+      "Keep the .45 pt frame, .45 pt dotted grid, 3.5 pt open markers, .70 bar width, .35 pt bar edges and .65 pt error bars with 2 pt caps. Omit grids on directly labeled bars."
+    ],
+    [
+      "Labels and arrangement",
+      "Apply Urban's title/sentence capitalization, zero-based bars, right-aligned horizontal categories, above-chart legends and direct series labels where feasible."
+    ],
+    [
+      "Output and spacing",
+      "Chart width is Urban's 6.25 in print width. The 4.35 in chart height, .5 in page margins, label clearances and annotation routing are local layout choices where the guide gives no exact measurement."
+    ],
+    [
+      "Data and identity",
+      "U1 expands a shortened education label. U3 uses the actual 2023 year from column A, correcting the repeated 2022 tick in the source image. No Urban logo is used on these adapted figures."
+    ]
+  ],
+  "validation": [
+    {
+      "id": "U1",
+      "slug": "urban-spending-bars",
+      "physical_width_inches": 6.25,
+      "text_within_canvas": true,
+      "font": "Arial",
+      "axis_title_weight": "bold",
+      "frame_width_pt": 0.45,
+      "background": "#EBF1F5",
+      "axis_starts_at_zero": true
+    },
+    {
+      "id": "U2",
+      "slug": "urban-poverty-paired-bars",
+      "physical_width_inches": 6.25,
+      "text_within_canvas": true,
+      "font": "Arial",
+      "axis_title_weight": "bold",
+      "frame_width_pt": 0.45,
+      "background": "#EBF1F5",
+      "axis_starts_at_zero": true
+    },
+    {
+      "id": "U3",
+      "slug": "urban-home-equity-lines",
+      "physical_width_inches": 6.25,
+      "text_within_canvas": true,
+      "font": "Arial",
+      "axis_title_weight": "bold",
+      "frame_width_pt": 0.45,
+      "background": "#EBF1F5",
+      "axis_starts_at_zero": null
+    },
+    {
+      "id": "T1",
+      "slug": "template-posttraining-lines",
+      "physical_width_inches": 6.25,
+      "text_within_canvas": true,
+      "font": "Arial",
+      "axis_title_weight": "bold",
+      "frame_width_pt": 0.45,
+      "background": "#EBF1F5",
+      "axis_starts_at_zero": null
+    },
+    {
+      "id": "T2",
+      "slug": "template-iedb-bars",
+      "physical_width_inches": 6.25,
+      "text_within_canvas": true,
+      "font": "Arial",
+      "axis_title_weight": "bold",
+      "frame_width_pt": 0.45,
+      "background": "#EBF1F5",
+      "axis_starts_at_zero": true
+    },
+    {
+      "id": "T3",
+      "slug": "template-emphasis-lines",
+      "physical_width_inches": 6.25,
+      "text_within_canvas": true,
+      "font": "Arial",
+      "axis_title_weight": "bold",
+      "frame_width_pt": 0.45,
+      "background": "#EBF1F5",
+      "axis_starts_at_zero": null
+    }
+  ]
+}

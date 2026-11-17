@@ -1,0 +1,1781 @@
+{
+  "source_geometry_equal": true,
+  "typography_fixed": true,
+  "all_non_palette_S3_tokens_equal": true,
+  "source_fingerprints": {
+    "bars_comparison_IEDB": "4020a9fd2bbbc5caf3e5879ac8699cb2dc3dc3903b638791a54d1e451562934c",
+    "brute_force": "6e90bdb8b1b136bb696d937a3d4f405fab12c9a70b1bd7b54afd4ac6201b0281",
+    "comparison_radar": "dea342610c6ae6f9fb833aab7ea3e80e56e86ef9679349ab374b9614a5be4237",
+    "comparison_posttraining": "9cebf3ab18ca025137fc3462eccca7b980a78e27b3c64c013ff3aa98deaa86d0",
+    "concept": "2d54af73884fd7d2588e85cc25cb3d05e9ec30a95593d80f23f2722511c6bc8a",
+    "trend_by_month": "ce06b7a07a0db521cc709f679ecc9e97c348ce6e01962e81369203dad7730b4d"
+  },
+  "protected_exports_sha256": {
+    "figures/bars_comparison_IEDB.svg": "aeebf64c82a76c912b1f100c62eb3e83d9296b12f0f2d1a0897a51c9c0e44612",
+    "figures/comparison_radar.png": "70073ff472a286c891e1a02273155fa1e777db79a428830acb266e10139ee0b5",
+    "figures/comparison_radar.pdf": "4d4b30528493af89e6d1f4d2b3cdcccd6dcf472a03b065d1eb7032ae9d00ca48",
+    "figures/brute_force.svg": "a408d192cde6605a8e0e48af956c0332809204d70a02085d62e7a2c666f0b5c5",
+    "figures/comparison_posttraining.svg": "916b149cc3727c5f720709d59ae8ee06eb4db3ed79f8c698e858ba69e4742efe",
+    "figures/brute_force.pdf": "0a8de88463fec0d463c24d3f936df4c01aced77b3dad814554be2b3bc3bccbdc",
+    "figures/comparison_posttraining.pdf": "710fecee473ea0835a18b4d5d00d44f0354d20e780700cfc989173146573627d",
+    "figures/comparison_posttraining.png": "749b3e2a21f50dedc847f65ebd35ee2919fc7bd77a0bd3a6fdb6fe8cfba6f0f1",
+    "figures/brute_force.png": "3159c608d4d8709e854c58cf53f70df4ee5cbc22368a5dfb4c362afe65c841b9",
+    "figures/bars_comparison_IEDB.pdf": "fb3e797b45dbc7f71b41e70c84b39356385cd7ef4e9523e2b8b361bbe99b06d5",
+    "figures/comparison_radar.svg": "ebf86d9dc70b4cf1e9171b95b00b768440030cde7c4ab60fb61b67ae709dd800",
+    "figures/bars_comparison_IEDB.png": "c8ea3cca1f04968133c64afda78c81ce80538faa3c3c2dcca8cae146b1e5ab9a",
+    "figures/concept.pdf": "1616a47cf6089b90c26916dd563984e2897dff086ef953b8b072d87f5511b795",
+    "figures/trend_by_month.pdf": "5c290304224cd495fe1d578cea525edd281f33e8f968ab5b6a2854e6a7a0860e",
+    "figures/trend_by_month.png": "f7572bcc62b97fd6e8dce3cebd64e3b3bb64154a45b7722970905ac754c0de19",
+    "figures/concept.png": "297031f5b67763b842f91ac06dd1a838b51f950016183711bf93941238951f2a",
+    "figures/concept.svg": "e58b4ff727393a509b44c7502667bfd1da3e076838368b3ca75ec7bb963b3b19",
+    "figures/trend_by_month.svg": "bd6eb4c1e43562805169b0d86dcc6de514ac89cdd36289a024dbed56874a1243",
+    "gallery.pdf": "31ef4ad70968ab4e81703739e7394e3f4b855d071e6fdaa846c8c10f489f4f80",
+    "gallery-beige.pdf": "31ef4ad70968ab4e81703739e7394e3f4b855d071e6fdaa846c8c10f489f4f80",
+    "full-style-study/mineral-grid/bars_comparison_IEDB.svg": "a547838550adff96ba74d6f019e132a91b7da6305930352ac8062f98667f558a",
+    "full-style-study/mineral-grid/comparison_radar.png": "98ccba5b220f0419e990ca65dde561546f2667afb46efbe213c9eca08ca76cfd",
+    "full-style-study/mineral-grid/comparison_radar.pdf": "0e5931d00e96f7c100b5fc247749104305cbcf43545abbef9331d0a60f18a62c",
+    "full-style-study/mineral-grid/brute_force.svg": "637bcb656f702e0ff7aa3c7ad77ce59013c227b7c424ed8f18f9d6685e7f8226",
+    "full-style-study/mineral-grid/comparison_posttraining.svg": "bf5be2c6d0e7d88896fe9e0dfbd8f542bc0496ef7a5601e52ccb4f674e056e1e",
+    "full-style-study/mineral-grid/gallery.pdf": "2d5eeec8b42bda46148b6d87cb9f1656b94504d447e7637d7d8d5c80cd9f1eba",
+    "full-style-study/mineral-grid/brute_force.pdf": "bd1bb138cb508b19e730a51f982a7de12657c8ae768f5f9819d123132168ed62",
+    "full-style-study/mineral-grid/comparison_posttraining.pdf": "a8a70b9cde3a90e38f8316a161909d1dd7b62dfe6cf8e92a12526b031398fc20",
+    "full-style-study/mineral-grid/comparison_posttraining.png": "96cb908308ea974dcd981d7e522c9b27d500b5ae764b1063593f83d57f659799",
+    "full-style-study/mineral-grid/brute_force.png": "8613854611180667b8016a2a45fe4d98521f1ae4f6e8ad44cc38c2a4e1ad0941",
+    "full-style-study/mineral-grid/bars_comparison_IEDB.pdf": "f0e32c50d4bbb1101f4d839355324df419aa334749c933097c1e6e963e9a01f9",
+    "full-style-study/mineral-grid/comparison_radar.svg": "460e2eb6e4d5dafc24a198a7afd1c7224f5e3611934aac5c2f3bc0d2a2916c80",
+    "full-style-study/mineral-grid/bars_comparison_IEDB.png": "f17476b63e96c0b25e0f5c7d2580104fdef5b362b503746a7bccec08d181967d",
+    "full-style-study/mineral-grid/concept.pdf": "808ab591c5088964696cab724e2d4acc1af214f301f9a3abfd7b65af3886439c",
+    "full-style-study/mineral-grid/trend_by_month.pdf": "3edd11d14cc16cac085c1e88c094ce2f2e7157ef772b5eda4b6189af5251e84e",
+    "full-style-study/mineral-grid/trend_by_month.png": "ed55c144bb4bda274552b0641e2460b449ae466fa7d4be958d7ee5bbb6cac7d1",
+    "full-style-study/mineral-grid/profile.png": "56d9cda959de16ee697a33752b088f7701ec796a7780c61bc1929bffb2996a97",
+    "full-style-study/mineral-grid/concept.png": "76eeaa6a0ea9e396f4233654818aaf1625f06ee37edb735f9506e93603c08484",
+    "full-style-study/mineral-grid/concept.svg": "f17ca4a66a3f060401e39fd665ac1d9e182e43fa400296b9dc1737e80a568c9c",
+    "full-style-study/mineral-grid/trend_by_month.svg": "63688bfb0fd2d4897e5d01b5b6ad430e487f275cadb81f05931cbb08cde7f765",
+    "s3-cool-study/color-review.png": "28fe660bbcebfe9642e8e9b914512e2047e7a4f3af829c40bc0bf1e131cf2af1",
+    "s3-cool-study/palettes.json": "966dc8a7e6325c2014883c5e2a288174e9e95600bbe1e81f7e602802075a22fe",
+    "s3-cool-study/bars-overview.png": "ee7204558022e3692e5999ec4fe5a2604eb6d56cc1646cd1ab0cbcfc99d005cd",
+    "s3-cool-study/overview.png": "9b4275849ddf9ed0edde9779d7e27e1b3d6eb882bd105317f00448abf0fe8c2a",
+    "s3-cool-study/README.md": "a72454e55a2ecfd30a9ca82b25336a1d249d611f9886701aaff0f998f5fd8659",
+    "s3-cool-study/gallery.html": "28ed62c004a4cbf8ca8aaf01db4388e973705b4baf1d8c1cdb124880c2d9a299",
+    "s3-cool-study/s3-cool-palettes.pdf": "55ea63f38f7f6c97efa7dad9c1e5c5e7ef225e7fcbb5900bfd705151b61581a8",
+    "s3-cool-study/validation.json": "b5b0094a55992ce55b91cbe628695e365a34fcf93cca65e49a49e0db357e02c6",
+    "s3-cool-study/fjord/bars_comparison_IEDB.svg": "864fec50c78c2a5a8c800516b2c8f421e29d8faf663a56405d3db1c7c8a5535a",
+    "s3-cool-study/fjord/comparison_radar.png": "81e3b416d0b5b3a9545256bb81fad2f628e06362e4ba2630bdd4d46a5e3a6ffa",
+    "s3-cool-study/fjord/comparison_radar.pdf": "44f7db488aa5e0046273be66a096e9a38d6ca977ec23eb54e999203f3175d865",
+    "s3-cool-study/fjord/brute_force.svg": "7899271b080f555dbe143261939ecc98a9b8c0bf1d6f064439a37fba484d6727",
+    "s3-cool-study/fjord/comparison_posttraining.svg": "18bd8af633dcdb699bfecdbe3b39f294abe627d8955e0991a8e89d3ff4dc1313",
+    "s3-cool-study/fjord/gallery.pdf": "7bcbf8d925c672e04deb9e667e1f80f80ecfd18773c5016914b7d0ba774fa0e2",
+    "s3-cool-study/fjord/brute_force.pdf": "b33ae042c814885b03bcc7d5d7b0476a30ccd5fc8aa294815f620610f684594f",
+    "s3-cool-study/fjord/comparison_posttraining.pdf": "580cb067a67e7b16b3e3c460dd0291e6f821e2127fcc290410fc29cc39d5aa5e",
+    "s3-cool-study/fjord/comparison_posttraining.png": "6453031d46fd6351fbe9ca9577fb0f93be35925b1a1545d7f76429600a461c69",
+    "s3-cool-study/fjord/brute_force.png": "cec6569118a7f82b1a193933270e2fccde5432722ee99ba276259505f0474ac9",
+    "s3-cool-study/fjord/bars_comparison_IEDB.pdf": "41aa313bcf7df6d06b65ab75e87dab8b2cbb94a711d3235419606cfec6cc75dc",
+    "s3-cool-study/fjord/comparison_radar.svg": "1a239690eb913d1c4ba0d3cbc9cb16471f9a0c4e249557e48b27582218236a78",
+    "s3-cool-study/fjord/bars_comparison_IEDB.png": "4984473209a2c61510822f76d0262a9240f385b79310988451bdbf91da8c5487",
+    "s3-cool-study/fjord/concept.pdf": "92d06095090662ac50527a429d2a6db4b3f08c0c3eda99a5c902386a012e9122",
+    "s3-cool-study/fjord/trend_by_month.pdf": "9ac0282e5b1b4252e453a216822e0793fe584abb34ca0a8d4b69d3348faa2014",
+    "s3-cool-study/fjord/trend_by_month.png": "911629a6e8d9a2a1e5a73f91b5c1c01d6147092c7e23814941bca0c1082edf7e",
+    "s3-cool-study/fjord/profile.png": "a6789e48a278800079326ac7778af5e3aa505882671eccfb2ba1f4d0fd6281f5",
+    "s3-cool-study/fjord/concept.png": "56bd25f5f380eba88701dc29577a2c2d09c50591057a4434418eb253eac028b5",
+    "s3-cool-study/fjord/concept.svg": "db3c6448e204b1072edd2fee770563e393c1a03e7e4d957f18d2b1ce9367c9ce",
+    "s3-cool-study/fjord/trend_by_month.svg": "365c64e0e0d0272a0019e104bf8023cf8be6b87f748fd144930ca36ff580b83e",
+    "s3-cool-study/arctic-signal/bars_comparison_IEDB.svg": "f6332a2b8cf2a746976ad016e3afd99913d0551d5d25d7031f4c17b1bcfb7b63",
+    "s3-cool-study/arctic-signal/comparison_radar.png": "d804d56b33b138aa4ab4f6d1a492c1de9385cbde1aa3db2e057bc67a33dc1eab",
+    "s3-cool-study/arctic-signal/comparison_radar.pdf": "3095ec051812c6befb0ed6550af9e11a2253cc8b3bc4e774a0fc92cf2322fa4d",
+    "s3-cool-study/arctic-signal/brute_force.svg": "8345de3876fc5b85e8f8a14ef7b6647a0598169069a3727a1a571c643fa36fa3",
+    "s3-cool-study/arctic-signal/comparison_posttraining.svg": "b05f6e656009765545e6609d1585c91683413732e7c3b8b479d6c6c2ecccf7e8",
+    "s3-cool-study/arctic-signal/gallery.pdf": "ec6bd065a333dd37cf4b6973b7c9a53ee7915538ae760ae76e41c0944631f546",
+    "s3-cool-study/arctic-signal/brute_force.pdf": "1a2240a84dd8cf0b092209a929f49edb58ae6e4428d1abb2b33798e17d123227",
+    "s3-cool-study/arctic-signal/comparison_posttraining.pdf": "8d606a5938c2c086f08a8394d08349707880951055a456393f32704aa1d80b94",
+    "s3-cool-study/arctic-signal/comparison_posttraining.png": "788eadc9f39ca0fc2a7cde398e7a7c662b8d715f0428337185745ac0534ce01d",
+    "s3-cool-study/arctic-signal/brute_force.png": "7808db724b4610fa70c066cc12591b90e66f3fcdb122b6ec14cd8097edf3d239",
+    "s3-cool-study/arctic-signal/bars_comparison_IEDB.pdf": "e127440184d4ec5d649938c16e39ffcc34968b5bfc4fcadb0f666c55eaaddd23",
+    "s3-cool-study/arctic-signal/comparison_radar.svg": "47d23dd2c7e1798e99e980ef90a185d374973008940f500e41776e6152c85dac",
+    "s3-cool-study/arctic-signal/bars_comparison_IEDB.png": "c1d910bccbc3e5ce56bb5443876f36a41079386a8978781af2d194165b2ee6e3",
+    "s3-cool-study/arctic-signal/concept.pdf": "55ef3f17a34bca5332a477ddaa3375313d3b13245437cd0551e956c60ae64268",
+    "s3-cool-study/arctic-signal/trend_by_month.pdf": "3c9af2984b4ca2a9c36ca4e1daa729bef9c7f395accda886733a4733bec70527",
+    "s3-cool-study/arctic-signal/trend_by_month.png": "dc14dbb7065ec184cdd6e850e6433adf95f493f3d0c927b6d72ac8e49ddb15c2",
+    "s3-cool-study/arctic-signal/profile.png": "27900d4b0ea1d7749ad9d9437fe0bf48b6c0442c4dfa658c669bfedb39bac98d",
+    "s3-cool-study/arctic-signal/concept.png": "1376773a74d35c634d2354544e985358e2de69d9a6bd0f9d8b32df764b456077",
+    "s3-cool-study/arctic-signal/concept.svg": "013cc1427f34f8a1ac84c3042c17babd41d1a17cd89aa5c02055d14331c73b49",
+    "s3-cool-study/arctic-signal/trend_by_month.svg": "6ea2cda45b2ab9352b6adc5ab58072ad8c2b17d6998e1acf8ab4522b13cc9d96",
+    "s3-cool-study/blue-hour/bars_comparison_IEDB.svg": "d0cdbd27ab9bf0a0a6a241efad89db076d6a98d8e74573485c86f099eb7154ba",
+    "s3-cool-study/blue-hour/comparison_radar.png": "9be420444f791af498800c9512eff7389c5bdb44ec118d9f15baf349edd9cbf5",
+    "s3-cool-study/blue-hour/comparison_radar.pdf": "a94d46a414f614240b9ba2ad0402e15d61d0fb0861baa8cefd11fa79c30f7414",
+    "s3-cool-study/blue-hour/brute_force.svg": "762fc744ec15c9dfb079d2655b5a3c9a00a8d4cd7e61623bb85cf07e2500d25d",
+    "s3-cool-study/blue-hour/comparison_posttraining.svg": "1a39dedbbdf43137cca3efd6b372194f3d3d29ded1f99765100c63a4e0a965b0",
+    "s3-cool-study/blue-hour/gallery.pdf": "30e6ec65e746aea5e23d2ce13c1f1b901f5c6060e177a1e187164529a6739d03",
+    "s3-cool-study/blue-hour/brute_force.pdf": "bd9dccfb501e00c2014a8a9442740de63b8284fbf9f4d04444fd9cc359d5a2bd",
+    "s3-cool-study/blue-hour/comparison_posttraining.pdf": "7e14031f34f35d030889a99e581401300f43b3c0803de14c31ca96cb984c3799",
+    "s3-cool-study/blue-hour/comparison_posttraining.png": "50cc3882ad83d930062b0a3b86c8842d3d120d96583bcc66b491b5310513d9c9",
+    "s3-cool-study/blue-hour/brute_force.png": "18e13f3a8f3fb4d04c9c43df66a161a3ffc32dcec07b5ed528184efa83bf23b1",
+    "s3-cool-study/blue-hour/bars_comparison_IEDB.pdf": "aa13accec166f43ca7625fc9334572c6b7ae42a32871a1b1f34b59d49a28b01d",
+    "s3-cool-study/blue-hour/comparison_radar.svg": "2be367d11423717becb5c748f9432045de39d7a05db9a6eea97a3f06e7b521ec",
+    "s3-cool-study/blue-hour/bars_comparison_IEDB.png": "faea37a8b51e7ed6bab75b3f48febd827065859423fb418938b8993c3c22e5bc",
+    "s3-cool-study/blue-hour/concept.pdf": "c7591317feeb5078688a8d40b09f5445087f367ba48ed82f61193f6ac8ed0888",
+    "s3-cool-study/blue-hour/trend_by_month.pdf": "34f4509bc9610adf28679ca5dd4b1e0239e9b54fb8280f55db4e4082fedfccac",
+    "s3-cool-study/blue-hour/trend_by_month.png": "8f420b8ce84569a245c6d873de79114057bf46316e1d0cb875f64946bf33863b",
+    "s3-cool-study/blue-hour/profile.png": "2f1aae47dc37dc7fc6471d9914404a44bc054566616a5581095cd4aa4cc24f1f",
+    "s3-cool-study/blue-hour/concept.png": "73a06bf6d907e48023782f89b7486d1de5e9e9e6ab88a7d8e69df7016e803244",
+    "s3-cool-study/blue-hour/concept.svg": "4bf0e9677f65deba164692c0859173a4c71ad9f4f2292e4a59870b37004e4f1f",
+    "s3-cool-study/blue-hour/trend_by_month.svg": "c32ee70842053730da850b4ffc7a197e75d46a79a1ef5299f93526503fded706",
+    "s3-cool-study/glacial-iris/bars_comparison_IEDB.svg": "ff28d59782668655104cc05fcee4284c4b5c4edfcd79d6a652c23029f3a87fb0",
+    "s3-cool-study/glacial-iris/comparison_radar.png": "9b747160246b7578b713440a18f30acce1a1df6750682db7e963f3102e2e45ad",
+    "s3-cool-study/glacial-iris/comparison_radar.pdf": "9a4a0808b8db5b625f69411ee525e08051c7d3af304993d8a1337534f0dd41ae",
+    "s3-cool-study/glacial-iris/brute_force.svg": "d3f1cfdec8b767612624d2b1767ed74b74258b22224fc380034c960da86fb50c",
+    "s3-cool-study/glacial-iris/comparison_posttraining.svg": "8375f763b5433f6fa522e474023a59693f5833749b1ffd75391df87b2f100c1b",
+    "s3-cool-study/glacial-iris/gallery.pdf": "81b177b9f55e00d9c95f32f4985607fe76f9a971e46ee5dd3ed89c2a1d7230ed",
+    "s3-cool-study/glacial-iris/brute_force.pdf": "0a471c908811cc2fc0ceb7f40eef7137ea93ca09d7ed95bf848fae73d387c512",
+    "s3-cool-study/glacial-iris/comparison_posttraining.pdf": "27ff6e8e8f92eb4aa60bdc9d7e5a787db8d75648ca088eac7a20d6130c0d8d77",
+    "s3-cool-study/glacial-iris/comparison_posttraining.png": "5bbfaa22a153bfdcd3ef4cc12d803919ccb77cb24430552148ac5670e6fbcf67",
+    "s3-cool-study/glacial-iris/brute_force.png": "d726e0875b4d121c5845d81870b57c76b14c405b3642f6c2f7c19c2df323bc84",
+    "s3-cool-study/glacial-iris/bars_comparison_IEDB.pdf": "fd968aa3d080ea1b9844cc74ea032b0d952d162d2960d49c4034e97c4cd39c6e",
+    "s3-cool-study/glacial-iris/comparison_radar.svg": "beb5aaca1f2b35889b21b1e28681c0572a59360d2e904d9cffef7e9ac71c7676",
+    "s3-cool-study/glacial-iris/bars_comparison_IEDB.png": "e003ecfcc417b1adbf4c1f0d81a6978dfa8cefc14f2429c565d6bbec9348dfb8",
+    "s3-cool-study/glacial-iris/concept.pdf": "35245b1cc0e0f2c44d22dd581178b1e5e0382058bd1bdef4773bda4b796f8e91",
+    "s3-cool-study/glacial-iris/trend_by_month.pdf": "1cdc6063d8057ed017db6fd9f55361b06391ef689833190dcfdd132af5a68e53",
+    "s3-cool-study/glacial-iris/trend_by_month.png": "3f7da41f595f2d4747425dfd54e4f065dc1f4a043486612d0f40ad948025287c",
+    "s3-cool-study/glacial-iris/profile.png": "b62b64e165534174b119cea205775558ee8e583800890c95a3dfea88371d5339",
+    "s3-cool-study/glacial-iris/concept.png": "58b3664b8d66cbb3dc4d2691dca33d108c534c3b8b3ff346465faa48864630a2",
+    "s3-cool-study/glacial-iris/concept.svg": "0f8df7fcbade08369b8c9c94c0afe61c68d88bd534aab18596a028ce78de24a7",
+    "s3-cool-study/glacial-iris/trend_by_month.svg": "dc095b6126b0dac8d255af8fe5247ac582a4be35270313198d56e4e4fe0cf19f",
+    "s3-cool-study/sea-glass/bars_comparison_IEDB.svg": "d90ebe17168e6e94ca8658ea59c3a8cb9d6edffbcf7d2e57899d944145ffd5a4",
+    "s3-cool-study/sea-glass/comparison_radar.png": "7b2a204ff5c237a20ac5c7ecc521db9a90d5e80e05b187a203d0507f787cf6e8",
+    "s3-cool-study/sea-glass/comparison_radar.pdf": "f1b12ba5608e5d4e2ab58f53da4aa9e3bd6a615176597c13d635b2552971acef",
+    "s3-cool-study/sea-glass/brute_force.svg": "872801d1d046e90ee35a174815cd39064adc67bbbc18b75083cb5ca0a0c92163",
+    "s3-cool-study/sea-glass/comparison_posttraining.svg": "a6493eeb350cf7ad4f09b6aafd64c47ff6a8c7d07d3486ef750747558d5b5df7",
+    "s3-cool-study/sea-glass/gallery.pdf": "cfa03a0cb75cfb482a7350e8faa345b70021548715e8826fdd38245023704ea2",
+    "s3-cool-study/sea-glass/brute_force.pdf": "53544fd1d5dffea8dd2c75cfcdd8f0b699045c880ac5a108cbaf920f461a4527",
+    "s3-cool-study/sea-glass/comparison_posttraining.pdf": "2f1c6ab76e687d100b2fae29f43115abb54fc1a226a689cd574aae8b0e24eab6",
+    "s3-cool-study/sea-glass/comparison_posttraining.png": "cb02cc5a7307164f4493bf50d7c9d2258000bb4f7a3ffb135633ddde21c2954a",
+    "s3-cool-study/sea-glass/brute_force.png": "9f298ec1f7ce612556bb61ff52937622cba4b727afa862112ff987873283e395",
+    "s3-cool-study/sea-glass/bars_comparison_IEDB.pdf": "69ca3ddc110fbe892a5cd006ff1bda8dee0035897b657b8e4fc40ff726036edb",
+    "s3-cool-study/sea-glass/comparison_radar.svg": "fb847877e279bda3e98ae4ea29797a52fa1cca091321f43dccd486ecea81ff7b",
+    "s3-cool-study/sea-glass/bars_comparison_IEDB.png": "38f70a5f0ed1965b36d72d05f583fc4575d47790ca47e18e585b8806eb5174a3",
+    "s3-cool-study/sea-glass/concept.pdf": "02458a59d8f2c3739eb1c45f3a41f7bd7692fd254a30fadcd6d842c40ba9e9f4",
+    "s3-cool-study/sea-glass/trend_by_month.pdf": "e88a7619ed41e29407ec6681b0a15d119d5a4c1190a6a5bf341fe391f1fb6a80",
+    "s3-cool-study/sea-glass/trend_by_month.png": "925605264ca40c11680a51129a1ea7a8d22a18d885a3b8dc65774becd59ce740",
+    "s3-cool-study/sea-glass/profile.png": "b8a13718f2219fb494375a0d1418b30ba5e3dd2ed3cdacb0ff398edf8eb8388f",
+    "s3-cool-study/sea-glass/concept.png": "4b55b7a42808b51fdabca1e4b0bb6578aaa4575440d3e71b3f5d6cfbb7eb3eda",
+    "s3-cool-study/sea-glass/concept.svg": "a498002543e70a5da8944de31096d78e5bf939e22d2ca36bb2e824a5b67a8ed9",
+    "s3-cool-study/sea-glass/trend_by_month.svg": "ccd88abcd1e87138fdb11fced71ed7699b97503a470bc498c0e5836804c303cf",
+    "s3-cool-study/simulations/C1/gray/comparison_radar.png": "afd641bd1fc454ed36ea37885dce7ba56c80b09857fb8cb933b60c7b4cce87d8",
+    "s3-cool-study/simulations/C1/gray/comparison_posttraining.png": "ff309b0bb8a99c57a0981d97c4d7fd5ee9c84546515ada033996797f7a1b88f8",
+    "s3-cool-study/simulations/C1/gray/brute_force.png": "e54a198d9e8a76a26617f69a75537c5ab700d906eb74f57e36137286d953c687",
+    "s3-cool-study/simulations/C1/gray/bars_comparison_IEDB.png": "65177599683bd7a3460ab6782c2ec43c1db8769ca4211f5657419cd0d46a0742",
+    "s3-cool-study/simulations/C1/gray/trend_by_month.png": "47b191969b970320ad26b272b6889413f644df4af2f6e60b5075bb2e5374137f",
+    "s3-cool-study/simulations/C1/gray/concept.png": "4633f363f500c0b8adbf5ff7429e43a9391a09ad72540d1dccae7da9c61a1818",
+    "s3-cool-study/simulations/C1/deutan/comparison_radar.png": "01c5ffdc3fb3ba51411865afd5f057cb678061305028af6c715b0bb97530d756",
+    "s3-cool-study/simulations/C1/deutan/comparison_posttraining.png": "6ec04112b225c5d785d31275bf02a90c5941b9165f0518b6617af52c5c1b164a",
+    "s3-cool-study/simulations/C1/deutan/brute_force.png": "f9b008a5e00a4cfa93fad0be844011b01432dfaaef2aabb718f98d0695f0bce9",
+    "s3-cool-study/simulations/C1/deutan/bars_comparison_IEDB.png": "b3be73705281b33d93bc83b0fc88ae87127f2ee924c63a58498cb60c36ec516f",
+    "s3-cool-study/simulations/C1/deutan/trend_by_month.png": "34e02062d72cf628de46dcdd1f69ddea6bc7b93710ff11e6e3333f1f089e84b0",
+    "s3-cool-study/simulations/C1/deutan/concept.png": "1a60ac5d85f7cee742fca83f809f0c5bdaf930d52a17560e4bb62c014244f2bf",
+    "s3-cool-study/simulations/C3/gray/comparison_radar.png": "c71872fd2511df83f6af17bb327320422cd099dea545fddbd1e7a6d19c4d11ac",
+    "s3-cool-study/simulations/C3/gray/comparison_posttraining.png": "ca700f1bbef1e1da9cd8309b89da53ab6f4239f2935610ca82ad9556cb96c333",
+    "s3-cool-study/simulations/C3/gray/brute_force.png": "308a9236121c7ce04e6fd4d48de7d5290a3aba1d12bd55244ff6220d9c61db21",
+    "s3-cool-study/simulations/C3/gray/bars_comparison_IEDB.png": "9e50a37e0131b4a029a44cb9064d8dbda9a2490567f10158227af1ac84c29c3a",
+    "s3-cool-study/simulations/C3/gray/trend_by_month.png": "00873a4b1a94eb58eea2a3b819a788fc730d365dfe485cc88219f62777b2c8c2",
+    "s3-cool-study/simulations/C3/gray/concept.png": "197a4651ada346337bade5bbac5ea38da0ea7c97cd156fe9cb26d690a44cb6db",
+    "s3-cool-study/simulations/C3/deutan/comparison_radar.png": "ff5dcb4ad751715d045a871f8f8cf1c1561c4811b1846d19c89ed3024370203f",
+    "s3-cool-study/simulations/C3/deutan/comparison_posttraining.png": "5bdba20f56b3e9164e31bf59776f2b3fdbe0829d516aa29786daf5ce2869536f",
+    "s3-cool-study/simulations/C3/deutan/brute_force.png": "a7dc5ae8dca09f5c3d32c63894adad82400ff903bc581cac878dccd290605c5d",
+    "s3-cool-study/simulations/C3/deutan/bars_comparison_IEDB.png": "7f88572db2000086a5c6bd5ae0ab7f4d7073bfa2bb69735ed79450011061f301",
+    "s3-cool-study/simulations/C3/deutan/trend_by_month.png": "97c466652750ab9cd4eb7060393bbb88faf291ab0e7798a0fa4c6cd96dcc8e6b",
+    "s3-cool-study/simulations/C3/deutan/concept.png": "05d2e2d5179506047c06306f3c88064f82a9f9a0e34c0c96289b685b126d78af",
+    "s3-cool-study/simulations/C4/gray/comparison_radar.png": "34b40729869a3c97b52a3e1ae3ab555bb01e7b849b560890b594270ad2d20f82",
+    "s3-cool-study/simulations/C4/gray/comparison_posttraining.png": "ecc41ee9791a8f13f2291d36588b19f81c68a508658bc8e1f701c71ee275bdd6",
+    "s3-cool-study/simulations/C4/gray/brute_force.png": "f7048007a0cd579a113e10b46c514b936e9352d0f0ac0bf25b22a445a682efa3",
+    "s3-cool-study/simulations/C4/gray/bars_comparison_IEDB.png": "fbb409fdeef72bec1e2688d311cc67960fcb49cb197eb8de4fe1930c696fc43c",
+    "s3-cool-study/simulations/C4/gray/trend_by_month.png": "d1f91ab2ea06aa17fbba699d8dcd61fbb108b83582c560df838461154c3f84c5",
+    "s3-cool-study/simulations/C4/gray/concept.png": "1ae89ac1aa85e9e7e7990a758c523f0a9a867b9472e00883d5b2ad30a772376f",
+    "s3-cool-study/simulations/C4/deutan/comparison_radar.png": "a2ff578be1fb2be882c98ef52dbc618ac92805768ac3230d110dadcda8b74d68",
+    "s3-cool-study/simulations/C4/deutan/comparison_posttraining.png": "97b2004729c29d7a54516e8907aee582efd78d1f3bdb79a2c9251589147ed671",
+    "s3-cool-study/simulations/C4/deutan/brute_force.png": "e0ca1a7e04d7f622a80f7dd975c84d1f5c505c8eae08fe20257ae9f07e1d8c2a",
+    "s3-cool-study/simulations/C4/deutan/bars_comparison_IEDB.png": "29a12a8d156accce035660e8dd953c7eb06c3db884f3a7b823d214b4be893bae",
+    "s3-cool-study/simulations/C4/deutan/trend_by_month.png": "19266c1e50e8923a3a56aa009aa16126f7dd4abc5ffac0c00eb504a5e0611230",
+    "s3-cool-study/simulations/C4/deutan/concept.png": "bf318515f3212cc7d425ac5bce453971a066bf678759a333d944616cae5dedb0",
+    "s3-cool-study/simulations/C5/gray/comparison_radar.png": "96365d869ededc83cf9e014325271b470e173b6cde01ee8c12ea5efb20c08c94",
+    "s3-cool-study/simulations/C5/gray/comparison_posttraining.png": "ba3d92f1d32d593ef756abd565dc4bffb38fbe5f23de79f440fb183927047e62",
+    "s3-cool-study/simulations/C5/gray/brute_force.png": "b0af0eb983f73230c81430266b41684106e48f55d6c339bae9722112e638e28b",
+    "s3-cool-study/simulations/C5/gray/bars_comparison_IEDB.png": "3afaabe354680ad847daf59c9655b8572c8ab7d0428259b751fb25540a1682e6",
+    "s3-cool-study/simulations/C5/gray/trend_by_month.png": "1d9f8409ac20c43ca5c2dc249c121603baabba2e8cb4889f7b5138f36788da75",
+    "s3-cool-study/simulations/C5/gray/concept.png": "4101c5261e1d56c1307692dafadbeaa7ba0e9b708e0e803963cd55c56610e3a3",
+    "s3-cool-study/simulations/C5/deutan/comparison_radar.png": "78a4ff76a1da2c13f3a2d8fd9fe4a0f36d04566d9867fa55334f5fa8db0d8fae",
+    "s3-cool-study/simulations/C5/deutan/comparison_posttraining.png": "6d274e8f074941da1208add6f14498c8b5e42443bc480a3062dd9535dbc6ff95",
+    "s3-cool-study/simulations/C5/deutan/brute_force.png": "3242b84ff57c09c48753f08a1f67a75d000ad6b10438da1d9346fc7afabb9a8c",
+    "s3-cool-study/simulations/C5/deutan/bars_comparison_IEDB.png": "59188d464f5b59171294b1fe9ddfd466f6c00c77ec01d02cc72587d339f0c6e5",
+    "s3-cool-study/simulations/C5/deutan/trend_by_month.png": "34137fd4fd9ef649c7508f830e0f7b96aa458595104431850505d12962881c40",
+    "s3-cool-study/simulations/C5/deutan/concept.png": "f848aaa156de805fc499bf8fce6b0e5ca12eb35c6d2b8c3a2a85be98ba25fdb6",
+    "s3-cool-study/simulations/C2/gray/comparison_radar.png": "96b089a0a1ef1ba9dc94f58478e5b7112d8f388d71ad100040d537a684f23fc0",
+    "s3-cool-study/simulations/C2/gray/comparison_posttraining.png": "3233fad439420524b56a05b7094b9b193bb05d609c49d3e7a06528f92d477424",
+    "s3-cool-study/simulations/C2/gray/brute_force.png": "f6df139ee0813e38161ed0973577f7cfea39a1c8d448eedee4c8c798ecca07e5",
+    "s3-cool-study/simulations/C2/gray/bars_comparison_IEDB.png": "80c99064cd6c875a0b2c34f47894bb5ca4722bb5a942c9cf481ede5c406469c1",
+    "s3-cool-study/simulations/C2/gray/trend_by_month.png": "b7be917de46a506c87c23b33bac2c6ca4b1d928bb65dcc3e4b320611892c6138",
+    "s3-cool-study/simulations/C2/gray/concept.png": "94b9399dbdad1dc023a44482ed57d2435a4265329cb637a5d2eaa9d3f808ba95",
+    "s3-cool-study/simulations/C2/deutan/comparison_radar.png": "1af85da5010d29af637d095ac8a3072049cb35045c2c7c451e1b779df025379b",
+    "s3-cool-study/simulations/C2/deutan/comparison_posttraining.png": "691ec1c3cee3ba4c8afb84768a2fff04a185b2cea25baf16c41057052b75faf8",
+    "s3-cool-study/simulations/C2/deutan/brute_force.png": "9bb425957d1a9b7148ab0b691f5121f3daa62e0aac0b245f721176c4f119d241",
+    "s3-cool-study/simulations/C2/deutan/bars_comparison_IEDB.png": "58d9aa084896df2afe1a7c53aca999514e873d360ffa350879bd8508873287d5",
+    "s3-cool-study/simulations/C2/deutan/trend_by_month.png": "c28661a67f5f2436b6228fd0b49fed123b4f9bbf1185e3f2cadfddeda64d0187",
+    "s3-cool-study/simulations/C2/deutan/concept.png": "167fabf5c58a7904033d95140f0cc7037bb423c813305011d11a75f5b36d78a3"
+  },
+  "candidates": {
+    "R1": {
+      "core_contrast": [
+        5.819,
+        4.751,
+        3.078
+      ],
+      "extended_contrast": [
+        5.819,
+        4.751,
+        3.078,
+        4.368,
+        3.992,
+        5.427,
+        3.807,
+        3.684,
+        4.76
+      ],
+      "text_on_panel": 12.941,
+      "text_on_canvas": 14.743,
+      "closest_core_distance": {
+        "normal": 0.173,
+        "deutan": 0.0928,
+        "protan": 0.1467,
+        "tritan": 0.1511,
+        "gray": 0.0474
+      },
+      "expanded_close_pairs": {
+        "normal": [],
+        "deutan": [
+          {
+            "colors": [
+              "#B9413A",
+              "#A96E45"
+            ],
+            "oklab_distance": 0.0449
+          },
+          {
+            "colors": [
+              "#B9413A",
+              "#5B713C"
+            ],
+            "oklab_distance": 0.0408
+          },
+          {
+            "colors": [
+              "#A68517",
+              "#A96E45"
+            ],
+            "oklab_distance": 0.057
+          },
+          {
+            "colors": [
+              "#2B7C70",
+              "#9E638C"
+            ],
+            "oklab_distance": 0.0502
+          },
+          {
+            "colors": [
+              "#2B7C70",
+              "#685B80"
+            ],
+            "oklab_distance": 0.0562
+          },
+          {
+            "colors": [
+              "#2B7C70",
+              "#717B7F"
+            ],
+            "oklab_distance": 0.0432
+          },
+          {
+            "colors": [
+              "#9E638C",
+              "#717B7F"
+            ],
+            "oklab_distance": 0.0172
+          }
+        ],
+        "protan": [
+          {
+            "colors": [
+              "#285F96",
+              "#685B80"
+            ],
+            "oklab_distance": 0.0388
+          },
+          {
+            "colors": [
+              "#2B7C70",
+              "#9E638C"
+            ],
+            "oklab_distance": 0.0575
+          },
+          {
+            "colors": [
+              "#2B7C70",
+              "#717B7F"
+            ],
+            "oklab_distance": 0.025
+          },
+          {
+            "colors": [
+              "#9E638C",
+              "#685B80"
+            ],
+            "oklab_distance": 0.0542
+          },
+          {
+            "colors": [
+              "#9E638C",
+              "#717B7F"
+            ],
+            "oklab_distance": 0.0517
+          },
+          {
+            "colors": [
+              "#A96E45",
+              "#5B713C"
+            ],
+            "oklab_distance": 0.0313
+          }
+        ],
+        "tritan": [
+          {
+            "colors": [
+              "#285F96",
+              "#2B7C70"
+            ],
+            "oklab_distance": 0.0569
+          },
+          {
+            "colors": [
+              "#A68517",
+              "#A96E45"
+            ],
+            "oklab_distance": 0.052
+          },
+          {
+            "colors": [
+              "#9E638C",
+              "#A96E45"
+            ],
+            "oklab_distance": 0.0382
+          },
+          {
+            "colors": [
+              "#685B80",
+              "#5B713C"
+            ],
+            "oklab_distance": 0.04
+          },
+          {
+            "colors": [
+              "#717B7F",
+              "#5B713C"
+            ],
+            "oklab_distance": 0.0582
+          }
+        ],
+        "gray": [
+          {
+            "colors": [
+              "#285F96",
+              "#B9413A"
+            ],
+            "oklab_distance": 0.0474
+          },
+          {
+            "colors": [
+              "#285F96",
+              "#685B80"
+            ],
+            "oklab_distance": 0.0162
+          },
+          {
+            "colors": [
+              "#285F96",
+              "#5B713C"
+            ],
+            "oklab_distance": 0.0469
+          },
+          {
+            "colors": [
+              "#B9413A",
+              "#2B7C70"
+            ],
+            "oklab_distance": 0.0198
+          },
+          {
+            "colors": [
+              "#B9413A",
+              "#9E638C"
+            ],
+            "oklab_distance": 0.0414
+          },
+          {
+            "colors": [
+              "#B9413A",
+              "#685B80"
+            ],
+            "oklab_distance": 0.0311
+          },
+          {
+            "colors": [
+              "#B9413A",
+              "#717B7F"
+            ],
+            "oklab_distance": 0.0528
+          },
+          {
+            "colors": [
+              "#B9413A",
+              "#5B713C"
+            ],
+            "oklab_distance": 0.0005
+          },
+          {
+            "colors": [
+              "#A68517",
+              "#717B7F"
+            ],
+            "oklab_distance": 0.0525
+          },
+          {
+            "colors": [
+              "#A68517",
+              "#A96E45"
+            ],
+            "oklab_distance": 0.0445
+          },
+          {
+            "colors": [
+              "#2B7C70",
+              "#9E638C"
+            ],
+            "oklab_distance": 0.0215
+          },
+          {
+            "colors": [
+              "#2B7C70",
+              "#685B80"
+            ],
+            "oklab_distance": 0.051
+          },
+          {
+            "colors": [
+              "#2B7C70",
+              "#717B7F"
+            ],
+            "oklab_distance": 0.033
+          },
+          {
+            "colors": [
+              "#2B7C70",
+              "#A96E45"
+            ],
+            "oklab_distance": 0.041
+          },
+          {
+            "colors": [
+              "#2B7C70",
+              "#5B713C"
+            ],
+            "oklab_distance": 0.0203
+          },
+          {
+            "colors": [
+              "#9E638C",
+              "#717B7F"
+            ],
+            "oklab_distance": 0.0115
+          },
+          {
+            "colors": [
+              "#9E638C",
+              "#A96E45"
+            ],
+            "oklab_distance": 0.0194
+          },
+          {
+            "colors": [
+              "#9E638C",
+              "#5B713C"
+            ],
+            "oklab_distance": 0.0419
+          },
+          {
+            "colors": [
+              "#685B80",
+              "#5B713C"
+            ],
+            "oklab_distance": 0.0307
+          },
+          {
+            "colors": [
+              "#717B7F",
+              "#A96E45"
+            ],
+            "oklab_distance": 0.008
+          },
+          {
+            "colors": [
+              "#717B7F",
+              "#5B713C"
+            ],
+            "oklab_distance": 0.0533
+          }
+        ]
+      },
+      "close_pair_rule": "Distance <0.06 is an editorial review flag, not an accessibility standard."
+    },
+    "R2": {
+      "core_contrast": [
+        8.066,
+        4.143,
+        3.014
+      ],
+      "extended_contrast": [
+        8.066,
+        4.143,
+        3.014,
+        4.217,
+        4.576,
+        3.654,
+        3.872,
+        4.957,
+        3.719
+      ],
+      "text_on_panel": 12.941,
+      "text_on_canvas": 14.743,
+      "closest_core_distance": {
+        "normal": 0.1707,
+        "deutan": 0.0536,
+        "protan": 0.1318,
+        "tritan": 0.173,
+        "gray": 0.0781
+      },
+      "expanded_close_pairs": {
+        "normal": [
+          {
+            "colors": [
+              "#417899",
+              "#687B85"
+            ],
+            "oklab_distance": 0.0556
+          }
+        ],
+        "deutan": [
+          {
+            "colors": [
+              "#BC5430",
+              "#8B9026"
+            ],
+            "oklab_distance": 0.0536
+          },
+          {
+            "colors": [
+              "#417899",
+              "#687B85"
+            ],
+            "oklab_distance": 0.0545
+          },
+          {
+            "colors": [
+              "#417899",
+              "#8671AA"
+            ],
+            "oklab_distance": 0.0435
+          },
+          {
+            "colors": [
+              "#43775B",
+              "#806147"
+            ],
+            "oklab_distance": 0.0303
+          },
+          {
+            "colors": [
+              "#B2638A",
+              "#687B85"
+            ],
+            "oklab_distance": 0.038
+          },
+          {
+            "colors": [
+              "#687B85",
+              "#8671AA"
+            ],
+            "oklab_distance": 0.054
+          }
+        ],
+        "protan": [
+          {
+            "colors": [
+              "#BC5430",
+              "#43775B"
+            ],
+            "oklab_distance": 0.059
+          },
+          {
+            "colors": [
+              "#BC5430",
+              "#806147"
+            ],
+            "oklab_distance": 0.0337
+          },
+          {
+            "colors": [
+              "#417899",
+              "#B2638A"
+            ],
+            "oklab_distance": 0.023
+          },
+          {
+            "colors": [
+              "#417899",
+              "#687B85"
+            ],
+            "oklab_distance": 0.0402
+          },
+          {
+            "colors": [
+              "#417899",
+              "#8671AA"
+            ],
+            "oklab_distance": 0.0268
+          },
+          {
+            "colors": [
+              "#43775B",
+              "#806147"
+            ],
+            "oklab_distance": 0.0466
+          },
+          {
+            "colors": [
+              "#B2638A",
+              "#687B85"
+            ],
+            "oklab_distance": 0.0286
+          },
+          {
+            "colors": [
+              "#B2638A",
+              "#8671AA"
+            ],
+            "oklab_distance": 0.0498
+          }
+        ],
+        "tritan": [
+          {
+            "colors": [
+              "#8B9026",
+              "#8671AA"
+            ],
+            "oklab_distance": 0.0568
+          },
+          {
+            "colors": [
+              "#417899",
+              "#43775B"
+            ],
+            "oklab_distance": 0.0379
+          },
+          {
+            "colors": [
+              "#43775B",
+              "#687B85"
+            ],
+            "oklab_distance": 0.0573
+          },
+          {
+            "colors": [
+              "#687B85",
+              "#8671AA"
+            ],
+            "oklab_distance": 0.0485
+          }
+        ],
+        "gray": [
+          {
+            "colors": [
+              "#BC5430",
+              "#417899"
+            ],
+            "oklab_distance": 0.0042
+          },
+          {
+            "colors": [
+              "#BC5430",
+              "#43775B"
+            ],
+            "oklab_distance": 0.0236
+          },
+          {
+            "colors": [
+              "#BC5430",
+              "#B2638A"
+            ],
+            "oklab_distance": 0.0304
+          },
+          {
+            "colors": [
+              "#BC5430",
+              "#687B85"
+            ],
+            "oklab_distance": 0.0163
+          },
+          {
+            "colors": [
+              "#BC5430",
+              "#806147"
+            ],
+            "oklab_distance": 0.0424
+          },
+          {
+            "colors": [
+              "#BC5430",
+              "#8671AA"
+            ],
+            "oklab_distance": 0.026
+          },
+          {
+            "colors": [
+              "#8B9026",
+              "#B2638A"
+            ],
+            "oklab_distance": 0.0478
+          },
+          {
+            "colors": [
+              "#8B9026",
+              "#8671AA"
+            ],
+            "oklab_distance": 0.0521
+          },
+          {
+            "colors": [
+              "#417899",
+              "#43775B"
+            ],
+            "oklab_distance": 0.0194
+          },
+          {
+            "colors": [
+              "#417899",
+              "#B2638A"
+            ],
+            "oklab_distance": 0.0346
+          },
+          {
+            "colors": [
+              "#417899",
+              "#687B85"
+            ],
+            "oklab_distance": 0.0205
+          },
+          {
+            "colors": [
+              "#417899",
+              "#806147"
+            ],
+            "oklab_distance": 0.0382
+          },
+          {
+            "colors": [
+              "#417899",
+              "#8671AA"
+            ],
+            "oklab_distance": 0.0303
+          },
+          {
+            "colors": [
+              "#43775B",
+              "#B2638A"
+            ],
+            "oklab_distance": 0.054
+          },
+          {
+            "colors": [
+              "#43775B",
+              "#687B85"
+            ],
+            "oklab_distance": 0.0399
+          },
+          {
+            "colors": [
+              "#43775B",
+              "#806147"
+            ],
+            "oklab_distance": 0.0188
+          },
+          {
+            "colors": [
+              "#43775B",
+              "#8671AA"
+            ],
+            "oklab_distance": 0.0497
+          },
+          {
+            "colors": [
+              "#B2638A",
+              "#687B85"
+            ],
+            "oklab_distance": 0.0141
+          },
+          {
+            "colors": [
+              "#B2638A",
+              "#8671AA"
+            ],
+            "oklab_distance": 0.0043
+          },
+          {
+            "colors": [
+              "#687B85",
+              "#806147"
+            ],
+            "oklab_distance": 0.0587
+          },
+          {
+            "colors": [
+              "#687B85",
+              "#8671AA"
+            ],
+            "oklab_distance": 0.0098
+          }
+        ]
+      },
+      "close_pair_rule": "Distance <0.06 is an editorial review flag, not an accessibility standard."
+    },
+    "R3": {
+      "core_contrast": [
+        7.327,
+        3.491,
+        4.062
+      ],
+      "extended_contrast": [
+        7.327,
+        3.491,
+        4.062,
+        3.927,
+        3.143,
+        4.12,
+        3.614,
+        4.543,
+        5.677
+      ],
+      "text_on_panel": 12.941,
+      "text_on_canvas": 14.743,
+      "closest_core_distance": {
+        "normal": 0.1747,
+        "deutan": 0.0689,
+        "protan": 0.0581,
+        "tritan": 0.1964,
+        "gray": 0.0368
+      },
+      "expanded_close_pairs": {
+        "normal": [],
+        "deutan": [
+          {
+            "colors": [
+              "#B96588",
+              "#768072"
+            ],
+            "oklab_distance": 0.0336
+          },
+          {
+            "colors": [
+              "#338269",
+              "#768072"
+            ],
+            "oklab_distance": 0.039
+          },
+          {
+            "colors": [
+              "#338269",
+              "#9E5B4D"
+            ],
+            "oklab_distance": 0.0458
+          },
+          {
+            "colors": [
+              "#4E7C9D",
+              "#7B6C9D"
+            ],
+            "oklab_distance": 0.0012
+          },
+          {
+            "colors": [
+              "#768072",
+              "#9E5B4D"
+            ],
+            "oklab_distance": 0.0545
+          }
+        ],
+        "protan": [
+          {
+            "colors": [
+              "#B96588",
+              "#338269"
+            ],
+            "oklab_distance": 0.0581
+          },
+          {
+            "colors": [
+              "#B96588",
+              "#4E7C9D"
+            ],
+            "oklab_distance": 0.0324
+          },
+          {
+            "colors": [
+              "#B96588",
+              "#7B6C9D"
+            ],
+            "oklab_distance": 0.0417
+          },
+          {
+            "colors": [
+              "#B96588",
+              "#768072"
+            ],
+            "oklab_distance": 0.0543
+          },
+          {
+            "colors": [
+              "#338269",
+              "#768072"
+            ],
+            "oklab_distance": 0.016
+          },
+          {
+            "colors": [
+              "#4E7C9D",
+              "#7B6C9D"
+            ],
+            "oklab_distance": 0.0306
+          },
+          {
+            "colors": [
+              "#9E5B4D",
+              "#44636C"
+            ],
+            "oklab_distance": 0.0581
+          }
+        ],
+        "tritan": [
+          {
+            "colors": [
+              "#B96588",
+              "#A68234"
+            ],
+            "oklab_distance": 0.0568
+          },
+          {
+            "colors": [
+              "#338269",
+              "#4E7C9D"
+            ],
+            "oklab_distance": 0.0244
+          },
+          {
+            "colors": [
+              "#7B6C9D",
+              "#768072"
+            ],
+            "oklab_distance": 0.0338
+          }
+        ],
+        "gray": [
+          {
+            "colors": [
+              "#67463B",
+              "#44636C"
+            ],
+            "oklab_distance": 0.0593
+          },
+          {
+            "colors": [
+              "#B96588",
+              "#338269"
+            ],
+            "oklab_distance": 0.0368
+          },
+          {
+            "colors": [
+              "#B96588",
+              "#4E7C9D"
+            ],
+            "oklab_distance": 0.0286
+          },
+          {
+            "colors": [
+              "#B96588",
+              "#A68234"
+            ],
+            "oklab_distance": 0.0261
+          },
+          {
+            "colors": [
+              "#B96588",
+              "#7B6C9D"
+            ],
+            "oklab_distance": 0.0402
+          },
+          {
+            "colors": [
+              "#B96588",
+              "#768072"
+            ],
+            "oklab_distance": 0.0085
+          },
+          {
+            "colors": [
+              "#338269",
+              "#4E7C9D"
+            ],
+            "oklab_distance": 0.0081
+          },
+          {
+            "colors": [
+              "#338269",
+              "#7B6C9D"
+            ],
+            "oklab_distance": 0.0034
+          },
+          {
+            "colors": [
+              "#338269",
+              "#768072"
+            ],
+            "oklab_distance": 0.0283
+          },
+          {
+            "colors": [
+              "#338269",
+              "#9E5B4D"
+            ],
+            "oklab_distance": 0.0267
+          },
+          {
+            "colors": [
+              "#4E7C9D",
+              "#A68234"
+            ],
+            "oklab_distance": 0.0547
+          },
+          {
+            "colors": [
+              "#4E7C9D",
+              "#7B6C9D"
+            ],
+            "oklab_distance": 0.0115
+          },
+          {
+            "colors": [
+              "#4E7C9D",
+              "#768072"
+            ],
+            "oklab_distance": 0.0202
+          },
+          {
+            "colors": [
+              "#4E7C9D",
+              "#9E5B4D"
+            ],
+            "oklab_distance": 0.0348
+          },
+          {
+            "colors": [
+              "#A68234",
+              "#768072"
+            ],
+            "oklab_distance": 0.0345
+          },
+          {
+            "colors": [
+              "#7B6C9D",
+              "#768072"
+            ],
+            "oklab_distance": 0.0317
+          },
+          {
+            "colors": [
+              "#7B6C9D",
+              "#9E5B4D"
+            ],
+            "oklab_distance": 0.0233
+          },
+          {
+            "colors": [
+              "#768072",
+              "#9E5B4D"
+            ],
+            "oklab_distance": 0.055
+          },
+          {
+            "colors": [
+              "#9E5B4D",
+              "#44636C"
+            ],
+            "oklab_distance": 0.0522
+          }
+        ]
+      },
+      "close_pair_rule": "Distance <0.06 is an editorial review flag, not an accessibility standard."
+    },
+    "R4": {
+      "core_contrast": [
+        6.589,
+        3.758,
+        3.095
+      ],
+      "extended_contrast": [
+        6.589,
+        3.758,
+        3.095,
+        4.712,
+        4.324,
+        3.815,
+        3.511,
+        5.664,
+        3.643
+      ],
+      "text_on_panel": 12.941,
+      "text_on_canvas": 14.743,
+      "closest_core_distance": {
+        "normal": 0.1233,
+        "deutan": 0.047,
+        "protan": 0.1018,
+        "tritan": 0.1019,
+        "gray": 0.048
+      },
+      "expanded_close_pairs": {
+        "normal": [],
+        "deutan": [
+          {
+            "colors": [
+              "#C85745",
+              "#AE811C"
+            ],
+            "oklab_distance": 0.047
+          },
+          {
+            "colors": [
+              "#C85745",
+              "#6A8142"
+            ],
+            "oklab_distance": 0.0388
+          },
+          {
+            "colors": [
+              "#9B5C85",
+              "#74818A"
+            ],
+            "oklab_distance": 0.0341
+          },
+          {
+            "colors": [
+              "#9B5C85",
+              "#8874A1"
+            ],
+            "oklab_distance": 0.0441
+          },
+          {
+            "colors": [
+              "#74818A",
+              "#8874A1"
+            ],
+            "oklab_distance": 0.0379
+          }
+        ],
+        "protan": [
+          {
+            "colors": [
+              "#C85745",
+              "#6A8142"
+            ],
+            "oklab_distance": 0.0567
+          },
+          {
+            "colors": [
+              "#AE811C",
+              "#6A8142"
+            ],
+            "oklab_distance": 0.0495
+          },
+          {
+            "colors": [
+              "#5469A1",
+              "#9B5C85"
+            ],
+            "oklab_distance": 0.0453
+          },
+          {
+            "colors": [
+              "#5469A1",
+              "#8874A1"
+            ],
+            "oklab_distance": 0.0527
+          },
+          {
+            "colors": [
+              "#74818A",
+              "#8874A1"
+            ],
+            "oklab_distance": 0.0499
+          }
+        ],
+        "tritan": [
+          {
+            "colors": [
+              "#6A8142",
+              "#74818A"
+            ],
+            "oklab_distance": 0.0289
+          },
+          {
+            "colors": [
+              "#6A8142",
+              "#8874A1"
+            ],
+            "oklab_distance": 0.0463
+          },
+          {
+            "colors": [
+              "#74818A",
+              "#8874A1"
+            ],
+            "oklab_distance": 0.0388
+          }
+        ],
+        "gray": [
+          {
+            "colors": [
+              "#155D68",
+              "#7B5643"
+            ],
+            "oklab_distance": 0.0351
+          },
+          {
+            "colors": [
+              "#C85745",
+              "#AE811C"
+            ],
+            "oklab_distance": 0.048
+          },
+          {
+            "colors": [
+              "#C85745",
+              "#5469A1"
+            ],
+            "oklab_distance": 0.054
+          },
+          {
+            "colors": [
+              "#C85745",
+              "#9B5C85"
+            ],
+            "oklab_distance": 0.0337
+          },
+          {
+            "colors": [
+              "#C85745",
+              "#6A8142"
+            ],
+            "oklab_distance": 0.0037
+          },
+          {
+            "colors": [
+              "#C85745",
+              "#74818A"
+            ],
+            "oklab_distance": 0.0166
+          },
+          {
+            "colors": [
+              "#C85745",
+              "#8874A1"
+            ],
+            "oklab_distance": 0.0076
+          },
+          {
+            "colors": [
+              "#AE811C",
+              "#6A8142"
+            ],
+            "oklab_distance": 0.0517
+          },
+          {
+            "colors": [
+              "#AE811C",
+              "#74818A"
+            ],
+            "oklab_distance": 0.0314
+          },
+          {
+            "colors": [
+              "#AE811C",
+              "#8874A1"
+            ],
+            "oklab_distance": 0.0404
+          },
+          {
+            "colors": [
+              "#5469A1",
+              "#9B5C85"
+            ],
+            "oklab_distance": 0.0203
+          },
+          {
+            "colors": [
+              "#5469A1",
+              "#6A8142"
+            ],
+            "oklab_distance": 0.0504
+          },
+          {
+            "colors": [
+              "#5469A1",
+              "#7B5643"
+            ],
+            "oklab_distance": 0.043
+          },
+          {
+            "colors": [
+              "#9B5C85",
+              "#6A8142"
+            ],
+            "oklab_distance": 0.03
+          },
+          {
+            "colors": [
+              "#9B5C85",
+              "#74818A"
+            ],
+            "oklab_distance": 0.0503
+          },
+          {
+            "colors": [
+              "#9B5C85",
+              "#8874A1"
+            ],
+            "oklab_distance": 0.0413
+          },
+          {
+            "colors": [
+              "#6A8142",
+              "#74818A"
+            ],
+            "oklab_distance": 0.0202
+          },
+          {
+            "colors": [
+              "#6A8142",
+              "#8874A1"
+            ],
+            "oklab_distance": 0.0112
+          },
+          {
+            "colors": [
+              "#74818A",
+              "#8874A1"
+            ],
+            "oklab_distance": 0.009
+          }
+        ]
+      },
+      "close_pair_rule": "Distance <0.06 is an editorial review flag, not an accessibility standard."
+    },
+    "R5": {
+      "core_contrast": [
+        6.691,
+        3.778,
+        3.507
+      ],
+      "extended_contrast": [
+        6.691,
+        3.778,
+        3.507,
+        3.227,
+        5.062,
+        3.705,
+        4.54,
+        3.916,
+        4.419
+      ],
+      "text_on_panel": 12.941,
+      "text_on_canvas": 14.743,
+      "closest_core_distance": {
+        "normal": 0.149,
+        "deutan": 0.1295,
+        "protan": 0.1521,
+        "tritan": 0.0857,
+        "gray": 0.0181
+      },
+      "expanded_close_pairs": {
+        "normal": [
+          {
+            "colors": [
+              "#9F6C88",
+              "#7F709D"
+            ],
+            "oklab_distance": 0.0595
+          }
+        ],
+        "deutan": [
+          {
+            "colors": [
+              "#863B50",
+              "#2D706B"
+            ],
+            "oklab_distance": 0.0476
+          },
+          {
+            "colors": [
+              "#6F813B",
+              "#A7594A"
+            ],
+            "oklab_distance": 0.0227
+          },
+          {
+            "colors": [
+              "#5185A6",
+              "#9F6C88"
+            ],
+            "oklab_distance": 0.0557
+          },
+          {
+            "colors": [
+              "#5185A6",
+              "#7F709D"
+            ],
+            "oklab_distance": 0.0173
+          },
+          {
+            "colors": [
+              "#2D706B",
+              "#776B61"
+            ],
+            "oklab_distance": 0.0529
+          },
+          {
+            "colors": [
+              "#9F6C88",
+              "#7F709D"
+            ],
+            "oklab_distance": 0.0518
+          },
+          {
+            "colors": [
+              "#776B61",
+              "#A7594A"
+            ],
+            "oklab_distance": 0.0496
+          }
+        ],
+        "protan": [
+          {
+            "colors": [
+              "#6F813B",
+              "#B97638"
+            ],
+            "oklab_distance": 0.0081
+          },
+          {
+            "colors": [
+              "#5185A6",
+              "#9F6C88"
+            ],
+            "oklab_distance": 0.0549
+          },
+          {
+            "colors": [
+              "#5185A6",
+              "#7F709D"
+            ],
+            "oklab_distance": 0.0448
+          },
+          {
+            "colors": [
+              "#2D706B",
+              "#9F6C88"
+            ],
+            "oklab_distance": 0.0513
+          },
+          {
+            "colors": [
+              "#2D706B",
+              "#776B61"
+            ],
+            "oklab_distance": 0.0188
+          },
+          {
+            "colors": [
+              "#2D706B",
+              "#A7594A"
+            ],
+            "oklab_distance": 0.0485
+          },
+          {
+            "colors": [
+              "#9F6C88",
+              "#7F709D"
+            ],
+            "oklab_distance": 0.0349
+          },
+          {
+            "colors": [
+              "#776B61",
+              "#A7594A"
+            ],
+            "oklab_distance": 0.0352
+          }
+        ],
+        "tritan": [
+          {
+            "colors": [
+              "#6F813B",
+              "#776B61"
+            ],
+            "oklab_distance": 0.0511
+          },
+          {
+            "colors": [
+              "#6F813B",
+              "#7F709D"
+            ],
+            "oklab_distance": 0.0308
+          },
+          {
+            "colors": [
+              "#776B61",
+              "#7F709D"
+            ],
+            "oklab_distance": 0.045
+          }
+        ],
+        "gray": [
+          {
+            "colors": [
+              "#6F813B",
+              "#5185A6"
+            ],
+            "oklab_distance": 0.0181
+          },
+          {
+            "colors": [
+              "#6F813B",
+              "#B97638"
+            ],
+            "oklab_distance": 0.0387
+          },
+          {
+            "colors": [
+              "#6F813B",
+              "#9F6C88"
+            ],
+            "oklab_distance": 0.0047
+          },
+          {
+            "colors": [
+              "#6F813B",
+              "#776B61"
+            ],
+            "oklab_distance": 0.044
+          },
+          {
+            "colors": [
+              "#6F813B",
+              "#7F709D"
+            ],
+            "oklab_distance": 0.0087
+          },
+          {
+            "colors": [
+              "#6F813B",
+              "#A7594A"
+            ],
+            "oklab_distance": 0.0376
+          },
+          {
+            "colors": [
+              "#5185A6",
+              "#B97638"
+            ],
+            "oklab_distance": 0.0206
+          },
+          {
+            "colors": [
+              "#5185A6",
+              "#9F6C88"
+            ],
+            "oklab_distance": 0.0134
+          },
+          {
+            "colors": [
+              "#5185A6",
+              "#7F709D"
+            ],
+            "oklab_distance": 0.0268
+          },
+          {
+            "colors": [
+              "#5185A6",
+              "#A7594A"
+            ],
+            "oklab_distance": 0.0558
+          },
+          {
+            "colors": [
+              "#B97638",
+              "#9F6C88"
+            ],
+            "oklab_distance": 0.034
+          },
+          {
+            "colors": [
+              "#B97638",
+              "#7F709D"
+            ],
+            "oklab_distance": 0.0474
+          },
+          {
+            "colors": [
+              "#2D706B",
+              "#776B61"
+            ],
+            "oklab_distance": 0.0256
+          },
+          {
+            "colors": [
+              "#2D706B",
+              "#A7594A"
+            ],
+            "oklab_distance": 0.032
+          },
+          {
+            "colors": [
+              "#9F6C88",
+              "#776B61"
+            ],
+            "oklab_distance": 0.0487
+          },
+          {
+            "colors": [
+              "#9F6C88",
+              "#7F709D"
+            ],
+            "oklab_distance": 0.0134
+          },
+          {
+            "colors": [
+              "#9F6C88",
+              "#A7594A"
+            ],
+            "oklab_distance": 0.0423
+          },
+          {
+            "colors": [
+              "#776B61",
+              "#7F709D"
+            ],
+            "oklab_distance": 0.0353
+          },
+          {
+            "colors": [
+              "#776B61",
+              "#A7594A"
+            ],
+            "oklab_distance": 0.0064
+          },
+          {
+            "colors": [
+              "#7F709D",
+              "#A7594A"
+            ],
+            "oklab_distance": 0.0289
+          }
+        ]
+      },
+      "close_pair_rule": "Distance <0.06 is an editorial review flag, not an accessibility standard."
+    }
+  },
+  "figure_count": 30,
+  "example_count": 6,
+  "candidate_count": 5,
+  "export_QA": {
+    "pdf_count": 36,
+    "pdf_page_counts": {
+      "cobalt-brick-gold/bars_comparison_IEDB.pdf": 1,
+      "cobalt-brick-gold/brute_force.pdf": 1,
+      "cobalt-brick-gold/comparison_posttraining.pdf": 1,
+      "cobalt-brick-gold/comparison_radar.pdf": 1,
+      "cobalt-brick-gold/concept.pdf": 1,
+      "cobalt-brick-gold/gallery.pdf": 6,
+      "cobalt-brick-gold/trend_by_month.pdf": 1,
+      "cocoa-rose-jade/bars_comparison_IEDB.pdf": 1,
+      "cocoa-rose-jade/brute_force.pdf": 1,
+      "cocoa-rose-jade/comparison_posttraining.pdf": 1,
+      "cocoa-rose-jade/comparison_radar.pdf": 1,
+      "cocoa-rose-jade/concept.pdf": 1,
+      "cocoa-rose-jade/gallery.pdf": 6,
+      "cocoa-rose-jade/trend_by_month.pdf": 1,
+      "petrol-coral-saffron/bars_comparison_IEDB.pdf": 1,
+      "petrol-coral-saffron/brute_force.pdf": 1,
+      "petrol-coral-saffron/comparison_posttraining.pdf": 1,
+      "petrol-coral-saffron/comparison_radar.pdf": 1,
+      "petrol-coral-saffron/concept.pdf": 1,
+      "petrol-coral-saffron/gallery.pdf": 6,
+      "petrol-coral-saffron/trend_by_month.pdf": 1,
+      "plum-orange-citron/bars_comparison_IEDB.pdf": 1,
+      "plum-orange-citron/brute_force.pdf": 1,
+      "plum-orange-citron/comparison_posttraining.pdf": 1,
+      "plum-orange-citron/comparison_radar.pdf": 1,
+      "plum-orange-citron/concept.pdf": 1,
+      "plum-orange-citron/gallery.pdf": 6,
+      "plum-orange-citron/trend_by_month.pdf": 1,
+      "s3-design-palettes.pdf": 9,
+      "wine-olive-denim/bars_comparison_IEDB.pdf": 1,
+      "wine-olive-denim/brute_force.pdf": 1,
+      "wine-olive-denim/comparison_posttraining.pdf": 1,
+      "wine-olive-denim/comparison_radar.pdf": 1,
+      "wine-olive-denim/concept.pdf": 1,
+      "wine-olive-denim/gallery.pdf": 6,
+      "wine-olive-denim/trend_by_month.pdf": 1
+    },
+    "embedded_fonts": [
+      "CJIGXG+Helvetica",
+      "CMFTIO+DejaVuSans",
+      "CNAZHH+DejaVuSans-Oblique",
+      "CQXFBD+Helvetica",
+      "DHQJIF+DejaVuSans-Oblique",
+      "DMPBQX+Helvetica",
+      "DXPYOD+Helvetica",
+      "ESRFLK+Helvetica",
+      "FNHVRN+Helvetica",
+      "FOUXMA+STIXNonUnicode-Italic",
+      "FRDJVK+Helvetica",
+      "FSDOXE+Helvetica",
+      "FTNTXY+Helvetica",
+      "GTSWPH+Helvetica",
+      "JWACRD+DejaVuSans-Oblique",
+      "ZIUYJZ+DejaVuSans-Oblique"
+    ],
+    "text_outside_page": [],
+    "native_png_dpi": 300,
+    "native_svg_text": true,
+    "exact_panel_RGB": [
+      235,
+      241,
+      245
+    ],
+    "gallery_links_exist": true
+  }
+}

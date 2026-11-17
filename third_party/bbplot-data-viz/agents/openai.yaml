@@ -1,0 +1,4 @@
+interface:
+  display_name: "BBPlot Data Visualization"
+  short_description: "Create consistent BBC-style scientific charts"
+  default_prompt: "Use $bbplot-data-viz to restyle these plots with a coherent BBC-inspired ggplot and cowplot system."

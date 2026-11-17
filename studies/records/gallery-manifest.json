@@ -1,0 +1,332 @@
+{
+  "style_id": "R1",
+  "background_option": "A",
+  "plot_background": "#D8E8F4",
+  "figure_background": "#EDF4F9",
+  "font": "Arial",
+  "font_pt": 10,
+  "figure_count": 16,
+  "panel_count": 27,
+  "figures": [
+    {
+      "id": "P1",
+      "group": "repository",
+      "title": "Method Comparison Across Models and Benchmarks",
+      "slug": "repository-radar",
+      "native_size_pt": [
+        936.0,
+        367.2934875488281
+      ],
+      "css_size_px": [
+        1248.0,
+        489.7246500651042
+      ],
+      "panels": 1,
+      "files": {
+        "png": "reference-review-10pt/figures/repository-radar.png",
+        "pdf": "reference-review-10pt/figures/repository-radar.pdf",
+        "svg": "reference-review-10pt/figures/repository-radar.svg"
+      }
+    },
+    {
+      "id": "P2",
+      "group": "repository",
+      "title": "Post-Training Performance with the R1 Categorical Palette",
+      "slug": "repository-posttraining",
+      "native_size_pt": [
+        936.0,
+        209.62393188476562
+      ],
+      "css_size_px": [
+        1248.0,
+        279.4985758463542
+      ],
+      "panels": 1,
+      "files": {
+        "png": "reference-review-10pt/figures/repository-posttraining.png",
+        "pdf": "reference-review-10pt/figures/repository-posttraining.pdf",
+        "svg": "reference-review-10pt/figures/repository-posttraining.svg"
+      }
+    },
+    {
+      "id": "M1",
+      "group": "repository",
+      "title": "IEDB Benchmark Comparison",
+      "slug": "iedb-three-metrics",
+      "native_size_pt": [
+        936.0,
+        209.5264129638672
+      ],
+      "css_size_px": [
+        1248.0,
+        279.36855061848956
+      ],
+      "panels": 3,
+      "files": {
+        "png": "reference-review-10pt/figures/iedb-three-metrics.png",
+        "pdf": "reference-review-10pt/figures/iedb-three-metrics.pdf",
+        "svg": "reference-review-10pt/figures/iedb-three-metrics.svg"
+      }
+    },
+    {
+      "id": "M2",
+      "group": "repository",
+      "title": "Brute-Force Composition Across Prompts and Tasks",
+      "slug": "brute-force-eight-panels",
+      "native_size_pt": [
+        936.0,
+        371.47332763671875
+      ],
+      "css_size_px": [
+        1248.0,
+        495.2977701822917
+      ],
+      "panels": 8,
+      "files": {
+        "png": "reference-review-10pt/figures/brute-force-eight-panels.png",
+        "pdf": "reference-review-10pt/figures/brute-force-eight-panels.pdf",
+        "svg": "reference-review-10pt/figures/brute-force-eight-panels.svg"
+      }
+    },
+    {
+      "id": "M3",
+      "group": "repository",
+      "title": "Conditional Distributions and Representation Space",
+      "slug": "concept-two-panels",
+      "native_size_pt": [
+        936.0,
+        229.5772705078125
+      ],
+      "css_size_px": [
+        1248.0,
+        306.10302734375
+      ],
+      "panels": 2,
+      "files": {
+        "png": "reference-review-10pt/figures/concept-two-panels.png",
+        "pdf": "reference-review-10pt/figures/concept-two-panels.pdf",
+        "svg": "reference-review-10pt/figures/concept-two-panels.svg"
+      }
+    },
+    {
+      "id": "M4",
+      "group": "repository",
+      "title": "Publication Trends in Text-Only and Multimodal Work",
+      "slug": "publication-trends-two-panels",
+      "native_size_pt": [
+        936.0,
+        374.85546875
+      ],
+      "css_size_px": [
+        1248.0,
+        499.8072916666667
+      ],
+      "panels": 2,
+      "files": {
+        "png": "reference-review-10pt/figures/publication-trends-two-panels.png",
+        "pdf": "reference-review-10pt/figures/publication-trends-two-panels.pdf",
+        "svg": "reference-review-10pt/figures/publication-trends-two-panels.svg"
+      }
+    },
+    {
+      "id": "U1",
+      "group": "references",
+      "title": "Education Accounts for One-Fifth of State and Local Spending",
+      "slug": "urban-spending-bars",
+      "native_size_pt": [
+        450.0,
+        210.10887145996094
+      ],
+      "css_size_px": [
+        600.0,
+        280.14516194661456
+      ],
+      "panels": 1,
+      "files": {
+        "png": "reference-review-10pt/figures/urban-spending-bars.png",
+        "pdf": "reference-review-10pt/figures/urban-spending-bars.pdf",
+        "svg": "reference-review-10pt/figures/urban-spending-bars.svg"
+      }
+    },
+    {
+      "id": "U2",
+      "group": "references",
+      "title": "Trust Fund Depletion Raises Projected Poverty Across Groups",
+      "slug": "urban-poverty-paired-bars",
+      "native_size_pt": [
+        450.0,
+        199.26658630371094
+      ],
+      "css_size_px": [
+        600.0,
+        265.68878173828125
+      ],
+      "panels": 1,
+      "files": {
+        "png": "reference-review-10pt/figures/urban-poverty-paired-bars.png",
+        "pdf": "reference-review-10pt/figures/urban-poverty-paired-bars.pdf",
+        "svg": "reference-review-10pt/figures/urban-poverty-paired-bars.svg"
+      }
+    },
+    {
+      "id": "U3",
+      "group": "references",
+      "title": "Home-Equity Debt Rebounds but Remains Below Its Earlier Peak",
+      "slug": "urban-home-equity-lines",
+      "native_size_pt": [
+        450.0,
+        194.84344482421875
+      ],
+      "css_size_px": [
+        600.0,
+        259.791259765625
+      ],
+      "panels": 1,
+      "files": {
+        "png": "reference-review-10pt/figures/urban-home-equity-lines.png",
+        "pdf": "reference-review-10pt/figures/urban-home-equity-lines.pdf",
+        "svg": "reference-review-10pt/figures/urban-home-equity-lines.svg"
+      }
+    },
+    {
+      "id": "T1",
+      "group": "references",
+      "title": "VIGIL Maintains the Highest Score After Post-Training",
+      "slug": "template-posttraining-lines",
+      "native_size_pt": [
+        450.0,
+        209.84523010253906
+      ],
+      "css_size_px": [
+        600.0,
+        279.79364013671875
+      ],
+      "panels": 1,
+      "files": {
+        "png": "reference-review-10pt/figures/template-posttraining-lines.png",
+        "pdf": "reference-review-10pt/figures/template-posttraining-lines.pdf",
+        "svg": "reference-review-10pt/figures/template-posttraining-lines.svg"
+      }
+    },
+    {
+      "id": "T2",
+      "group": "references",
+      "title": "ImmunoStruct Leads the IEDB AUROC Comparison",
+      "slug": "template-iedb-bars",
+      "native_size_pt": [
+        450.0,
+        210.10887145996094
+      ],
+      "css_size_px": [
+        600.0,
+        280.14516194661456
+      ],
+      "panels": 1,
+      "files": {
+        "png": "reference-review-10pt/figures/template-iedb-bars.png",
+        "pdf": "reference-review-10pt/figures/template-iedb-bars.pdf",
+        "svg": "reference-review-10pt/figures/template-iedb-bars.svg"
+      }
+    },
+    {
+      "id": "T3",
+      "group": "references",
+      "title": "A Highlighted Method Can Sit Within the Comparison Group",
+      "slug": "template-emphasis-lines",
+      "native_size_pt": [
+        450.0,
+        209.84523010253906
+      ],
+      "css_size_px": [
+        600.0,
+        279.79364013671875
+      ],
+      "panels": 1,
+      "files": {
+        "png": "reference-review-10pt/figures/template-emphasis-lines.png",
+        "pdf": "reference-review-10pt/figures/template-emphasis-lines.pdf",
+        "svg": "reference-review-10pt/figures/template-emphasis-lines.svg"
+      }
+    },
+    {
+      "id": "H1",
+      "group": "emphasis",
+      "title": "Original Benchmark",
+      "slug": "focus-original-benchmark",
+      "native_size_pt": [
+        450.0,
+        207.857421875
+      ],
+      "css_size_px": [
+        600.0,
+        277.1432291666667
+      ],
+      "panels": 1,
+      "files": {
+        "png": "reference-review-10pt/figures/focus-original-benchmark.png",
+        "pdf": "reference-review-10pt/figures/focus-original-benchmark.pdf",
+        "svg": "reference-review-10pt/figures/focus-original-benchmark.svg"
+      }
+    },
+    {
+      "id": "H2",
+      "group": "emphasis",
+      "title": "Learning Curves",
+      "slug": "focus-learning-curves",
+      "native_size_pt": [
+        450.0,
+        207.8447723388672
+      ],
+      "css_size_px": [
+        600.0,
+        277.12636311848956
+      ],
+      "panels": 1,
+      "files": {
+        "png": "reference-review-10pt/figures/focus-learning-curves.png",
+        "pdf": "reference-review-10pt/figures/focus-learning-curves.pdf",
+        "svg": "reference-review-10pt/figures/focus-learning-curves.svg"
+      }
+    },
+    {
+      "id": "H3",
+      "group": "emphasis",
+      "title": "A Trajectory in Context",
+      "slug": "focus-reference-trajectories",
+      "native_size_pt": [
+        450.0,
+        212.36253356933594
+      ],
+      "css_size_px": [
+        600.0,
+        283.15004475911456
+      ],
+      "panels": 1,
+      "files": {
+        "png": "reference-review-10pt/figures/focus-reference-trajectories.png",
+        "pdf": "reference-review-10pt/figures/focus-reference-trajectories.pdf",
+        "svg": "reference-review-10pt/figures/focus-reference-trajectories.svg"
+      }
+    },
+    {
+      "id": "H4",
+      "group": "emphasis",
+      "title": "Crossing Response Curves",
+      "slug": "focus-parameter-response",
+      "native_size_pt": [
+        450.0,
+        207.8447723388672
+      ],
+      "css_size_px": [
+        600.0,
+        277.12636311848956
+      ],
+      "panels": 1,
+      "files": {
+        "png": "reference-review-10pt/figures/focus-parameter-response.png",
+        "pdf": "reference-review-10pt/figures/focus-parameter-response.pdf",
+        "svg": "reference-review-10pt/figures/focus-parameter-response.svg"
+      }
+    }
+  ]
+}

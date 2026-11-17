@@ -1,0 +1,1080 @@
+{
+  "panel_background": "#EBF1F5",
+  "fixed_S3": {
+    "panel": "#EBF1F5",
+    "canvas": "#FFFFFF",
+    "ink": "#282828",
+    "muted": "#666666",
+    "grid_color": "#CBD6DF",
+    "frame_color": "#566C7B",
+    "line": 1.25,
+    "error": 0.65,
+    "grid_width": 0.45,
+    "frame_width": 0.45,
+    "frame": "box",
+    "grid": "xy",
+    "grid_style": ":",
+    "ticks": 2,
+    "marker": 3.5,
+    "marker_fill": "open",
+    "dashes": true,
+    "bar_width": 0.7,
+    "bar_edge": 0.35,
+    "cap": 2,
+    "fill_alpha": 0.08,
+    "area_alpha": [
+      0.14,
+      0.22
+    ],
+    "radar_alpha": 0.035,
+    "hatch_color": "#707070",
+    "hatch_width": 0.4,
+    "composition_alpha": 0.8,
+    "emphasis": false
+  },
+  "fixed_typography": {
+    "font": "Helvetica",
+    "weight": "normal",
+    "labels_pt": 10.0,
+    "ticks_legends_pt": 8.571428571428571,
+    "titles_pt": 11.428571428571429
+  },
+  "sources": [
+    {
+      "id": "N",
+      "title": "Nord: Colors and Palettes",
+      "url": "https://www.nordtheme.com/docs/colors-and-palettes/",
+      "observation": "Frost pairs blue-green, cyan and muted blue with pale blue-gray Snow Storm surfaces.",
+      "tones": "Frost: #8FBCBB, #88C0D0, #81A1C1, #5E81AC.",
+      "adaptation": "C1 uses the related-hue idea with substantially darker marks for a light plotting panel."
+    },
+    {
+      "id": "I",
+      "title": "IBM Carbon: Data visualization color palettes",
+      "url": "https://www.carbondesignsystem.com/building-blocks/data-visualization/color-palettes",
+      "observation": "Carbon separates categories with purple, cyan and deep teal, alongside other families; sequence matters.",
+      "tones": "Examples: purple #6929C4, cyan #1192E8, teal #005D5D.",
+      "adaptation": "C5 uses this wider cool-hue spacing, with original, quieter colors. It is not the Carbon palette."
+    },
+    {
+      "id": "J",
+      "title": "Jotun: Calm blue, fresh and airy bedroom colours",
+      "url": "https://www.jotun.com/in-en/decorative/inspiration/indoor/rooms/bedroom/calm-bluefresh-and-airy",
+      "observation": "The interior guidance groups blue, lavender, mint and green with white and light gray.",
+      "tones": "Hue families, not paint-to-hex conversions: blue / lavender / mint / green.",
+      "adaptation": "C2, C3 and C4 explore these relationships in darker ink-like colors appropriate to small marks."
+    },
+    {
+      "id": "U",
+      "title": "USWDS: System color tokens",
+      "url": "https://designsystem.digital.gov/design-tokens/color/system-tokens/",
+      "observation": "The blue-cool family spans a pale surface through medium and deep blue-green shades.",
+      "tones": "Examples: #E7F2F5 at grade 5; #3A7D95 at 50; #224A58 at 70.",
+      "adaptation": "Across the proposals, use depth as well as hue to distinguish marks on a pale blue surface."
+    }
+  ],
+  "candidates": [
+    {
+      "id": "C1",
+      "slug": "fjord",
+      "name": "Fjord",
+      "palette": {
+        "id": "C1",
+        "name": "Fjord",
+        "colors": [
+          "#274E70",
+          "#216F7A",
+          "#71839B",
+          "#496B8C",
+          "#487F75",
+          "#626988"
+        ],
+        "names": [
+          "Deep fjord",
+          "Glacier teal",
+          "Dusty steel",
+          "Harbor blue",
+          "Sea pine",
+          "Storm iris"
+        ],
+        "extra": [
+          "#52616E",
+          "#8A8297",
+          "#284B53"
+        ],
+        "neutral": "#74828D",
+        "sources": [
+          "N",
+          "U"
+        ]
+      },
+      "panel": "#EBF1F5",
+      "canvas": "#FFFFFF",
+      "ink": "#282828",
+      "muted": "#666666",
+      "grid_color": "#CBD6DF",
+      "frame_color": "#566C7B",
+      "line": 1.25,
+      "error": 0.65,
+      "grid_width": 0.45,
+      "frame_width": 0.45,
+      "frame": "box",
+      "grid": "xy",
+      "grid_style": ":",
+      "ticks": 2,
+      "marker": 3.5,
+      "marker_fill": "open",
+      "dashes": true,
+      "bar_width": 0.7,
+      "bar_edge": 0.35,
+      "cap": 2,
+      "fill_alpha": 0.08,
+      "area_alpha": [
+        0.14,
+        0.22
+      ],
+      "radar_alpha": 0.035,
+      "hatch_color": "#707070",
+      "hatch_width": 0.4,
+      "composition_alpha": 0.8,
+      "emphasis": false,
+      "caption": "Navy, glacier teal and dusty steel; the quietest option.",
+      "best": "A restrained blue-gray identity close to the panel color.",
+      "tradeoff": "The related blues rely more on marker shapes and labels.",
+      "theme": {
+        "base": 10.0,
+        "small": 8.571428571428571,
+        "title": 11.428571428571429,
+        "line": 1.25,
+        "error": 0.65,
+        "grid": 0.45,
+        "outline": 0.4,
+        "frame": 0.45,
+        "marker": 3.5,
+        "ink": "#282828",
+        "muted": "#666666",
+        "grid_color": "#CBD6DF",
+        "background": "#EBF1F5",
+        "frame_color": "#566C7B",
+        "teal": "#274E70",
+        "rust": "#216F7A",
+        "ochre": "#71839B",
+        "taupe": "#74828D",
+        "scatter": "#274E70"
+      },
+      "assignments": {
+        "methods": [
+          "#216F7A",
+          "#71839B",
+          "#274E70"
+        ],
+        "comparison": [
+          "#52616E",
+          "#626988",
+          "#8A8297",
+          "#496B8C",
+          "#216F7A",
+          "#487F75",
+          "#284B53",
+          "#71839B",
+          "#274E70"
+        ],
+        "composition": [
+          "#274E70",
+          "#216F7A",
+          "#71839B",
+          "#496B8C",
+          "#487F75",
+          "#626988",
+          "#52616E"
+        ]
+      },
+      "category_mappings": {
+        "methods": [
+          [
+            "DPO",
+            "#216F7A"
+          ],
+          [
+            "DA-DPO",
+            "#71839B"
+          ],
+          [
+            "VIGIL (Ours)",
+            "#274E70"
+          ]
+        ],
+        "comparison": [
+          [
+            "Prime-2.1",
+            "#52616E"
+          ],
+          [
+            "NetMHCpan",
+            "#626988"
+          ],
+          [
+            "MHCnuggets",
+            "#8A8297"
+          ],
+          [
+            "MHCflurry",
+            "#496B8C"
+          ],
+          [
+            "DeepNeo",
+            "#216F7A"
+          ],
+          [
+            "BigMHC-EL",
+            "#487F75"
+          ],
+          [
+            "BigMHC-IM",
+            "#284B53"
+          ],
+          [
+            "BigMHC$_\\text{retrained}$",
+            "#71839B"
+          ],
+          [
+            "ImmunoStruct (ours)",
+            "#274E70"
+          ]
+        ],
+        "composition": [
+          [
+            "DeepSeek R1 Distill Qwen 1.5B",
+            "#274E70"
+          ],
+          [
+            "DeepSeek R1 Distill Qwen 14B",
+            "#216F7A"
+          ],
+          [
+            "DeepSeek R1 Distill Llama 70B",
+            "#71839B"
+          ],
+          [
+            "deepseek-chat (Deepseek-V3)",
+            "#496B8C"
+          ],
+          [
+            "deepseek-reasoner (Deepseek-R1)",
+            "#487F75"
+          ],
+          [
+            "gemini-2.5-flash-preview-04-17",
+            "#626988"
+          ],
+          [
+            "OpenAI o3",
+            "#52616E"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "C2",
+      "slug": "glacial-iris",
+      "name": "Glacial iris",
+      "palette": {
+        "id": "C2",
+        "name": "Glacial iris",
+        "colors": [
+          "#414F86",
+          "#237F78",
+          "#947AA5",
+          "#527EAA",
+          "#526A94",
+          "#497C92"
+        ],
+        "names": [
+          "Indigo ink",
+          "Deep sea glass",
+          "Dusty iris",
+          "Clear slate",
+          "Dusk blue",
+          "Blue spruce"
+        ],
+        "extra": [
+          "#677887",
+          "#725B87",
+          "#2E5461"
+        ],
+        "neutral": "#74808D",
+        "sources": [
+          "J",
+          "N",
+          "U"
+        ]
+      },
+      "panel": "#EBF1F5",
+      "canvas": "#FFFFFF",
+      "ink": "#282828",
+      "muted": "#666666",
+      "grid_color": "#CBD6DF",
+      "frame_color": "#566C7B",
+      "line": 1.25,
+      "error": 0.65,
+      "grid_width": 0.45,
+      "frame_width": 0.45,
+      "frame": "box",
+      "grid": "xy",
+      "grid_style": ":",
+      "ticks": 2,
+      "marker": 3.5,
+      "marker_fill": "open",
+      "dashes": true,
+      "bar_width": 0.7,
+      "bar_edge": 0.35,
+      "cap": 2,
+      "fill_alpha": 0.08,
+      "area_alpha": [
+        0.14,
+        0.22
+      ],
+      "radar_alpha": 0.035,
+      "hatch_color": "#707070",
+      "hatch_width": 0.4,
+      "composition_alpha": 0.8,
+      "emphasis": false,
+      "caption": "Indigo, sea glass and dusty iris; calm with a distinct identity.",
+      "best": "My preferred balance of cohesion and category separation.",
+      "tradeoff": "Expanded palettes still need stable labels when many series overlap.",
+      "theme": {
+        "base": 10.0,
+        "small": 8.571428571428571,
+        "title": 11.428571428571429,
+        "line": 1.25,
+        "error": 0.65,
+        "grid": 0.45,
+        "outline": 0.4,
+        "frame": 0.45,
+        "marker": 3.5,
+        "ink": "#282828",
+        "muted": "#666666",
+        "grid_color": "#CBD6DF",
+        "background": "#EBF1F5",
+        "frame_color": "#566C7B",
+        "teal": "#414F86",
+        "rust": "#237F78",
+        "ochre": "#947AA5",
+        "taupe": "#74808D",
+        "scatter": "#414F86"
+      },
+      "assignments": {
+        "methods": [
+          "#237F78",
+          "#947AA5",
+          "#414F86"
+        ],
+        "comparison": [
+          "#677887",
+          "#497C92",
+          "#725B87",
+          "#527EAA",
+          "#237F78",
+          "#526A94",
+          "#2E5461",
+          "#947AA5",
+          "#414F86"
+        ],
+        "composition": [
+          "#414F86",
+          "#237F78",
+          "#947AA5",
+          "#527EAA",
+          "#526A94",
+          "#497C92",
+          "#677887"
+        ]
+      },
+      "category_mappings": {
+        "methods": [
+          [
+            "DPO",
+            "#237F78"
+          ],
+          [
+            "DA-DPO",
+            "#947AA5"
+          ],
+          [
+            "VIGIL (Ours)",
+            "#414F86"
+          ]
+        ],
+        "comparison": [
+          [
+            "Prime-2.1",
+            "#677887"
+          ],
+          [
+            "NetMHCpan",
+            "#497C92"
+          ],
+          [
+            "MHCnuggets",
+            "#725B87"
+          ],
+          [
+            "MHCflurry",
+            "#527EAA"
+          ],
+          [
+            "DeepNeo",
+            "#237F78"
+          ],
+          [
+            "BigMHC-EL",
+            "#526A94"
+          ],
+          [
+            "BigMHC-IM",
+            "#2E5461"
+          ],
+          [
+            "BigMHC$_\\text{retrained}$",
+            "#947AA5"
+          ],
+          [
+            "ImmunoStruct (ours)",
+            "#414F86"
+          ]
+        ],
+        "composition": [
+          [
+            "DeepSeek R1 Distill Qwen 1.5B",
+            "#414F86"
+          ],
+          [
+            "DeepSeek R1 Distill Qwen 14B",
+            "#237F78"
+          ],
+          [
+            "DeepSeek R1 Distill Llama 70B",
+            "#947AA5"
+          ],
+          [
+            "deepseek-chat (Deepseek-V3)",
+            "#527EAA"
+          ],
+          [
+            "deepseek-reasoner (Deepseek-R1)",
+            "#526A94"
+          ],
+          [
+            "gemini-2.5-flash-preview-04-17",
+            "#497C92"
+          ],
+          [
+            "OpenAI o3",
+            "#677887"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "C3",
+      "slug": "sea-glass",
+      "name": "Sea glass",
+      "palette": {
+        "id": "C3",
+        "name": "Sea glass",
+        "colors": [
+          "#205B63",
+          "#4B8176",
+          "#668DB4",
+          "#3A728D",
+          "#6C8992",
+          "#405C7B"
+        ],
+        "names": [
+          "Deep lagoon",
+          "Mineral jade",
+          "Glazed blue",
+          "Ocean blue",
+          "Weathered aqua",
+          "Marine slate"
+        ],
+        "extra": [
+          "#5D6D72",
+          "#748676",
+          "#304C56"
+        ],
+        "neutral": "#72858A",
+        "sources": [
+          "J",
+          "N",
+          "U"
+        ]
+      },
+      "panel": "#EBF1F5",
+      "canvas": "#FFFFFF",
+      "ink": "#282828",
+      "muted": "#666666",
+      "grid_color": "#CBD6DF",
+      "frame_color": "#566C7B",
+      "line": 1.25,
+      "error": 0.65,
+      "grid_width": 0.45,
+      "frame_width": 0.45,
+      "frame": "box",
+      "grid": "xy",
+      "grid_style": ":",
+      "ticks": 2,
+      "marker": 3.5,
+      "marker_fill": "open",
+      "dashes": true,
+      "bar_width": 0.7,
+      "bar_edge": 0.35,
+      "cap": 2,
+      "fill_alpha": 0.08,
+      "area_alpha": [
+        0.14,
+        0.22
+      ],
+      "radar_alpha": 0.035,
+      "hatch_color": "#707070",
+      "hatch_width": 0.4,
+      "composition_alpha": 0.8,
+      "emphasis": false,
+      "caption": "Lagoon, muted jade and glazed blue; the greenest cool option.",
+      "best": "A soft marine identity with little violet.",
+      "tradeoff": "Adjacent teal/green hues are less distinct in dense categorical plots.",
+      "theme": {
+        "base": 10.0,
+        "small": 8.571428571428571,
+        "title": 11.428571428571429,
+        "line": 1.25,
+        "error": 0.65,
+        "grid": 0.45,
+        "outline": 0.4,
+        "frame": 0.45,
+        "marker": 3.5,
+        "ink": "#282828",
+        "muted": "#666666",
+        "grid_color": "#CBD6DF",
+        "background": "#EBF1F5",
+        "frame_color": "#566C7B",
+        "teal": "#205B63",
+        "rust": "#4B8176",
+        "ochre": "#668DB4",
+        "taupe": "#72858A",
+        "scatter": "#205B63"
+      },
+      "assignments": {
+        "methods": [
+          "#4B8176",
+          "#668DB4",
+          "#205B63"
+        ],
+        "comparison": [
+          "#5D6D72",
+          "#405C7B",
+          "#748676",
+          "#3A728D",
+          "#4B8176",
+          "#6C8992",
+          "#304C56",
+          "#668DB4",
+          "#205B63"
+        ],
+        "composition": [
+          "#205B63",
+          "#4B8176",
+          "#668DB4",
+          "#3A728D",
+          "#6C8992",
+          "#405C7B",
+          "#5D6D72"
+        ]
+      },
+      "category_mappings": {
+        "methods": [
+          [
+            "DPO",
+            "#4B8176"
+          ],
+          [
+            "DA-DPO",
+            "#668DB4"
+          ],
+          [
+            "VIGIL (Ours)",
+            "#205B63"
+          ]
+        ],
+        "comparison": [
+          [
+            "Prime-2.1",
+            "#5D6D72"
+          ],
+          [
+            "NetMHCpan",
+            "#405C7B"
+          ],
+          [
+            "MHCnuggets",
+            "#748676"
+          ],
+          [
+            "MHCflurry",
+            "#3A728D"
+          ],
+          [
+            "DeepNeo",
+            "#4B8176"
+          ],
+          [
+            "BigMHC-EL",
+            "#6C8992"
+          ],
+          [
+            "BigMHC-IM",
+            "#304C56"
+          ],
+          [
+            "BigMHC$_\\text{retrained}$",
+            "#668DB4"
+          ],
+          [
+            "ImmunoStruct (ours)",
+            "#205B63"
+          ]
+        ],
+        "composition": [
+          [
+            "DeepSeek R1 Distill Qwen 1.5B",
+            "#205B63"
+          ],
+          [
+            "DeepSeek R1 Distill Qwen 14B",
+            "#4B8176"
+          ],
+          [
+            "DeepSeek R1 Distill Llama 70B",
+            "#668DB4"
+          ],
+          [
+            "deepseek-chat (Deepseek-V3)",
+            "#3A728D"
+          ],
+          [
+            "deepseek-reasoner (Deepseek-R1)",
+            "#6C8992"
+          ],
+          [
+            "gemini-2.5-flash-preview-04-17",
+            "#405C7B"
+          ],
+          [
+            "OpenAI o3",
+            "#5D6D72"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "C4",
+      "slug": "blue-hour",
+      "name": "Blue hour",
+      "palette": {
+        "id": "C4",
+        "name": "Blue hour",
+        "colors": [
+          "#343E70",
+          "#5974AF",
+          "#9581A3",
+          "#46658D",
+          "#597B98",
+          "#5A5B8F"
+        ],
+        "names": [
+          "Night indigo",
+          "Periwinkle",
+          "Ash violet",
+          "Deep denim",
+          "Lake slate",
+          "Smoky iris"
+        ],
+        "extra": [
+          "#69768E",
+          "#89879B",
+          "#3E5265"
+        ],
+        "neutral": "#798293",
+        "sources": [
+          "J",
+          "U"
+        ]
+      },
+      "panel": "#EBF1F5",
+      "canvas": "#FFFFFF",
+      "ink": "#282828",
+      "muted": "#666666",
+      "grid_color": "#CBD6DF",
+      "frame_color": "#566C7B",
+      "line": 1.25,
+      "error": 0.65,
+      "grid_width": 0.45,
+      "frame_width": 0.45,
+      "frame": "box",
+      "grid": "xy",
+      "grid_style": ":",
+      "ticks": 2,
+      "marker": 3.5,
+      "marker_fill": "open",
+      "dashes": true,
+      "bar_width": 0.7,
+      "bar_edge": 0.35,
+      "cap": 2,
+      "fill_alpha": 0.08,
+      "area_alpha": [
+        0.14,
+        0.22
+      ],
+      "radar_alpha": 0.035,
+      "hatch_color": "#707070",
+      "hatch_width": 0.4,
+      "composition_alpha": 0.8,
+      "emphasis": false,
+      "caption": "Indigo, periwinkle and ash violet; a more tonal blue-purple look.",
+      "best": "A distinctive violet-leaning direction for a small number of series.",
+      "tradeoff": "Dense blue-purple categories need careful labels and ordering.",
+      "theme": {
+        "base": 10.0,
+        "small": 8.571428571428571,
+        "title": 11.428571428571429,
+        "line": 1.25,
+        "error": 0.65,
+        "grid": 0.45,
+        "outline": 0.4,
+        "frame": 0.45,
+        "marker": 3.5,
+        "ink": "#282828",
+        "muted": "#666666",
+        "grid_color": "#CBD6DF",
+        "background": "#EBF1F5",
+        "frame_color": "#566C7B",
+        "teal": "#343E70",
+        "rust": "#5974AF",
+        "ochre": "#9581A3",
+        "taupe": "#798293",
+        "scatter": "#343E70"
+      },
+      "assignments": {
+        "methods": [
+          "#5974AF",
+          "#9581A3",
+          "#343E70"
+        ],
+        "comparison": [
+          "#69768E",
+          "#5A5B8F",
+          "#89879B",
+          "#46658D",
+          "#5974AF",
+          "#597B98",
+          "#3E5265",
+          "#9581A3",
+          "#343E70"
+        ],
+        "composition": [
+          "#343E70",
+          "#5974AF",
+          "#9581A3",
+          "#46658D",
+          "#597B98",
+          "#5A5B8F",
+          "#69768E"
+        ]
+      },
+      "category_mappings": {
+        "methods": [
+          [
+            "DPO",
+            "#5974AF"
+          ],
+          [
+            "DA-DPO",
+            "#9581A3"
+          ],
+          [
+            "VIGIL (Ours)",
+            "#343E70"
+          ]
+        ],
+        "comparison": [
+          [
+            "Prime-2.1",
+            "#69768E"
+          ],
+          [
+            "NetMHCpan",
+            "#5A5B8F"
+          ],
+          [
+            "MHCnuggets",
+            "#89879B"
+          ],
+          [
+            "MHCflurry",
+            "#46658D"
+          ],
+          [
+            "DeepNeo",
+            "#5974AF"
+          ],
+          [
+            "BigMHC-EL",
+            "#597B98"
+          ],
+          [
+            "BigMHC-IM",
+            "#3E5265"
+          ],
+          [
+            "BigMHC$_\\text{retrained}$",
+            "#9581A3"
+          ],
+          [
+            "ImmunoStruct (ours)",
+            "#343E70"
+          ]
+        ],
+        "composition": [
+          [
+            "DeepSeek R1 Distill Qwen 1.5B",
+            "#343E70"
+          ],
+          [
+            "DeepSeek R1 Distill Qwen 14B",
+            "#5974AF"
+          ],
+          [
+            "DeepSeek R1 Distill Llama 70B",
+            "#9581A3"
+          ],
+          [
+            "deepseek-chat (Deepseek-V3)",
+            "#46658D"
+          ],
+          [
+            "deepseek-reasoner (Deepseek-R1)",
+            "#597B98"
+          ],
+          [
+            "gemini-2.5-flash-preview-04-17",
+            "#5A5B8F"
+          ],
+          [
+            "OpenAI o3",
+            "#69768E"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "C5",
+      "slug": "arctic-signal",
+      "name": "Arctic signal",
+      "palette": {
+        "id": "C5",
+        "name": "Arctic signal",
+        "colors": [
+          "#184D91",
+          "#188C9A",
+          "#8055A7",
+          "#3D82AE",
+          "#426F70",
+          "#5C60A3"
+        ],
+        "names": [
+          "Arctic blue",
+          "Deep cyan",
+          "Mineral violet",
+          "Glacier blue",
+          "Ocean green",
+          "Cold iris"
+        ],
+        "extra": [
+          "#5F748B",
+          "#8A719D",
+          "#254F66"
+        ],
+        "neutral": "#6E8092",
+        "sources": [
+          "I",
+          "U"
+        ]
+      },
+      "panel": "#EBF1F5",
+      "canvas": "#FFFFFF",
+      "ink": "#282828",
+      "muted": "#666666",
+      "grid_color": "#CBD6DF",
+      "frame_color": "#566C7B",
+      "line": 1.25,
+      "error": 0.65,
+      "grid_width": 0.45,
+      "frame_width": 0.45,
+      "frame": "box",
+      "grid": "xy",
+      "grid_style": ":",
+      "ticks": 2,
+      "marker": 3.5,
+      "marker_fill": "open",
+      "dashes": true,
+      "bar_width": 0.7,
+      "bar_edge": 0.35,
+      "cap": 2,
+      "fill_alpha": 0.08,
+      "area_alpha": [
+        0.14,
+        0.22
+      ],
+      "radar_alpha": 0.035,
+      "hatch_color": "#707070",
+      "hatch_width": 0.4,
+      "composition_alpha": 0.8,
+      "emphasis": false,
+      "caption": "Clear blue, deep cyan and mineral violet; the most vivid option.",
+      "best": "More visible color separation and a stronger digital presence.",
+      "tradeoff": "The saturated accents draw more attention than the quieter options.",
+      "theme": {
+        "base": 10.0,
+        "small": 8.571428571428571,
+        "title": 11.428571428571429,
+        "line": 1.25,
+        "error": 0.65,
+        "grid": 0.45,
+        "outline": 0.4,
+        "frame": 0.45,
+        "marker": 3.5,
+        "ink": "#282828",
+        "muted": "#666666",
+        "grid_color": "#CBD6DF",
+        "background": "#EBF1F5",
+        "frame_color": "#566C7B",
+        "teal": "#184D91",
+        "rust": "#188C9A",
+        "ochre": "#8055A7",
+        "taupe": "#6E8092",
+        "scatter": "#184D91"
+      },
+      "assignments": {
+        "methods": [
+          "#188C9A",
+          "#8055A7",
+          "#184D91"
+        ],
+        "comparison": [
+          "#5F748B",
+          "#5C60A3",
+          "#8A719D",
+          "#3D82AE",
+          "#188C9A",
+          "#426F70",
+          "#254F66",
+          "#8055A7",
+          "#184D91"
+        ],
+        "composition": [
+          "#184D91",
+          "#188C9A",
+          "#8055A7",
+          "#3D82AE",
+          "#426F70",
+          "#5C60A3",
+          "#5F748B"
+        ]
+      },
+      "category_mappings": {
+        "methods": [
+          [
+            "DPO",
+            "#188C9A"
+          ],
+          [
+            "DA-DPO",
+            "#8055A7"
+          ],
+          [
+            "VIGIL (Ours)",
+            "#184D91"
+          ]
+        ],
+        "comparison": [
+          [
+            "Prime-2.1",
+            "#5F748B"
+          ],
+          [
+            "NetMHCpan",
+            "#5C60A3"
+          ],
+          [
+            "MHCnuggets",
+            "#8A719D"
+          ],
+          [
+            "MHCflurry",
+            "#3D82AE"
+          ],
+          [
+            "DeepNeo",
+            "#188C9A"
+          ],
+          [
+            "BigMHC-EL",
+            "#426F70"
+          ],
+          [
+            "BigMHC-IM",
+            "#254F66"
+          ],
+          [
+            "BigMHC$_\\text{retrained}$",
+            "#8055A7"
+          ],
+          [
+            "ImmunoStruct (ours)",
+            "#184D91"
+          ]
+        ],
+        "composition": [
+          [
+            "DeepSeek R1 Distill Qwen 1.5B",
+            "#184D91"
+          ],
+          [
+            "DeepSeek R1 Distill Qwen 14B",
+            "#188C9A"
+          ],
+          [
+            "DeepSeek R1 Distill Llama 70B",
+            "#8055A7"
+          ],
+          [
+            "deepseek-chat (Deepseek-V3)",
+            "#3D82AE"
+          ],
+          [
+            "deepseek-reasoner (Deepseek-R1)",
+            "#426F70"
+          ],
+          [
+            "gemini-2.5-flash-preview-04-17",
+            "#5C60A3"
+          ],
+          [
+            "OpenAI o3",
+            "#5F748B"
+          ]
+        ]
+      }
+    }
+  ]
+}

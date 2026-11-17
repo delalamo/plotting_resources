@@ -1,0 +1,120 @@
+{
+  "basis": "Original complete blue article-figure blocks, before either height reduction. Current target heights are derived using selected-style.json.",
+  "figure_background": "#EDF4F9",
+  "plot_background": "#D8E8F4",
+  "figures": {
+    "urban-spending-bars": {
+      "id": "U1",
+      "old_block_height_pt": 427.48098754882835,
+      "old_native_chart_height_pt": 300.4800109863281,
+      "width_pt": 450.0,
+      "old_external_text_and_spacing_height_pt": 127.00097656250023
+    },
+    "urban-poverty-paired-bars": {
+      "id": "U2",
+      "old_block_height_pt": 413.0257263183595,
+      "old_native_chart_height_pt": 286.0247497558594,
+      "width_pt": 450.0,
+      "old_external_text_and_spacing_height_pt": 127.00097656250011
+    },
+    "urban-home-equity-lines": {
+      "id": "U3",
+      "old_block_height_pt": 407.12512207031284,
+      "old_native_chart_height_pt": 280.1241455078125,
+      "width_pt": 450.0,
+      "old_external_text_and_spacing_height_pt": 127.00097656250034
+    },
+    "template-posttraining-lines": {
+      "id": "T1",
+      "old_block_height_pt": 427.1304931640626,
+      "old_native_chart_height_pt": 300.1295166015625,
+      "width_pt": 450.0,
+      "old_external_text_and_spacing_height_pt": 127.00097656250011
+    },
+    "template-iedb-bars": {
+      "id": "T2",
+      "old_block_height_pt": 427.48098754882824,
+      "old_native_chart_height_pt": 300.4800109863281,
+      "width_pt": 450.0,
+      "old_external_text_and_spacing_height_pt": 127.00097656250011
+    },
+    "template-emphasis-lines": {
+      "id": "T3",
+      "old_block_height_pt": 427.1304931640626,
+      "old_native_chart_height_pt": 300.1295166015625,
+      "width_pt": 450.0,
+      "old_external_text_and_spacing_height_pt": 127.00097656250011
+    },
+    "focus-original-benchmark": {
+      "id": "H1",
+      "old_block_height_pt": 424.47949218750034,
+      "old_native_chart_height_pt": 297.478515625,
+      "width_pt": 450.0,
+      "old_external_text_and_spacing_height_pt": 127.00097656250034
+    },
+    "focus-learning-curves": {
+      "id": "H2",
+      "old_block_height_pt": 424.4600524902347,
+      "old_native_chart_height_pt": 297.4590759277344,
+      "width_pt": 450.0,
+      "old_external_text_and_spacing_height_pt": 127.00097656250034
+    },
+    "focus-reference-trajectories": {
+      "id": "H3",
+      "old_block_height_pt": 430.4848022460941,
+      "old_native_chart_height_pt": 303.48382568359375,
+      "width_pt": 450.0,
+      "old_external_text_and_spacing_height_pt": 127.00097656250034
+    },
+    "focus-parameter-response": {
+      "id": "H4",
+      "old_block_height_pt": 424.4600524902344,
+      "old_native_chart_height_pt": 297.4590759277344,
+      "width_pt": 450.0,
+      "old_external_text_and_spacing_height_pt": 127.0009765625
+    },
+    "repository-radar": {
+      "id": "P1",
+      "old_block_height_pt": 620.7952880859377,
+      "old_native_chart_height_pt": 505.9945068359375,
+      "width_pt": 936.0,
+      "old_external_text_and_spacing_height_pt": 114.80078125000023
+    },
+    "repository-posttraining": {
+      "id": "P2",
+      "old_block_height_pt": 410.5648193359376,
+      "old_native_chart_height_pt": 295.7640380859375,
+      "width_pt": 936.0,
+      "old_external_text_and_spacing_height_pt": 114.80078125000011
+    },
+    "iedb-three-metrics": {
+      "id": "M1",
+      "old_block_height_pt": 410.43536376953136,
+      "old_native_chart_height_pt": 295.63458251953125,
+      "width_pt": 936.0,
+      "old_external_text_and_spacing_height_pt": 114.80078125000011
+    },
+    "brute-force-eight-panels": {
+      "id": "M2",
+      "old_block_height_pt": 626.3690185546876,
+      "old_native_chart_height_pt": 511.5682373046875,
+      "width_pt": 936.0,
+      "old_external_text_and_spacing_height_pt": 114.80078125000011
+    },
+    "concept-two-panels": {
+      "id": "M3",
+      "old_block_height_pt": 437.1705932617191,
+      "old_native_chart_height_pt": 322.36981201171875,
+      "width_pt": 936.0,
+      "old_external_text_and_spacing_height_pt": 114.80078125000034
+    },
+    "publication-trends-two-panels": {
+      "id": "M4",
+      "old_block_height_pt": 630.8753662109377,
+      "old_native_chart_height_pt": 516.0745849609375,
+      "width_pt": 936.0,
+      "old_external_text_and_spacing_height_pt": 114.80078125000023
+    }
+  },
+  "original_scalable_vertical_spacing_pt": 66
+}

@@ -1,0 +1,1662 @@
+{
+  "fixed_typography": {
+    "font": "Helvetica",
+    "weight": "normal",
+    "axis_labels_pt": 10.0,
+    "ticks_legends_pt": 8.571428571428571,
+    "panel_titles_pt": 11.428571428571429
+  },
+  "directions": [
+    {
+      "id": "S1",
+      "slug": "porcelain",
+      "name": "Porcelain precision",
+      "palette": {
+        "id": "P1",
+        "slug": "mineral-atelier",
+        "name": "Mineral Atelier",
+        "subtitle": "Cobalt, fired clay, moss",
+        "origin": "Architectural polychromy and mineral surfaces",
+        "idea": "A cool structural blue balanced by warm clay and muted moss. The broad range of hues makes this the most conventional, versatile option.",
+        "use": "A conservative all-purpose identity; especially effective for bars and model comparisons.",
+        "caution": "Clay and moss lose hue separation in red-green simulations. Keep the square and triangle markers.",
+        "sources": [
+          "architecture",
+          "albers"
+        ],
+        "colors": [
+          "#385A7C",
+          "#984C35",
+          "#7B8246",
+          "#8A6081",
+          "#337D79",
+          "#9A773B"
+        ],
+        "names": [
+          "Mineral blue",
+          "Fired clay",
+          "Moss",
+          "Heather",
+          "Patina",
+          "Bronze"
+        ],
+        "extra": [
+          "#6E7882",
+          "#986D66",
+          "#596448"
+        ],
+        "neutral": "#827C73"
+      },
+      "panel": "#FFFFFF",
+      "canvas": "#FFFFFF",
+      "ink": "#282828",
+      "muted": "#666666",
+      "grid_color": "#E3DCCF",
+      "frame_color": "#000000",
+      "line": 0.85,
+      "error": 0.55,
+      "grid_width": 0.45,
+      "frame_width": 0.45,
+      "frame": "left-bottom",
+      "grid": "none",
+      "grid_style": "-",
+      "ticks": 2.5,
+      "marker": 3.0,
+      "marker_fill": "open",
+      "dashes": false,
+      "bar_width": 0.62,
+      "bar_edge": 0,
+      "cap": 1.5,
+      "fill_alpha": 0.04,
+      "area_alpha": [
+        0.08,
+        0.13
+      ],
+      "radar_alpha": 0,
+      "hatch_color": "#707070",
+      "hatch_width": 0.4,
+      "composition_alpha": 0.8,
+      "emphasis": false,
+      "caption": "White paper, open axes, delicate strokes and hollow markers.",
+      "best": "Compact paper figures and dense technical comparisons.",
+      "tradeoff": "Fine strokes are less prominent on projected slides.",
+      "theme": {
+        "base": 10.0,
+        "small": 8.571428571428571,
+        "title": 11.428571428571429,
+        "line": 0.85,
+        "error": 0.55,
+        "grid": 0.45,
+        "outline": 0.4,
+        "frame": 0.45,
+        "marker": 3.0,
+        "ink": "#282828",
+        "muted": "#666666",
+        "grid_color": "#E3DCCF",
+        "background": "#FFFFFF",
+        "frame_color": "#000000",
+        "teal": "#385A7C",
+        "rust": "#984C35",
+        "ochre": "#7B8246",
+        "taupe": "#827C73",
+        "scatter": "#385A7C"
+      },
+      "assignments": {
+        "methods": [
+          "#984C35",
+          "#7B8246",
+          "#385A7C"
+        ],
+        "comparison": [
+          "#6E7882",
+          "#9A773B",
+          "#986D66",
+          "#8A6081",
+          "#984C35",
+          "#337D79",
+          "#596448",
+          "#7B8246",
+          "#385A7C"
+        ],
+        "composition": [
+          "#385A7C",
+          "#984C35",
+          "#7B8246",
+          "#8A6081",
+          "#337D79",
+          "#9A773B",
+          "#6E7882"
+        ]
+      },
+      "category_mappings": {
+        "methods": [
+          [
+            "DPO",
+            "#984C35"
+          ],
+          [
+            "DA-DPO",
+            "#7B8246"
+          ],
+          [
+            "VIGIL (Ours)",
+            "#385A7C"
+          ]
+        ],
+        "comparison": [
+          [
+            "Prime-2.1",
+            "#6E7882"
+          ],
+          [
+            "NetMHCpan",
+            "#9A773B"
+          ],
+          [
+            "MHCnuggets",
+            "#986D66"
+          ],
+          [
+            "MHCflurry",
+            "#8A6081"
+          ],
+          [
+            "DeepNeo",
+            "#984C35"
+          ],
+          [
+            "BigMHC-EL",
+            "#337D79"
+          ],
+          [
+            "BigMHC-IM",
+            "#596448"
+          ],
+          [
+            "BigMHC$_\\text{retrained}$",
+            "#7B8246"
+          ],
+          [
+            "ImmunoStruct (ours)",
+            "#385A7C"
+          ]
+        ],
+        "composition": [
+          [
+            "DeepSeek R1 Distill Qwen 1.5B",
+            "#385A7C"
+          ],
+          [
+            "DeepSeek R1 Distill Qwen 14B",
+            "#984C35"
+          ],
+          [
+            "DeepSeek R1 Distill Llama 70B",
+            "#7B8246"
+          ],
+          [
+            "deepseek-chat (Deepseek-V3)",
+            "#8A6081"
+          ],
+          [
+            "deepseek-reasoner (Deepseek-R1)",
+            "#337D79"
+          ],
+          [
+            "gemini-2.5-flash-preview-04-17",
+            "#9A773B"
+          ],
+          [
+            "OpenAI o3",
+            "#6E7882"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "S2",
+      "slug": "warm-editorial",
+      "name": "Warm editorial",
+      "palette": {
+        "id": "P2",
+        "slug": "aubergine-brass",
+        "name": "Aubergine & Brass",
+        "subtitle": "Aubergine, brass, blue spruce",
+        "origin": "Interior finishes and woven textiles",
+        "idea": "Deep aubergine supplies the signature; brass adds warmth and blue spruce prevents the system becoming entirely brown or purple.",
+        "use": "My first choice for a distinctive research identity: restrained, memorable, and particularly strong in three-series plots.",
+        "caution": "Expanded rose and brass shades can converge under simulated color-vision deficiency. Use the three-color core for thin curves.",
+        "sources": [
+          "architecture",
+          "weaving",
+          "albers"
+        ],
+        "colors": [
+          "#68445F",
+          "#9B7B30",
+          "#367B82",
+          "#B16F7A",
+          "#727E4F",
+          "#55749A"
+        ],
+        "names": [
+          "Aubergine",
+          "Brass",
+          "Blue spruce",
+          "Dusty rose",
+          "Lichen",
+          "Slate blue"
+        ],
+        "extra": [
+          "#786F78",
+          "#A46B49",
+          "#4E6459"
+        ],
+        "neutral": "#827A7B"
+      },
+      "panel": "#F6F0E4",
+      "canvas": "#F6F0E4",
+      "ink": "#282828",
+      "muted": "#666666",
+      "grid_color": "#DED5C5",
+      "frame_color": "#000000",
+      "line": 1.65,
+      "error": 0.8,
+      "grid_width": 0.4,
+      "frame_width": 0.65,
+      "frame": "box",
+      "grid": "y",
+      "grid_style": "-",
+      "ticks": 0,
+      "marker": 4.0,
+      "marker_fill": "filled",
+      "dashes": true,
+      "bar_width": 0.76,
+      "bar_edge": 0,
+      "cap": 2,
+      "fill_alpha": 0.12,
+      "area_alpha": [
+        0.2,
+        0.3
+      ],
+      "radar_alpha": 0.035,
+      "hatch_color": "#707070",
+      "hatch_width": 0.4,
+      "composition_alpha": 0.8,
+      "emphasis": false,
+      "caption": "Continuous warm paper, aubergine accents and medium-weight curves.",
+      "best": "A balanced research identity across papers and talks.",
+      "tradeoff": "The tinted page is more visible when inserted into a white manuscript.",
+      "theme": {
+        "base": 10.0,
+        "small": 8.571428571428571,
+        "title": 11.428571428571429,
+        "line": 1.65,
+        "error": 0.8,
+        "grid": 0.4,
+        "outline": 0.4,
+        "frame": 0.65,
+        "marker": 4.0,
+        "ink": "#282828",
+        "muted": "#666666",
+        "grid_color": "#DED5C5",
+        "background": "#F6F0E4",
+        "frame_color": "#000000",
+        "teal": "#68445F",
+        "rust": "#9B7B30",
+        "ochre": "#367B82",
+        "taupe": "#827A7B",
+        "scatter": "#68445F"
+      },
+      "assignments": {
+        "methods": [
+          "#9B7B30",
+          "#367B82",
+          "#68445F"
+        ],
+        "comparison": [
+          "#786F78",
+          "#55749A",
+          "#A46B49",
+          "#B16F7A",
+          "#9B7B30",
+          "#727E4F",
+          "#4E6459",
+          "#367B82",
+          "#68445F"
+        ],
+        "composition": [
+          "#68445F",
+          "#9B7B30",
+          "#367B82",
+          "#B16F7A",
+          "#727E4F",
+          "#55749A",
+          "#786F78"
+        ]
+      },
+      "category_mappings": {
+        "methods": [
+          [
+            "DPO",
+            "#9B7B30"
+          ],
+          [
+            "DA-DPO",
+            "#367B82"
+          ],
+          [
+            "VIGIL (Ours)",
+            "#68445F"
+          ]
+        ],
+        "comparison": [
+          [
+            "Prime-2.1",
+            "#786F78"
+          ],
+          [
+            "NetMHCpan",
+            "#55749A"
+          ],
+          [
+            "MHCnuggets",
+            "#A46B49"
+          ],
+          [
+            "MHCflurry",
+            "#B16F7A"
+          ],
+          [
+            "DeepNeo",
+            "#9B7B30"
+          ],
+          [
+            "BigMHC-EL",
+            "#727E4F"
+          ],
+          [
+            "BigMHC-IM",
+            "#4E6459"
+          ],
+          [
+            "BigMHC$_\\text{retrained}$",
+            "#367B82"
+          ],
+          [
+            "ImmunoStruct (ours)",
+            "#68445F"
+          ]
+        ],
+        "composition": [
+          [
+            "DeepSeek R1 Distill Qwen 1.5B",
+            "#68445F"
+          ],
+          [
+            "DeepSeek R1 Distill Qwen 14B",
+            "#9B7B30"
+          ],
+          [
+            "DeepSeek R1 Distill Llama 70B",
+            "#367B82"
+          ],
+          [
+            "deepseek-chat (Deepseek-V3)",
+            "#B16F7A"
+          ],
+          [
+            "deepseek-reasoner (Deepseek-R1)",
+            "#727E4F"
+          ],
+          [
+            "gemini-2.5-flash-preview-04-17",
+            "#55749A"
+          ],
+          [
+            "OpenAI o3",
+            "#786F78"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "S3",
+      "slug": "mineral-grid",
+      "name": "Mineral grid",
+      "palette": {
+        "id": "P1",
+        "slug": "mineral-atelier",
+        "name": "Mineral Atelier",
+        "subtitle": "Cobalt, fired clay, moss",
+        "origin": "Architectural polychromy and mineral surfaces",
+        "idea": "A cool structural blue balanced by warm clay and muted moss. The broad range of hues makes this the most conventional, versatile option.",
+        "use": "A conservative all-purpose identity; especially effective for bars and model comparisons.",
+        "caution": "Clay and moss lose hue separation in red-green simulations. Keep the square and triangle markers.",
+        "sources": [
+          "architecture",
+          "albers"
+        ],
+        "colors": [
+          "#385A7C",
+          "#984C35",
+          "#7B8246",
+          "#8A6081",
+          "#337D79",
+          "#9A773B"
+        ],
+        "names": [
+          "Mineral blue",
+          "Fired clay",
+          "Moss",
+          "Heather",
+          "Patina",
+          "Bronze"
+        ],
+        "extra": [
+          "#6E7882",
+          "#986D66",
+          "#596448"
+        ],
+        "neutral": "#827C73"
+      },
+      "panel": "#EBF1F5",
+      "canvas": "#FFFFFF",
+      "ink": "#282828",
+      "muted": "#666666",
+      "grid_color": "#CBD6DF",
+      "frame_color": "#566C7B",
+      "line": 1.25,
+      "error": 0.65,
+      "grid_width": 0.45,
+      "frame_width": 0.45,
+      "frame": "box",
+      "grid": "xy",
+      "grid_style": ":",
+      "ticks": 2,
+      "marker": 3.5,
+      "marker_fill": "open",
+      "dashes": true,
+      "bar_width": 0.7,
+      "bar_edge": 0.35,
+      "cap": 2,
+      "fill_alpha": 0.08,
+      "area_alpha": [
+        0.14,
+        0.22
+      ],
+      "radar_alpha": 0.035,
+      "hatch_color": "#707070",
+      "hatch_width": 0.4,
+      "composition_alpha": 0.8,
+      "emphasis": false,
+      "caption": "Cool blue-gray panels, fine dotted grids and restrained frames.",
+      "best": "Technical comparisons where reading values matters.",
+      "tradeoff": "The denser grid adds structure but can compete with complex data.",
+      "theme": {
+        "base": 10.0,
+        "small": 8.571428571428571,
+        "title": 11.428571428571429,
+        "line": 1.25,
+        "error": 0.65,
+        "grid": 0.45,
+        "outline": 0.4,
+        "frame": 0.45,
+        "marker": 3.5,
+        "ink": "#282828",
+        "muted": "#666666",
+        "grid_color": "#CBD6DF",
+        "background": "#EBF1F5",
+        "frame_color": "#566C7B",
+        "teal": "#385A7C",
+        "rust": "#984C35",
+        "ochre": "#7B8246",
+        "taupe": "#827C73",
+        "scatter": "#385A7C"
+      },
+      "assignments": {
+        "methods": [
+          "#984C35",
+          "#7B8246",
+          "#385A7C"
+        ],
+        "comparison": [
+          "#6E7882",
+          "#9A773B",
+          "#986D66",
+          "#8A6081",
+          "#984C35",
+          "#337D79",
+          "#596448",
+          "#7B8246",
+          "#385A7C"
+        ],
+        "composition": [
+          "#385A7C",
+          "#984C35",
+          "#7B8246",
+          "#8A6081",
+          "#337D79",
+          "#9A773B",
+          "#6E7882"
+        ]
+      },
+      "category_mappings": {
+        "methods": [
+          [
+            "DPO",
+            "#984C35"
+          ],
+          [
+            "DA-DPO",
+            "#7B8246"
+          ],
+          [
+            "VIGIL (Ours)",
+            "#385A7C"
+          ]
+        ],
+        "comparison": [
+          [
+            "Prime-2.1",
+            "#6E7882"
+          ],
+          [
+            "NetMHCpan",
+            "#9A773B"
+          ],
+          [
+            "MHCnuggets",
+            "#986D66"
+          ],
+          [
+            "MHCflurry",
+            "#8A6081"
+          ],
+          [
+            "DeepNeo",
+            "#984C35"
+          ],
+          [
+            "BigMHC-EL",
+            "#337D79"
+          ],
+          [
+            "BigMHC-IM",
+            "#596448"
+          ],
+          [
+            "BigMHC$_\\text{retrained}$",
+            "#7B8246"
+          ],
+          [
+            "ImmunoStruct (ours)",
+            "#385A7C"
+          ]
+        ],
+        "composition": [
+          [
+            "DeepSeek R1 Distill Qwen 1.5B",
+            "#385A7C"
+          ],
+          [
+            "DeepSeek R1 Distill Qwen 14B",
+            "#984C35"
+          ],
+          [
+            "DeepSeek R1 Distill Llama 70B",
+            "#7B8246"
+          ],
+          [
+            "deepseek-chat (Deepseek-V3)",
+            "#8A6081"
+          ],
+          [
+            "deepseek-reasoner (Deepseek-R1)",
+            "#337D79"
+          ],
+          [
+            "gemini-2.5-flash-preview-04-17",
+            "#9A773B"
+          ],
+          [
+            "OpenAI o3",
+            "#6E7882"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "S4",
+      "slug": "sage-field",
+      "name": "Sage field",
+      "palette": {
+        "id": "P2",
+        "slug": "aubergine-brass",
+        "name": "Aubergine & Brass",
+        "subtitle": "Aubergine, brass, blue spruce",
+        "origin": "Interior finishes and woven textiles",
+        "idea": "Deep aubergine supplies the signature; brass adds warmth and blue spruce prevents the system becoming entirely brown or purple.",
+        "use": "My first choice for a distinctive research identity: restrained, memorable, and particularly strong in three-series plots.",
+        "caution": "Expanded rose and brass shades can converge under simulated color-vision deficiency. Use the three-color core for thin curves.",
+        "sources": [
+          "architecture",
+          "weaving",
+          "albers"
+        ],
+        "colors": [
+          "#5F3C61",
+          "#9B6135",
+          "#377264",
+          "#986C77",
+          "#6C7B42",
+          "#496D8A"
+        ],
+        "names": [
+          "Aubergine",
+          "Brass",
+          "Blue spruce",
+          "Dusty rose",
+          "Lichen",
+          "Slate blue"
+        ],
+        "extra": [
+          "#737A6C",
+          "#966651",
+          "#4F5D49"
+        ],
+        "neutral": "#767D6E"
+      },
+      "panel": "#EBF0E3",
+      "canvas": "#F7F9F2",
+      "ink": "#282828",
+      "muted": "#666666",
+      "grid_color": "#FFFFFF",
+      "frame_color": "#5B6755",
+      "line": 1.55,
+      "error": 0.75,
+      "grid_width": 0.8,
+      "frame_width": 0.65,
+      "frame": "bottom",
+      "grid": "y",
+      "grid_style": "-",
+      "ticks": 0,
+      "marker": 4,
+      "marker_fill": "filled",
+      "dashes": false,
+      "bar_width": 0.82,
+      "bar_edge": 0,
+      "cap": 2,
+      "fill_alpha": 0.2,
+      "area_alpha": [
+        0.27,
+        0.39
+      ],
+      "radar_alpha": 0.055,
+      "hatch_color": "#707070",
+      "hatch_width": 0.4,
+      "composition_alpha": 0.8,
+      "emphasis": false,
+      "caption": "Pale sage fields, white reference lines and an open top edge.",
+      "best": "Soft, distinctive plots and conceptual illustrations.",
+      "tradeoff": "White gridlines are deliberately subtle; small print needs inspection.",
+      "theme": {
+        "base": 10.0,
+        "small": 8.571428571428571,
+        "title": 11.428571428571429,
+        "line": 1.55,
+        "error": 0.75,
+        "grid": 0.8,
+        "outline": 0.4,
+        "frame": 0.65,
+        "marker": 4,
+        "ink": "#282828",
+        "muted": "#666666",
+        "grid_color": "#FFFFFF",
+        "background": "#EBF0E3",
+        "frame_color": "#5B6755",
+        "teal": "#5F3C61",
+        "rust": "#9B6135",
+        "ochre": "#377264",
+        "taupe": "#767D6E",
+        "scatter": "#5F3C61"
+      },
+      "assignments": {
+        "methods": [
+          "#9B6135",
+          "#377264",
+          "#5F3C61"
+        ],
+        "comparison": [
+          "#737A6C",
+          "#496D8A",
+          "#966651",
+          "#986C77",
+          "#9B6135",
+          "#6C7B42",
+          "#4F5D49",
+          "#377264",
+          "#5F3C61"
+        ],
+        "composition": [
+          "#5F3C61",
+          "#9B6135",
+          "#377264",
+          "#986C77",
+          "#6C7B42",
+          "#496D8A",
+          "#737A6C"
+        ]
+      },
+      "category_mappings": {
+        "methods": [
+          [
+            "DPO",
+            "#9B6135"
+          ],
+          [
+            "DA-DPO",
+            "#377264"
+          ],
+          [
+            "VIGIL (Ours)",
+            "#5F3C61"
+          ]
+        ],
+        "comparison": [
+          [
+            "Prime-2.1",
+            "#737A6C"
+          ],
+          [
+            "NetMHCpan",
+            "#496D8A"
+          ],
+          [
+            "MHCnuggets",
+            "#966651"
+          ],
+          [
+            "MHCflurry",
+            "#986C77"
+          ],
+          [
+            "DeepNeo",
+            "#9B6135"
+          ],
+          [
+            "BigMHC-EL",
+            "#6C7B42"
+          ],
+          [
+            "BigMHC-IM",
+            "#4F5D49"
+          ],
+          [
+            "BigMHC$_\\text{retrained}$",
+            "#377264"
+          ],
+          [
+            "ImmunoStruct (ours)",
+            "#5F3C61"
+          ]
+        ],
+        "composition": [
+          [
+            "DeepSeek R1 Distill Qwen 1.5B",
+            "#5F3C61"
+          ],
+          [
+            "DeepSeek R1 Distill Qwen 14B",
+            "#9B6135"
+          ],
+          [
+            "DeepSeek R1 Distill Llama 70B",
+            "#377264"
+          ],
+          [
+            "deepseek-chat (Deepseek-V3)",
+            "#986C77"
+          ],
+          [
+            "deepseek-reasoner (Deepseek-R1)",
+            "#6C7B42"
+          ],
+          [
+            "gemini-2.5-flash-preview-04-17",
+            "#496D8A"
+          ],
+          [
+            "OpenAI o3",
+            "#737A6C"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "S5",
+      "slug": "rose-atlas",
+      "name": "Rose atlas",
+      "palette": {
+        "id": "P4",
+        "slug": "petrol-rose",
+        "name": "Petrol & Rose",
+        "subtitle": "Petrol, dusty rose, antique gold",
+        "origin": "Soft interior contrasts and material layering",
+        "idea": "Petrol and dusty rose share a quiet, softened intensity, with antique gold as a third voice. This is the gentlest evolution of your existing teal-and-earth palette.",
+        "use": "A calm editorial identity, well suited to conceptual diagrams, trend areas, and presentation figures.",
+        "caution": "Rose and gold can become similar in red-green simulations. Do not identify a series by hue alone.",
+        "sources": [
+          "architecture",
+          "albers"
+        ],
+        "colors": [
+          "#235E63",
+          "#AD647A",
+          "#938044",
+          "#6F6D98",
+          "#708355",
+          "#B16C45"
+        ],
+        "names": [
+          "Petrol",
+          "Dusty rose",
+          "Antique gold",
+          "Dusk",
+          "Sage",
+          "Copper"
+        ],
+        "extra": [
+          "#7C7A74",
+          "#4F7894",
+          "#87545D"
+        ],
+        "neutral": "#817C75"
+      },
+      "panel": "#F5E9E8",
+      "canvas": "#FCF8F5",
+      "ink": "#282828",
+      "muted": "#666666",
+      "grid_color": "#DECBCB",
+      "frame_color": "#715C61",
+      "line": 1.4,
+      "error": 0.7,
+      "grid_width": 0.4,
+      "frame_width": 0.6,
+      "frame": "left-bottom",
+      "grid": "y",
+      "grid_style": "-",
+      "ticks": 2.5,
+      "marker": 4.5,
+      "marker_fill": "open",
+      "dashes": false,
+      "bar_width": 0.72,
+      "bar_edge": 0,
+      "cap": 2,
+      "fill_alpha": 0.1,
+      "area_alpha": [
+        0.18,
+        0.28
+      ],
+      "radar_alpha": 0.035,
+      "hatch_color": "#707070",
+      "hatch_width": 0.4,
+      "composition_alpha": 0.8,
+      "emphasis": false,
+      "caption": "Rose paper, petrol curves, hollow markers and open axes.",
+      "best": "A calm editorial alternative with more color in the surface.",
+      "tradeoff": "Rose and gold need redundant labels when hues become hard to distinguish.",
+      "theme": {
+        "base": 10.0,
+        "small": 8.571428571428571,
+        "title": 11.428571428571429,
+        "line": 1.4,
+        "error": 0.7,
+        "grid": 0.4,
+        "outline": 0.4,
+        "frame": 0.6,
+        "marker": 4.5,
+        "ink": "#282828",
+        "muted": "#666666",
+        "grid_color": "#DECBCB",
+        "background": "#F5E9E8",
+        "frame_color": "#715C61",
+        "teal": "#235E63",
+        "rust": "#AD647A",
+        "ochre": "#938044",
+        "taupe": "#817C75",
+        "scatter": "#235E63"
+      },
+      "assignments": {
+        "methods": [
+          "#AD647A",
+          "#938044",
+          "#235E63"
+        ],
+        "comparison": [
+          "#7C7A74",
+          "#B16C45",
+          "#4F7894",
+          "#6F6D98",
+          "#AD647A",
+          "#708355",
+          "#87545D",
+          "#938044",
+          "#235E63"
+        ],
+        "composition": [
+          "#235E63",
+          "#AD647A",
+          "#938044",
+          "#6F6D98",
+          "#708355",
+          "#B16C45",
+          "#7C7A74"
+        ]
+      },
+      "category_mappings": {
+        "methods": [
+          [
+            "DPO",
+            "#AD647A"
+          ],
+          [
+            "DA-DPO",
+            "#938044"
+          ],
+          [
+            "VIGIL (Ours)",
+            "#235E63"
+          ]
+        ],
+        "comparison": [
+          [
+            "Prime-2.1",
+            "#7C7A74"
+          ],
+          [
+            "NetMHCpan",
+            "#B16C45"
+          ],
+          [
+            "MHCnuggets",
+            "#4F7894"
+          ],
+          [
+            "MHCflurry",
+            "#6F6D98"
+          ],
+          [
+            "DeepNeo",
+            "#AD647A"
+          ],
+          [
+            "BigMHC-EL",
+            "#708355"
+          ],
+          [
+            "BigMHC-IM",
+            "#87545D"
+          ],
+          [
+            "BigMHC$_\\text{retrained}$",
+            "#938044"
+          ],
+          [
+            "ImmunoStruct (ours)",
+            "#235E63"
+          ]
+        ],
+        "composition": [
+          [
+            "DeepSeek R1 Distill Qwen 1.5B",
+            "#235E63"
+          ],
+          [
+            "DeepSeek R1 Distill Qwen 14B",
+            "#AD647A"
+          ],
+          [
+            "DeepSeek R1 Distill Llama 70B",
+            "#938044"
+          ],
+          [
+            "deepseek-chat (Deepseek-V3)",
+            "#6F6D98"
+          ],
+          [
+            "deepseek-reasoner (Deepseek-R1)",
+            "#708355"
+          ],
+          [
+            "gemini-2.5-flash-preview-04-17",
+            "#B16C45"
+          ],
+          [
+            "OpenAI o3",
+            "#7C7A74"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "S6",
+      "slug": "sandstone",
+      "name": "Sandstone bold",
+      "palette": {
+        "id": "P3",
+        "slug": "oxide-denim",
+        "name": "Oxide & Denim",
+        "subtitle": "Oxblood, denim, lichen",
+        "origin": "Dyed textiles and earth pigments",
+        "idea": "A dark wine-red anchor, softened by washed blue and a yellow-green accent. The materials are familiar; the red-led hierarchy feels different from the current teal.",
+        "use": "A warm, grounded alternative with a strong signature for highlighted results and cumulative trends.",
+        "caution": "Oxblood and lichen change character in red-green simulations. The lightness difference helps, but markers remain necessary.",
+        "sources": [
+          "weaving",
+          "architecture"
+        ],
+        "colors": [
+          "#79343F",
+          "#365D7A",
+          "#6C6B35",
+          "#8B6038",
+          "#6F577D",
+          "#326B5E"
+        ],
+        "names": [
+          "Oxblood",
+          "Denim",
+          "Lichen",
+          "Saddle",
+          "Mauve",
+          "Verdigris"
+        ],
+        "extra": [
+          "#6D675F",
+          "#965C55",
+          "#48555B"
+        ],
+        "neutral": "#766A5B"
+      },
+      "panel": "#EADCC4",
+      "canvas": "#EADCC4",
+      "ink": "#29251F",
+      "muted": "#655D51",
+      "grid_color": "#E3DCCF",
+      "frame_color": "#393128",
+      "line": 2.25,
+      "error": 1.0,
+      "grid_width": 0.45,
+      "frame_width": 1.05,
+      "frame": "box",
+      "grid": "none",
+      "grid_style": "-",
+      "ticks": 3.5,
+      "marker": 5.1,
+      "marker_fill": "filled",
+      "dashes": true,
+      "bar_width": 0.84,
+      "bar_edge": 0.4,
+      "cap": 3,
+      "fill_alpha": 0.25,
+      "area_alpha": [
+        0.3,
+        0.46
+      ],
+      "radar_alpha": 0.065,
+      "hatch_color": "#62594B",
+      "hatch_width": 0.5,
+      "composition_alpha": 0.8,
+      "emphasis": false,
+      "caption": "Deeper sand, strong borders, larger markers and substantial curves.",
+      "best": "Presentations and figures that need presence at a distance.",
+      "tradeoff": "Heavier strokes and fill can crowd dense radar or composition figures.",
+      "theme": {
+        "base": 10.0,
+        "small": 8.571428571428571,
+        "title": 11.428571428571429,
+        "line": 2.25,
+        "error": 1.0,
+        "grid": 0.45,
+        "outline": 0.4,
+        "frame": 1.05,
+        "marker": 5.1,
+        "ink": "#29251F",
+        "muted": "#655D51",
+        "grid_color": "#E3DCCF",
+        "background": "#EADCC4",
+        "frame_color": "#393128",
+        "teal": "#79343F",
+        "rust": "#365D7A",
+        "ochre": "#6C6B35",
+        "taupe": "#766A5B",
+        "scatter": "#79343F"
+      },
+      "assignments": {
+        "methods": [
+          "#365D7A",
+          "#6C6B35",
+          "#79343F"
+        ],
+        "comparison": [
+          "#6D675F",
+          "#326B5E",
+          "#965C55",
+          "#8B6038",
+          "#365D7A",
+          "#6F577D",
+          "#48555B",
+          "#6C6B35",
+          "#79343F"
+        ],
+        "composition": [
+          "#79343F",
+          "#365D7A",
+          "#6C6B35",
+          "#8B6038",
+          "#6F577D",
+          "#326B5E",
+          "#6D675F"
+        ]
+      },
+      "category_mappings": {
+        "methods": [
+          [
+            "DPO",
+            "#365D7A"
+          ],
+          [
+            "DA-DPO",
+            "#6C6B35"
+          ],
+          [
+            "VIGIL (Ours)",
+            "#79343F"
+          ]
+        ],
+        "comparison": [
+          [
+            "Prime-2.1",
+            "#6D675F"
+          ],
+          [
+            "NetMHCpan",
+            "#326B5E"
+          ],
+          [
+            "MHCnuggets",
+            "#965C55"
+          ],
+          [
+            "MHCflurry",
+            "#8B6038"
+          ],
+          [
+            "DeepNeo",
+            "#365D7A"
+          ],
+          [
+            "BigMHC-EL",
+            "#6F577D"
+          ],
+          [
+            "BigMHC-IM",
+            "#48555B"
+          ],
+          [
+            "BigMHC$_\\text{retrained}$",
+            "#6C6B35"
+          ],
+          [
+            "ImmunoStruct (ours)",
+            "#79343F"
+          ]
+        ],
+        "composition": [
+          [
+            "DeepSeek R1 Distill Qwen 1.5B",
+            "#79343F"
+          ],
+          [
+            "DeepSeek R1 Distill Qwen 14B",
+            "#365D7A"
+          ],
+          [
+            "DeepSeek R1 Distill Llama 70B",
+            "#6C6B35"
+          ],
+          [
+            "deepseek-chat (Deepseek-V3)",
+            "#8B6038"
+          ],
+          [
+            "deepseek-reasoner (Deepseek-R1)",
+            "#6F577D"
+          ],
+          [
+            "gemini-2.5-flash-preview-04-17",
+            "#326B5E"
+          ],
+          [
+            "OpenAI o3",
+            "#6D675F"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "S7",
+      "slug": "graphite",
+      "name": "Graphite + one accent",
+      "palette": {
+        "id": "P2",
+        "slug": "aubergine-brass",
+        "name": "Aubergine & Brass",
+        "subtitle": "Aubergine, brass, blue spruce",
+        "origin": "Interior finishes and woven textiles",
+        "idea": "Deep aubergine supplies the signature; brass adds warmth and blue spruce prevents the system becoming entirely brown or purple.",
+        "use": "My first choice for a distinctive research identity: restrained, memorable, and particularly strong in three-series plots.",
+        "caution": "Expanded rose and brass shades can converge under simulated color-vision deficiency. Use the three-color core for thin curves.",
+        "sources": [
+          "architecture",
+          "weaving",
+          "albers"
+        ],
+        "colors": [
+          "#74394F",
+          "#777A75",
+          "#454D53",
+          "#6B6369",
+          "#83817B",
+          "#62686D"
+        ],
+        "names": [
+          "Aubergine",
+          "Brass",
+          "Blue spruce",
+          "Dusty rose",
+          "Lichen",
+          "Slate blue"
+        ],
+        "extra": [
+          "#858580",
+          "#5C6264",
+          "#747A75"
+        ],
+        "neutral": "#858580"
+      },
+      "panel": "#F0F1EF",
+      "canvas": "#FFFFFF",
+      "ink": "#282828",
+      "muted": "#666666",
+      "grid_color": "#FFFFFF",
+      "frame_color": "#000000",
+      "line": 1.8,
+      "error": 0.8,
+      "grid_width": 0.9,
+      "frame_width": 0.55,
+      "frame": "none",
+      "grid": "y",
+      "grid_style": "-",
+      "ticks": 0,
+      "marker": 4.2,
+      "marker_fill": "open",
+      "dashes": true,
+      "bar_width": 0.66,
+      "bar_edge": 0,
+      "cap": 2,
+      "fill_alpha": 0.06,
+      "area_alpha": [
+        0.1,
+        0.24
+      ],
+      "radar_alpha": 0.035,
+      "hatch_color": "#707070",
+      "hatch_width": 0.4,
+      "composition_alpha": 0.8,
+      "emphasis": true,
+      "caption": "Quiet grayscale comparisons, one plum accent and no enclosing frame.",
+      "best": "Focusing attention on a target method without a nine-color legend.",
+      "tradeoff": "Dense category plots require numbered positions; gray alone is insufficient.",
+      "theme": {
+        "base": 10.0,
+        "small": 8.571428571428571,
+        "title": 11.428571428571429,
+        "line": 1.8,
+        "error": 0.8,
+        "grid": 0.9,
+        "outline": 0.4,
+        "frame": 0.55,
+        "marker": 4.2,
+        "ink": "#282828",
+        "muted": "#666666",
+        "grid_color": "#FFFFFF",
+        "background": "#F0F1EF",
+        "frame_color": "#000000",
+        "teal": "#74394F",
+        "rust": "#777A75",
+        "ochre": "#454D53",
+        "taupe": "#858580",
+        "scatter": "#74394F"
+      },
+      "assignments": {
+        "methods": [
+          "#777A75",
+          "#454D53",
+          "#74394F"
+        ],
+        "comparison": [
+          "#858580",
+          "#858580",
+          "#858580",
+          "#858580",
+          "#858580",
+          "#858580",
+          "#858580",
+          "#858580",
+          "#74394F"
+        ],
+        "composition": [
+          "#74394F",
+          "#777A75",
+          "#454D53",
+          "#6B6369",
+          "#83817B",
+          "#62686D",
+          "#858580"
+        ]
+      },
+      "category_mappings": {
+        "methods": [
+          [
+            "DPO",
+            "#777A75"
+          ],
+          [
+            "DA-DPO",
+            "#454D53"
+          ],
+          [
+            "VIGIL (Ours)",
+            "#74394F"
+          ]
+        ],
+        "comparison": [
+          [
+            "Prime-2.1",
+            "#858580"
+          ],
+          [
+            "NetMHCpan",
+            "#858580"
+          ],
+          [
+            "MHCnuggets",
+            "#858580"
+          ],
+          [
+            "MHCflurry",
+            "#858580"
+          ],
+          [
+            "DeepNeo",
+            "#858580"
+          ],
+          [
+            "BigMHC-EL",
+            "#858580"
+          ],
+          [
+            "BigMHC-IM",
+            "#858580"
+          ],
+          [
+            "BigMHC$_\\text{retrained}$",
+            "#858580"
+          ],
+          [
+            "ImmunoStruct (ours)",
+            "#74394F"
+          ]
+        ],
+        "composition": [
+          [
+            "DeepSeek R1 Distill Qwen 1.5B",
+            "#74394F"
+          ],
+          [
+            "DeepSeek R1 Distill Qwen 14B",
+            "#777A75"
+          ],
+          [
+            "DeepSeek R1 Distill Llama 70B",
+            "#454D53"
+          ],
+          [
+            "deepseek-chat (Deepseek-V3)",
+            "#6B6369"
+          ],
+          [
+            "deepseek-reasoner (Deepseek-R1)",
+            "#83817B"
+          ],
+          [
+            "gemini-2.5-flash-preview-04-17",
+            "#62686D"
+          ],
+          [
+            "OpenAI o3",
+            "#858580"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "S8",
+      "slug": "night-studio",
+      "name": "Night studio",
+      "palette": {
+        "id": "P5",
+        "slug": "ink-persimmon",
+        "name": "Ink & Persimmon",
+        "subtitle": "Violet ink, persimmon, lake blue",
+        "origin": "Limited-ink printmaking and editorial graphics",
+        "idea": "A dark violet ink anchors warm persimmon and a clear blue. The hue relationships suggest a small print studio, with saturation reduced for precise scientific marks.",
+        "use": "The liveliest option: effective for talks, method diagrams, and plots that need a little more visual energy.",
+        "caution": "Violet and blue can move closer under red-green simulations. Preserve the circle and triangle shapes; avoid transparent overlaps as category encodings.",
+        "sources": [
+          "riso",
+          "albers"
+        ],
+        "colors": [
+          "#D5B7DE",
+          "#E5AA76",
+          "#80C7CF",
+          "#E49AAF",
+          "#BEC985",
+          "#AAADE5"
+        ],
+        "names": [
+          "Violet ink",
+          "Persimmon",
+          "Lake blue",
+          "Mulberry",
+          "Olive",
+          "Ochre"
+        ],
+        "extra": [
+          "#B5BABD",
+          "#D4BD8D",
+          "#89BFA7"
+        ],
+        "neutral": "#A8B5BD"
+      },
+      "panel": "#202B35",
+      "canvas": "#17212A",
+      "ink": "#F3EEE5",
+      "muted": "#B6C1C7",
+      "grid_color": "#42505B",
+      "frame_color": "#71808C",
+      "line": 2.0,
+      "error": 0.9,
+      "grid_width": 0.55,
+      "frame_width": 0.6,
+      "frame": "box",
+      "grid": "y",
+      "grid_style": "-",
+      "ticks": 2,
+      "marker": 4.8,
+      "marker_fill": "open",
+      "dashes": true,
+      "bar_width": 0.76,
+      "bar_edge": 0.35,
+      "cap": 2.5,
+      "fill_alpha": 0.2,
+      "area_alpha": [
+        0.22,
+        0.32
+      ],
+      "radar_alpha": 0.07,
+      "hatch_color": "#26333D",
+      "hatch_width": 0.45,
+      "composition_alpha": 0.8,
+      "emphasis": false,
+      "caption": "Ink-dark surfaces, pale luminous colors and confident curves.",
+      "best": "Dark slides, digital reading and figure presentations.",
+      "tradeoff": "A presentation variant; it needs a separate light export for conventional print.",
+      "theme": {
+        "base": 10.0,
+        "small": 8.571428571428571,
+        "title": 11.428571428571429,
+        "line": 2.0,
+        "error": 0.9,
+        "grid": 0.55,
+        "outline": 0.4,
+        "frame": 0.6,
+        "marker": 4.8,
+        "ink": "#F3EEE5",
+        "muted": "#B6C1C7",
+        "grid_color": "#42505B",
+        "background": "#202B35",
+        "frame_color": "#71808C",
+        "teal": "#D5B7DE",
+        "rust": "#E5AA76",
+        "ochre": "#80C7CF",
+        "taupe": "#A8B5BD",
+        "scatter": "#D5B7DE"
+      },
+      "assignments": {
+        "methods": [
+          "#E5AA76",
+          "#80C7CF",
+          "#D5B7DE"
+        ],
+        "comparison": [
+          "#B5BABD",
+          "#AAADE5",
+          "#D4BD8D",
+          "#E49AAF",
+          "#E5AA76",
+          "#BEC985",
+          "#89BFA7",
+          "#80C7CF",
+          "#D5B7DE"
+        ],
+        "composition": [
+          "#D5B7DE",
+          "#E5AA76",
+          "#80C7CF",
+          "#E49AAF",
+          "#BEC985",
+          "#AAADE5",
+          "#B5BABD"
+        ]
+      },
+      "category_mappings": {
+        "methods": [
+          [
+            "DPO",
+            "#E5AA76"
+          ],
+          [
+            "DA-DPO",
+            "#80C7CF"
+          ],
+          [
+            "VIGIL (Ours)",
+            "#D5B7DE"
+          ]
+        ],
+        "comparison": [
+          [
+            "Prime-2.1",
+            "#B5BABD"
+          ],
+          [
+            "NetMHCpan",
+            "#AAADE5"
+          ],
+          [
+            "MHCnuggets",
+            "#D4BD8D"
+          ],
+          [
+            "MHCflurry",
+            "#E49AAF"
+          ],
+          [
+            "DeepNeo",
+            "#E5AA76"
+          ],
+          [
+            "BigMHC-EL",
+            "#BEC985"
+          ],
+          [
+            "BigMHC-IM",
+            "#89BFA7"
+          ],
+          [
+            "BigMHC$_\\text{retrained}$",
+            "#80C7CF"
+          ],
+          [
+            "ImmunoStruct (ours)",
+            "#D5B7DE"
+          ]
+        ],
+        "composition": [
+          [
+            "DeepSeek R1 Distill Qwen 1.5B",
+            "#D5B7DE"
+          ],
+          [
+            "DeepSeek R1 Distill Qwen 14B",
+            "#E5AA76"
+          ],
+          [
+            "DeepSeek R1 Distill Llama 70B",
+            "#80C7CF"
+          ],
+          [
+            "deepseek-chat (Deepseek-V3)",
+            "#E49AAF"
+          ],
+          [
+            "deepseek-reasoner (Deepseek-R1)",
+            "#BEC985"
+          ],
+          [
+            "gemini-2.5-flash-preview-04-17",
+            "#AAADE5"
+          ],
+          [
+            "OpenAI o3",
+            "#B5BABD"
+          ]
+        ]
+      }
+    }
+  ]
+}

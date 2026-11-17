@@ -1,0 +1,103 @@
+{
+  "base_style": "R1 / S3",
+  "focus_color": "#285F96",
+  "background": "#EBF1F5",
+  "font": "Helvetica",
+  "line_width_pt": 1.25,
+  "gray_range": [
+    "#777777",
+    "#B7B7B7"
+  ],
+  "gray_palettes": {
+    "3": [
+      "#777777",
+      "#979797",
+      "#B7B7B7"
+    ],
+    "4": [
+      "#777777",
+      "#8C8C8C",
+      "#A2A2A2",
+      "#B7B7B7"
+    ],
+    "5": [
+      "#777777",
+      "#878787",
+      "#979797",
+      "#A7A7A7",
+      "#B7B7B7"
+    ],
+    "8": [
+      "#777777",
+      "#808080",
+      "#898989",
+      "#929292",
+      "#9C9C9C",
+      "#A5A5A5",
+      "#AEAEAE",
+      "#B7B7B7"
+    ]
+  },
+  "focus_zorder": 4,
+  "context_zorder": 2,
+  "alpha": 1,
+  "source": "selected-style.json",
+  "samples": [
+    {
+      "id": "H1",
+      "synthetic": false,
+      "references": 3,
+      "gray_colors": [
+        "#777777",
+        "#979797",
+        "#B7B7B7"
+      ],
+      "all_line_widths_pt": 1.25,
+      "plotted_values_equal_input": true
+    },
+    {
+      "id": "H2",
+      "synthetic": true,
+      "references": 5,
+      "gray_colors": [
+        "#777777",
+        "#878787",
+        "#979797",
+        "#A7A7A7",
+        "#B7B7B7"
+      ],
+      "all_line_widths_pt": 1.25,
+      "plotted_values_equal_input": true
+    },
+    {
+      "id": "H3",
+      "synthetic": true,
+      "references": 8,
+      "gray_colors": [
+        "#777777",
+        "#808080",
+        "#898989",
+        "#929292",
+        "#9C9C9C",
+        "#A5A5A5",
+        "#AEAEAE",
+        "#B7B7B7"
+      ],
+      "all_line_widths_pt": 1.25,
+      "plotted_values_equal_input": true
+    },
+    {
+      "id": "H4",
+      "synthetic": true,
+      "references": 4,
+      "gray_colors": [
+        "#777777",
+        "#8C8C8C",
+        "#A2A2A2",
+        "#B7B7B7"
+      ],
+      "all_line_widths_pt": 1.25,
+      "plotted_values_equal_input": true
+    }
+  ]
+}

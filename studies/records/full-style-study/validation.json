@@ -1,0 +1,250 @@
+{
+  "original_data_geometry_equal": true,
+  "typography_fixed": true,
+  "source_fingerprints": {
+    "bars_comparison_IEDB": "4020a9fd2bbbc5caf3e5879ac8699cb2dc3dc3903b638791a54d1e451562934c",
+    "brute_force": "6e90bdb8b1b136bb696d937a3d4f405fab12c9a70b1bd7b54afd4ac6201b0281",
+    "comparison_radar": "dea342610c6ae6f9fb833aab7ea3e80e56e86ef9679349ab374b9614a5be4237",
+    "comparison_posttraining": "9cebf3ab18ca025137fc3462eccca7b980a78e27b3c64c013ff3aa98deaa86d0",
+    "concept": "2d54af73884fd7d2588e85cc25cb3d05e9ec30a95593d80f23f2722511c6bc8a",
+    "trend_by_month": "ce06b7a07a0db521cc709f679ecc9e97c348ce6e01962e81369203dad7730b4d"
+  },
+  "approved_exports_unchanged": {
+    "/Users/diegoda/Documents/plotting_resources/figures4papers-minimal/gallery.pdf": "31ef4ad70968ab4e81703739e7394e3f4b855d071e6fdaa846c8c10f489f4f80",
+    "/Users/diegoda/Documents/plotting_resources/figures4papers-minimal/gallery-beige.pdf": "31ef4ad70968ab4e81703739e7394e3f4b855d071e6fdaa846c8c10f489f4f80",
+    "/Users/diegoda/Documents/plotting_resources/figures4papers-minimal/data.json": "a755782f8fcf77b686f381af5643af1bbc53f88a787be35410f47e4f9bde780c",
+    "/Users/diegoda/Documents/plotting_resources/figures4papers-minimal/render-info.json": "5627083fe599752c5392778d5e6b0705ae267942e142b7d3f65c2cf441c63419"
+  },
+  "styles": {
+    "S1": {
+      "core_contrast": [
+        7.188,
+        6.14,
+        4.099
+      ],
+      "extended_contrast": [
+        7.188,
+        6.14,
+        4.099,
+        5.159,
+        4.827,
+        4.137,
+        4.495,
+        4.454,
+        6.285
+      ],
+      "text_on_panel": 14.743,
+      "text_on_canvas": 14.743,
+      "closest_core_distance": {
+        "normal": 0.1449,
+        "deutan": 0.0758,
+        "protan": 0.1147,
+        "tritan": 0.1527,
+        "gray": 0.0366
+      }
+    },
+    "S2": {
+      "core_contrast": [
+        7.17,
+        3.511,
+        4.291
+      ],
+      "extended_contrast": [
+        7.17,
+        3.511,
+        4.291,
+        3.411,
+        3.845,
+        4.253,
+        4.26,
+        3.873,
+        5.622
+      ],
+      "text_on_panel": 12.99,
+      "text_on_canvas": 12.99,
+      "closest_core_distance": {
+        "normal": 0.1581,
+        "deutan": 0.1011,
+        "protan": 0.123,
+        "tritan": 0.1676,
+        "gray": 0.0485
+      }
+    },
+    "S3": {
+      "core_contrast": [
+        6.309,
+        5.389,
+        3.598
+      ],
+      "extended_contrast": [
+        6.309,
+        5.389,
+        3.598,
+        4.528,
+        4.237,
+        3.631,
+        3.945,
+        3.91,
+        5.517
+      ],
+      "text_on_panel": 12.941,
+      "text_on_canvas": 14.743,
+      "closest_core_distance": {
+        "normal": 0.1449,
+        "deutan": 0.0758,
+        "protan": 0.1147,
+        "tritan": 0.1527,
+        "gray": 0.0366
+      }
+    },
+    "S4": {
+      "core_contrast": [
+        7.853,
+        4.358,
+        4.824
+      ],
+      "extended_contrast": [
+        7.853,
+        4.358,
+        4.824,
+        3.815,
+        3.98,
+        4.718,
+        3.828,
+        4.195,
+        6.047
+      ],
+      "text_on_panel": 12.711,
+      "text_on_canvas": 13.892,
+      "closest_core_distance": {
+        "normal": 0.1465,
+        "deutan": 0.0978,
+        "protan": 0.0648,
+        "tritan": 0.1555,
+        "gray": 0.024
+      }
+    },
+    "S5": {
+      "core_contrast": [
+        6.206,
+        3.627,
+        3.271
+      ],
+      "extended_contrast": [
+        6.206,
+        3.627,
+        3.271,
+        4.101,
+        3.494,
+        3.471,
+        3.618,
+        3.981,
+        5.122
+      ],
+      "text_on_panel": 12.429,
+      "text_on_canvas": 13.96,
+      "closest_core_distance": {
+        "normal": 0.1297,
+        "deutan": 0.0745,
+        "protan": 0.0833,
+        "tritan": 0.071,
+        "gray": 0.0253
+      }
+    },
+    "S6": {
+      "core_contrast": [
+        6.538,
+        5.171,
+        4.096
+      ],
+      "extended_contrast": [
+        6.538,
+        5.171,
+        4.096,
+        4.058,
+        4.657,
+        4.568,
+        4.136,
+        3.924,
+        5.698
+      ],
+      "text_on_panel": 11.266,
+      "text_on_canvas": 11.266,
+      "closest_core_distance": {
+        "normal": 0.14,
+        "deutan": 0.094,
+        "protan": 0.1169,
+        "tritan": 0.1109,
+        "gray": 0.0543
+      }
+    },
+    "S7": {
+      "core_contrast": [
+        7.593,
+        3.841,
+        7.597
+      ],
+      "extended_contrast": [
+        7.593,
+        3.841,
+        7.597,
+        5.128,
+        3.438,
+        4.982,
+        3.272,
+        5.473,
+        3.875
+      ],
+      "text_on_panel": 13.012,
+      "text_on_canvas": 14.743,
+      "closest_core_distance": {
+        "normal": 0.095,
+        "deutan": 0.0241,
+        "protan": 0.0287,
+        "tritan": 0.1165,
+        "gray": 0.0001
+      }
+    },
+    "S8": {
+      "core_contrast": [
+        7.993,
+        7.092,
+        7.535
+      ],
+      "extended_contrast": [
+        7.993,
+        7.092,
+        7.535,
+        6.542,
+        8.148,
+        6.732,
+        7.353,
+        7.86,
+        6.908
+      ],
+      "text_on_panel": 12.461,
+      "text_on_canvas": 14.115,
+      "closest_core_distance": {
+        "normal": 0.1173,
+        "deutan": 0.0345,
+        "protan": 0.0284,
+        "tritan": 0.0837,
+        "gray": 0.0173
+      }
+    }
+  },
+  "original_examples": 6,
+  "candidate_styles": 8,
+  "export_checks": {
+    "native_pdfs": 57,
+    "report_pages": 14,
+    "text_within_pdf_pages": true,
+    "editable_svg_text": true,
+    "png_dpi": 300,
+    "gallery_targets_exist": true,
+    "color_simulation_previews": 96,
+    "browser_ui_check": "Not performed; local browser preview was blocked in the prior study. Static links and script syntax checked.",
+    "javascript_syntax_checked": true,
+    "report_rendered_and_visually_checked": true
+  }
+}

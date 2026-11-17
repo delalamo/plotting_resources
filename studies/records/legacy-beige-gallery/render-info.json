@@ -1,0 +1,107 @@
+{
+  "font": "Helvetica",
+  "font_preference": [
+    "Helvetica",
+    "Arial",
+    "Liberation Sans",
+    "DejaVu Sans"
+  ],
+  "font_weight": "normal",
+  "math_font": "DejaVu Sans, italic variables",
+  "python": "3.12.8 (main, Dec  3 2024, 18:42:41) [Clang 16.0.0 (clang-1600.0.26.4)]",
+  "style": "B / light cream with thin black frames",
+  "selected_shade": "B",
+  "theme": {
+    "base": 10.0,
+    "small": 8.571428571428571,
+    "title": 11.428571428571429,
+    "line": 1.15,
+    "error": 0.65,
+    "grid": 0.45,
+    "outline": 0.4,
+    "frame": 0.55,
+    "marker": 3.5,
+    "ink": "#282828",
+    "muted": "#666666",
+    "grid_color": "#E3DCCF",
+    "background": "#FAF6EE",
+    "frame_color": "#000000",
+    "teal": "#246C68",
+    "rust": "#B2674D",
+    "ochre": "#9B8644",
+    "taupe": "#8C8275"
+  },
+  "palettes": {
+    "comparison": [
+      "#8F857A",
+      "#C3A35A",
+      "#CB907B",
+      "#A08397",
+      "#B66B4C",
+      "#9BAA85",
+      "#778958",
+      "#54788D",
+      "#246C68"
+    ],
+    "composition": [
+      "#8EA6A0",
+      "#5D8E83",
+      "#316E65",
+      "#C58E76",
+      "#A65E45",
+      "#B2954F",
+      "#345D78"
+    ],
+    "methods": [
+      "#B2674D",
+      "#9B8644",
+      "#246C68"
+    ]
+  },
+  "matplotlib": "3.11.2",
+  "numpy": "2.5.4",
+  "figures": [
+    {
+      "name": "bars_comparison_IEDB",
+      "title": "Quantitative comparison",
+      "width_in": 11.0,
+      "height_in": 3.2,
+      "axes": 3
+    },
+    {
+      "name": "brute_force",
+      "title": "Composition breakdown",
+      "width_in": 12.0,
+      "height_in": 6.2,
+      "axes": 8
+    },
+    {
+      "name": "comparison_radar",
+      "title": "Radar comparison",
+      "width_in": 8.8,
+      "height_in": 7.4,
+      "axes": 1
+    },
+    {
+      "name": "comparison_posttraining",
+      "title": "Post-training curves",
+      "width_in": 5.8,
+      "height_in": 4.6,
+      "axes": 1
+    },
+    {
+      "name": "concept",
+      "title": "Concept plots",
+      "width_in": 12.0,
+      "height_in": 4.5,
+      "axes": 2
+    },
+    {
+      "name": "trend_by_month",
+      "title": "Publication trends",
+      "width_in": 11.0,
+      "height_in": 6.7,
+      "axes": 2
+    }
+  ]
+}

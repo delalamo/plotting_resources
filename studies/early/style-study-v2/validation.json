@@ -1,0 +1,11 @@
+{
+  "panels_checked": 96,
+  "adjacent_label_gap_issues": [],
+  "booklet_font_embedding": {
+    "/AAAAAA+Arial-BoldMT": true,
+    "/AAAAAA+ArialMT": true,
+    "/AAAAAB+Helvetica-Bold": true,
+    "/AAAAAC+Helvetica": true
+  },
+  "panel_dimensions_and_text_bounds": "96 passed"
+}

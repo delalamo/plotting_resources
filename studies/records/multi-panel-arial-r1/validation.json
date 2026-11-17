@@ -1,0 +1,455 @@
+{
+  "figures": [
+    {
+      "slug": "iedb-three-metrics",
+      "panels": 3,
+      "canvas_inches": [
+        12.5,
+        4.6
+      ],
+      "font": "Arial",
+      "axis_titles_bold": true,
+      "axis_titles": [
+        "Score"
+      ],
+      "all_text_inside_canvas": true,
+      "layout": "1 x 3",
+      "panel_size_inches": [
+        3.5733333333333337,
+        3.1
+      ],
+      "horizontal_gap_inches": 0.45,
+      "identical_y_limits": [
+        0,
+        1.04
+      ],
+      "bar_baselines_zero": true,
+      "values_and_SD_preserved": true,
+      "category_order": [
+        "Prime-2.1",
+        "NetMHCpan",
+        "MHCnuggets",
+        "MHCflurry",
+        "DeepNeo",
+        "BigMHC-EL",
+        "BigMHC-IM",
+        "BigMHC$_\\text{retrained}$",
+        "ImmunoStruct (ours)"
+      ],
+      "all_data_labels": true,
+      "adaptation": "Zero-based axes replace the earlier cropped bar axes; direct values replace numeric ticks and grids."
+    },
+    {
+      "slug": "brute-force-eight-panels",
+      "panels": 8,
+      "canvas_inches": [
+        13.0,
+        7.5
+      ],
+      "font": "Arial",
+      "axis_titles_bold": true,
+      "axis_titles": [
+        "Math\nProbability",
+        "Logic\nProbability"
+      ],
+      "all_text_inside_canvas": true,
+      "layout": "2 x 4",
+      "panel_size_inches": [
+        2.75,
+        2.5
+      ],
+      "horizontal_gap_inches": 0.3,
+      "vertical_gap_inches": 0.55,
+      "shared_x_limits": [
+        -0.6,
+        6.6
+      ],
+      "shared_y_limits": [
+        0,
+        1.035
+      ],
+      "source_values_preserved": true,
+      "segment_count": 224,
+      "minimum_stack_total": 0.999,
+      "maximum_stack_total": 1.001,
+      "dense_value_label_size_pt": 7.5,
+      "adaptation": "All eight panels and all seven model colors are retained. Small rounding deviations in stack totals are preserved."
+    },
+    {
+      "slug": "concept-two-panels",
+      "panels": 2,
+      "canvas_inches": [
+        12.0,
+        4.75
+      ],
+      "font": "Arial",
+      "axis_titles_bold": true,
+      "axis_titles": [
+        "Answer space (arbitrary units)",
+        "Probability"
+      ],
+      "all_text_inside_canvas": true,
+      "layout": "1 x 2",
+      "panel_size_inches": [
+        [
+          4.45,
+          3.4
+        ],
+        [
+          6.08,
+          3.4
+        ]
+      ],
+      "horizontal_gap_inches": 0.56,
+      "distribution_points": 3000,
+      "manifold_seed": 42,
+      "manifold_points": 5200,
+      "source_manifold_geometry_sha256": "62864fa25b94b2ab92c9b30ad04a00059df4b1df0fae65c21bbb2a2a213d1777",
+      "geometry_preserved": true,
+      "adaptation": "Panels share top and bottom edges; the wider schematic retains the original deterministic geometry. Math uses the existing DejaVu Sans fallback."
+    },
+    {
+      "slug": "publication-trends-two-panels",
+      "panels": 2,
+      "canvas_inches": [
+        11.5,
+        7.5
+      ],
+      "font": "Arial",
+      "axis_titles_bold": true,
+      "axis_titles": [
+        "Month"
+      ],
+      "all_text_inside_canvas": true,
+      "layout": "2 x 1",
+      "panel_size_inches": [
+        10.4,
+        2.65
+      ],
+      "vertical_gap_inches": 0.82,
+      "common_y_limits": [
+        0,
+        125
+      ],
+      "common_x_limits": [
+        -1.2,
+        33.2
+      ],
+      "monthly_values_preserved": true,
+      "cumulative_values": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          2,
+          4,
+          5,
+          6,
+          7,
+          7,
+          7,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          10
+        ],
+        [
+          0,
+          0,
+          4,
+          4,
+          4,
+          10,
+          11,
+          14,
+          16,
+          16,
+          21,
+          21,
+          25,
+          25,
+          34,
+          35,
+          38,
+          42,
+          49,
+          55,
+          62,
+          68,
+          74,
+          75,
+          81,
+          85,
+          91,
+          93,
+          93,
+          93,
+          93,
+          94,
+          95
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          5,
+          5,
+          5,
+          5,
+          6,
+          8,
+          9,
+          9,
+          11,
+          14,
+          14,
+          15,
+          17,
+          17,
+          19,
+          19,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ]
+      ],
+      "months": [
+        "2022-11",
+        "2022-12",
+        "2023-01",
+        "2023-02",
+        "2023-03",
+        "2023-04",
+        "2023-05",
+        "2023-06",
+        "2023-07",
+        "2023-08",
+        "2023-09",
+        "2023-10",
+        "2023-11",
+        "2023-12",
+        "2024-01",
+        "2024-02",
+        "2024-03",
+        "2024-04",
+        "2024-05",
+        "2024-06",
+        "2024-07",
+        "2024-08",
+        "2024-09",
+        "2024-10",
+        "2024-11",
+        "2024-12",
+        "2025-01",
+        "2025-02",
+        "2025-03",
+        "2025-04",
+        "2025-05",
+        "2025-06",
+        "2025-07"
+      ],
+      "events_shown": [
+        {
+          "group": "dates_llm",
+          "date": "2022-11",
+          "label": "ChatGPT\n(GPT-3.5)",
+          "index": 0,
+          "value": 0
+        },
+        {
+          "group": "dates_llm",
+          "date": "2023-02",
+          "label": "LlaMA 1",
+          "index": 3,
+          "value": 4
+        },
+        {
+          "group": "dates_llm",
+          "date": "2023-03",
+          "label": "GPT-4",
+          "index": 4,
+          "value": 4
+        },
+        {
+          "group": "dates_llm",
+          "date": "2023-07",
+          "label": "LlaMA 2",
+          "index": 8,
+          "value": 16
+        },
+        {
+          "group": "dates_llm",
+          "date": "2023-12",
+          "label": "Gemini 1.0",
+          "index": 13,
+          "value": 25
+        },
+        {
+          "group": "dates_llm",
+          "date": "2024-02",
+          "label": "Gemini 1.5",
+          "index": 15,
+          "value": 35
+        },
+        {
+          "group": "dates_llm",
+          "date": "2024-04",
+          "label": "LlaMA 3",
+          "index": 17,
+          "value": 42
+        },
+        {
+          "group": "dates_llm",
+          "date": "2024-12",
+          "label": "Gemini 2.0",
+          "index": 25,
+          "value": 85
+        },
+        {
+          "group": "dates_llm",
+          "date": "2025-04",
+          "label": "LlaMA 4",
+          "index": 29,
+          "value": 93
+        },
+        {
+          "group": "dates_llm",
+          "date": "2025-06",
+          "label": "Gemini 2.5",
+          "index": 31,
+          "value": 94
+        },
+        {
+          "group": "dates_vlm",
+          "date": "2023-02",
+          "label": "BLIP-2",
+          "index": 3,
+          "value": 1
+        },
+        {
+          "group": "dates_vlm",
+          "date": "2023-07",
+          "label": "LlaVA 1.0",
+          "index": 8,
+          "value": 1
+        },
+        {
+          "group": "dates_vlm",
+          "date": "2023-10",
+          "label": "LlaVA 1.5",
+          "index": 11,
+          "value": 5
+        },
+        {
+          "group": "dates_vlm",
+          "date": "2023-12",
+          "label": "Gemini 1.0",
+          "index": 13,
+          "value": 5
+        },
+        {
+          "group": "dates_vlm",
+          "date": "2024-02",
+          "label": "Gemini 1.5",
+          "index": 15,
+          "value": 8
+        },
+        {
+          "group": "dates_vlm",
+          "date": "2024-12",
+          "label": "Gemini 2.0",
+          "index": 25,
+          "value": 19
+        },
+        {
+          "group": "dates_vlm",
+          "date": "2025-06",
+          "label": "Gemini 2.5",
+          "index": 31,
+          "value": 20
+        }
+      ],
+      "events_omitted_as_in_source": [
+        {
+          "group": "dates_llm",
+          "date": "2025-08",
+          "label": "GPT-5",
+          "reason": "Not an exact date in the source month vector"
+        },
+        {
+          "group": "dates_vlm",
+          "date": "2023-9",
+          "label": "GPT-4v",
+          "reason": "Not an exact date in the source month vector"
+        }
+      ],
+      "adaptation": "Both rows now share a 0-125 count scale; the earlier separate row scales are removed. Source event selection and every monthly count are preserved."
+    }
+  ],
+  "source_data_sha256": "a755782f8fcf77b686f381af5643af1bbc53f88a787be35410f47e4f9bde780c"
+}

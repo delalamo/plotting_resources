@@ -1,0 +1,547 @@
+{
+  "page_background": "#FFFFFF",
+  "figure_background": "#EDF4F9",
+  "plot_background": "#D8E8F4",
+  "figure_count": 16,
+  "page_count": 16,
+  "plot_layout_height_factor": 0.75,
+  "block_height_mode": "Fit 8 pt source/notes with equal top and bottom padding",
+  "source_notes_font_pt": 8.0,
+  "vertical_padding_pt": 13.5,
+  "figure_font_pt": 10,
+  "charts_rescaled": false,
+  "pdf_fonts_embedded": true,
+  "figure_data_unchanged": true,
+  "source_exports_byte_unchanged": true,
+  "lorem_ipsum_above_and_below_every_figure": true,
+  "figures": [
+    {
+      "figure_id": "U1",
+      "figure_number": 1,
+      "card_rect": [
+        261.0,
+        250.13125000000014,
+        747.0,
+        563.4209808349613
+      ],
+      "native_chart_size_pt": [
+        450.0,
+        210.10887145996094
+      ],
+      "native_scale": 1.0,
+      "chart_rect": [
+        279.0,
+        297.03164062500014,
+        729.0,
+        507.1405120849611
+      ],
+      "plot_layout_height_factor": 0.75,
+      "block_height_factor": 0.7328740691635464,
+      "source_notes_font_pt": 8.0,
+      "source_top_pt": 514.6405120849611,
+      "notes_bottom_pt": 549.9209808349613,
+      "top_padding_pt": 13.5,
+      "bottom_padding_pt": 13.5,
+      "source_pdf_sha256": "c28e5b422845774f1982f7bf89ec0c8e911058b9450dcb37c252fa3e140a68b2",
+      "article_section": "A framework for comparison",
+      "paragraphs_above": 1,
+      "paragraphs_below": 2,
+      "prose_bottom_pt": 730.1392913818363
+    },
+    {
+      "figure_id": "U2",
+      "figure_number": 2,
+      "card_rect": [
+        261.0,
+        192.58383789062498,
+        747.0,
+        495.0312835693362
+      ],
+      "native_chart_size_pt": [
+        450.0,
+        199.26658630371094
+      ],
+      "native_scale": 1.0,
+      "chart_rect": [
+        279.0,
+        239.4842285156251,
+        729.0,
+        438.75081481933603
+      ],
+      "plot_layout_height_factor": 0.75,
+      "block_height_factor": 0.732272656172476,
+      "source_notes_font_pt": 8.0,
+      "source_top_pt": 446.25081481933603,
+      "notes_bottom_pt": 481.5312835693362,
+      "top_padding_pt": 13.499999999999886,
+      "bottom_padding_pt": 13.5,
+      "source_pdf_sha256": "a8ce95e18b04f70ae0b04f330e28a1748c6ff66fe2a5402bd7ef8a97d8c785e7",
+      "article_section": "Contrasting two scenarios",
+      "paragraphs_above": 1,
+      "paragraphs_below": 2,
+      "prose_bottom_pt": 646.7808929443363
+    },
+    {
+      "figure_id": "U3",
+      "figure_number": 3,
+      "card_rect": [
+        261.0,
+        177.61513671875002,
+        747.0,
+        475.63944091796895
+      ],
+      "native_chart_size_pt": [
+        450.0,
+        194.84344482421875
+      ],
+      "native_scale": 1.0,
+      "chart_rect": [
+        279.0,
+        224.51552734375025,
+        729.0,
+        419.358972167969
+      ],
+      "plot_layout_height_factor": 0.75,
+      "block_height_factor": 0.7320214058118193,
+      "source_notes_font_pt": 8.0,
+      "source_top_pt": 426.858972167969,
+      "notes_bottom_pt": 462.13944091796895,
+      "top_padding_pt": 13.5,
+      "bottom_padding_pt": 13.5,
+      "source_pdf_sha256": "1504f3f6009c7faf2a99ff0ea3a4dca89b3d0e5922b1ae9bff427a814c77d8b8",
+      "article_section": "Patterns over time",
+      "paragraphs_above": 1,
+      "paragraphs_below": 2,
+      "prose_bottom_pt": 627.3890502929689
+    },
+    {
+      "figure_id": "T1",
+      "figure_number": 4,
+      "card_rect": [
+        261.0,
+        177.61513671875002,
+        747.0,
+        480.8810699462895
+      ],
+      "native_chart_size_pt": [
+        450.0,
+        209.84523010253906
+      ],
+      "native_scale": 1.0,
+      "chart_rect": [
+        279.0,
+        224.51552734375025,
+        729.0,
+        434.3607574462893
+      ],
+      "plot_layout_height_factor": 0.75,
+      "block_height_factor": 0.7100076863654259,
+      "source_notes_font_pt": 8.0,
+      "source_top_pt": 441.8607574462893,
+      "notes_bottom_pt": 467.3810699462895,
+      "top_padding_pt": 13.5,
+      "bottom_padding_pt": 13.5,
+      "source_pdf_sha256": "38c885f8a346b60ed06ac3cdeee458fb8bcc5943aba46e49e568c470977308e2",
+      "article_section": "Following a process",
+      "paragraphs_above": 1,
+      "paragraphs_below": 2,
+      "prose_bottom_pt": 647.5993804931644
+    },
+    {
+      "figure_id": "T2",
+      "figure_number": 5,
+      "card_rect": [
+        261.0,
+        177.61513671875002,
+        747.0,
+        490.90486755371126
+      ],
+      "native_chart_size_pt": [
+        450.0,
+        210.10887145996094
+      ],
+      "native_scale": 1.0,
+      "chart_rect": [
+        279.0,
+        224.51552734375025,
+        729.0,
+        434.6243988037112
+      ],
+      "plot_layout_height_factor": 0.75,
+      "block_height_factor": 0.7328740691635468,
+      "source_notes_font_pt": 8.0,
+      "source_top_pt": 442.1243988037112,
+      "notes_bottom_pt": 477.40486755371126,
+      "top_padding_pt": 13.5,
+      "bottom_padding_pt": 13.5,
+      "source_pdf_sha256": "70977716fd58cbc40c6a195441ff96fb2db948d9676eb7ec18f907f9ffb51f83",
+      "article_section": "Comparing a ranked field",
+      "paragraphs_above": 1,
+      "paragraphs_below": 2,
+      "prose_bottom_pt": 657.6231781005863
+    },
+    {
+      "figure_id": "T3",
+      "figure_number": 6,
+      "card_rect": [
+        261.0,
+        192.58383789062498,
+        747.0,
+        495.8497711181642
+      ],
+      "native_chart_size_pt": [
+        450.0,
+        209.84523010253906
+      ],
+      "native_scale": 1.0,
+      "chart_rect": [
+        279.0,
+        239.4842285156251,
+        729.0,
+        449.32945861816415
+      ],
+      "plot_layout_height_factor": 0.75,
+      "block_height_factor": 0.7100076863654253,
+      "source_notes_font_pt": 8.0,
+      "source_top_pt": 456.82945861816415,
+      "notes_bottom_pt": 482.3497711181642,
+      "top_padding_pt": 13.499999999999886,
+      "bottom_padding_pt": 13.5,
+      "source_pdf_sha256": "a9d47c8e5e960af5fbef2a704addeead612fbb5e77233dd6659d8ce01151fe18",
+      "article_section": "A focus among several curves",
+      "paragraphs_above": 1,
+      "paragraphs_below": 2,
+      "prose_bottom_pt": 647.5993804931641
+    },
+    {
+      "figure_id": "H1",
+      "figure_number": 7,
+      "card_rect": [
+        261.0,
+        177.61513671875002,
+        747.0,
+        478.8932617187502
+      ],
+      "native_chart_size_pt": [
+        450.0,
+        207.857421875
+      ],
+      "native_scale": 1.0,
+      "chart_rect": [
+        279.0,
+        224.51552734375025,
+        729.0,
+        432.37294921875025
+      ],
+      "plot_layout_height_factor": 0.75,
+      "block_height_factor": 0.709758964908769,
+      "source_notes_font_pt": 8.0,
+      "source_top_pt": 439.87294921875025,
+      "notes_bottom_pt": 465.3932617187502,
+      "top_padding_pt": 13.5,
+      "bottom_padding_pt": 13.5,
+      "source_pdf_sha256": "5a51f3fff287b9bff6159b95772b811ecd34d48d32a1f30aff2bf12fef746eec",
+      "article_section": "A benchmark in context",
+      "paragraphs_above": 1,
+      "paragraphs_below": 2,
+      "prose_bottom_pt": 630.6428710937503
+    },
+    {
+      "figure_id": "H2",
+      "figure_number": 8,
+      "card_rect": [
+        261.0,
+        177.61513671875002,
+        747.0,
+        478.8806121826175
+      ],
+      "native_chart_size_pt": [
+        450.0,
+        207.8447723388672
+      ],
+      "native_scale": 1.0,
+      "chart_rect": [
+        279.0,
+        224.51552734375025,
+        729.0,
+        432.36029968261744
+      ],
+      "plot_layout_height_factor": 0.75,
+      "block_height_factor": 0.7097616694348369,
+      "source_notes_font_pt": 8.0,
+      "source_top_pt": 439.86029968261744,
+      "notes_bottom_pt": 465.3806121826175,
+      "top_padding_pt": 13.5,
+      "bottom_padding_pt": 13.5,
+      "source_pdf_sha256": "8c283fcf9f367084085e89ef5220637d8685e197d6da14472cd7aa699c2437bf",
+      "article_section": "A focal series in context",
+      "paragraphs_above": 1,
+      "paragraphs_below": 2,
+      "prose_bottom_pt": 645.5989227294925
+    },
+    {
+      "figure_id": "H3",
+      "figure_number": 9,
+      "card_rect": [
+        261.0,
+        177.61513671875002,
+        747.0,
+        483.39837341308635
+      ],
+      "native_chart_size_pt": [
+        450.0,
+        212.36253356933594
+      ],
+      "native_scale": 1.0,
+      "chart_rect": [
+        279.0,
+        224.51552734375025,
+        729.0,
+        436.8780609130862
+      ],
+      "plot_layout_height_factor": 0.75,
+      "block_height_factor": 0.7103229547219417,
+      "source_notes_font_pt": 8.0,
+      "source_top_pt": 444.3780609130862,
+      "notes_bottom_pt": 469.89837341308635,
+      "top_padding_pt": 13.5,
+      "bottom_padding_pt": 13.5,
+      "source_pdf_sha256": "58c9a5b8f121a17f3603d8ce1fb4d9df6dbdb4fd5a59d6f5a8f019cb0989f040",
+      "article_section": "Tracing a trajectory",
+      "paragraphs_above": 1,
+      "paragraphs_below": 2,
+      "prose_bottom_pt": 650.1166839599615
+    },
+    {
+      "figure_id": "H4",
+      "figure_number": 10,
+      "card_rect": [
+        261.0,
+        192.58383789062498,
+        747.0,
+        493.8493133544923
+      ],
+      "native_chart_size_pt": [
+        450.0,
+        207.8447723388672
+      ],
+      "native_scale": 1.0,
+      "chart_rect": [
+        279.0,
+        239.4842285156251,
+        729.0,
+        447.3290008544923
+      ],
+      "plot_layout_height_factor": 0.75,
+      "block_height_factor": 0.7097616694348371,
+      "source_notes_font_pt": 8.0,
+      "source_top_pt": 454.8290008544923,
+      "notes_bottom_pt": 480.3493133544923,
+      "top_padding_pt": 13.499999999999886,
+      "bottom_padding_pt": 13.5,
+      "source_pdf_sha256": "c1b28091d1118c8c7bc1e59a38b759a66dc01321928c51626750460ef80e382e",
+      "article_section": "Responses across a range",
+      "paragraphs_above": 1,
+      "paragraphs_below": 2,
+      "prose_bottom_pt": 645.5989227294922
+    },
+    {
+      "figure_id": "P1",
+      "figure_number": 11,
+      "card_rect": [
+        18.0,
+        177.61513671875002,
+        990.0,
+        638.3293273925783
+      ],
+      "native_chart_size_pt": [
+        936.0,
+        367.2934875488281
+      ],
+      "native_scale": 1.0,
+      "chart_rect": [
+        36.0,
+        224.51552734375025,
+        972.0,
+        591.8090148925784
+      ],
+      "plot_layout_height_factor": 0.75,
+      "block_height_factor": 0.7421354503097498,
+      "source_notes_font_pt": 8.0,
+      "source_top_pt": 599.3090148925784,
+      "notes_bottom_pt": 624.8293273925783,
+      "top_padding_pt": 13.5,
+      "bottom_padding_pt": 13.5,
+      "source_pdf_sha256": "db9f139ca3ccf40c0337f92d3a838f9a2c0c2e71386ace945c35a8bb09b9ad82",
+      "article_section": "Looking across benchmarks",
+      "paragraphs_above": 1,
+      "paragraphs_below": 2,
+      "prose_bottom_pt": 790.0789367675784
+    },
+    {
+      "figure_id": "P2",
+      "figure_number": 12,
+      "card_rect": [
+        18.0,
+        177.61513671875002,
+        990.0,
+        480.6597717285158
+      ],
+      "native_chart_size_pt": [
+        936.0,
+        209.62393188476562
+      ],
+      "native_scale": 1.0,
+      "chart_rect": [
+        36.0,
+        224.51552734375025,
+        972.0,
+        434.1394592285159
+      ],
+      "plot_layout_height_factor": 0.75,
+      "block_height_factor": 0.738116420934266,
+      "source_notes_font_pt": 8.0,
+      "source_top_pt": 441.6394592285159,
+      "notes_bottom_pt": 467.1597717285158,
+      "top_padding_pt": 13.5,
+      "bottom_padding_pt": 13.5,
+      "source_pdf_sha256": "35bf4714f730327b55f7b1566f071a02d1d51b5a44152dec9392d6fd3dc5b7aa",
+      "article_section": "Comparing several methods",
+      "paragraphs_above": 1,
+      "paragraphs_below": 2,
+      "prose_bottom_pt": 647.3780822753906
+    },
+    {
+      "figure_id": "M1",
+      "figure_number": 13,
+      "card_rect": [
+        18.0,
+        177.61513671875002,
+        990.0,
+        480.56225280761737
+      ],
+      "native_chart_size_pt": [
+        936.0,
+        209.5264129638672
+      ],
+      "native_scale": 1.0,
+      "chart_rect": [
+        36.0,
+        224.51552734375025,
+        972.0,
+        434.04194030761744
+      ],
+      "plot_layout_height_factor": 0.75,
+      "block_height_factor": 0.7381116317720101,
+      "source_notes_font_pt": 8.0,
+      "source_top_pt": 441.54194030761744,
+      "notes_bottom_pt": 467.06225280761737,
+      "top_padding_pt": 13.5,
+      "bottom_padding_pt": 13.5,
+      "source_pdf_sha256": "baef4e55b0a4214083b13250dcbe82546897bfee87cdac25699eb1d0978c5bf5",
+      "article_section": "Comparing several measures",
+      "paragraphs_above": 1,
+      "paragraphs_below": 1,
+      "prose_bottom_pt": 575.4057586669924
+    },
+    {
+      "figure_id": "M2",
+      "figure_number": 14,
+      "card_rect": [
+        18.0,
+        192.58383789062498,
+        990.0,
+        657.4778686523439
+      ],
+      "native_chart_size_pt": [
+        936.0,
+        371.47332763671875
+      ],
+      "native_scale": 1.0,
+      "chart_rect": [
+        36.0,
+        239.4842285156251,
+        972.0,
+        610.9575561523438
+      ],
+      "plot_layout_height_factor": 0.75,
+      "block_height_factor": 0.7422047020052757,
+      "source_notes_font_pt": 8.0,
+      "source_top_pt": 618.4575561523438,
+      "notes_bottom_pt": 643.9778686523439,
+      "top_padding_pt": 13.499999999999886,
+      "bottom_padding_pt": 13.5,
+      "source_pdf_sha256": "cc1431a5b323cc2073879473a33a6ceb3191fba6986cf5c53bc73f5801ed66a1",
+      "article_section": "Looking across conditions",
+      "paragraphs_above": 1,
+      "paragraphs_below": 1,
+      "prose_bottom_pt": 737.3526733398438
+    },
+    {
+      "figure_id": "M3",
+      "figure_number": 15,
+      "card_rect": [
+        18.0,
+        177.61513671875002,
+        990.0,
+        500.6131103515627
+      ],
+      "native_chart_size_pt": [
+        936.0,
+        229.5772705078125
+      ],
+      "native_scale": 1.0,
+      "chart_rect": [
+        36.0,
+        224.51552734375025,
+        972.0,
+        454.09279785156275
+      ],
+      "plot_layout_height_factor": 0.75,
+      "block_height_factor": 0.7388373751832956,
+      "source_notes_font_pt": 8.0,
+      "source_top_pt": 461.59279785156275,
+      "notes_bottom_pt": 487.1131103515627,
+      "top_padding_pt": 13.5,
+      "bottom_padding_pt": 13.5,
+      "source_pdf_sha256": "b2cae5233f43e115a77ff54f6f0f1989f22b9223137d6c247e061c84ebf5b04e",
+      "article_section": "A conceptual view",
+      "paragraphs_above": 1,
+      "paragraphs_below": 1,
+      "prose_bottom_pt": 580.4879150390627
+    },
+    {
+      "figure_id": "M4",
+      "figure_number": 16,
+      "card_rect": [
+        18.0,
+        177.61513671875002,
+        990.0,
+        645.8913085937503
+      ],
+      "native_chart_size_pt": [
+        936.0,
+        374.85546875
+      ],
+      "native_scale": 1.0,
+      "chart_rect": [
+        36.0,
+        224.51552734375025,
+        972.0,
+        599.3709960937503
+      ],
+      "plot_layout_height_factor": 0.75,
+      "block_height_factor": 0.7422641570037604,
+      "source_notes_font_pt": 8.0,
+      "source_top_pt": 606.8709960937503,
+      "notes_bottom_pt": 632.3913085937503,
+      "top_padding_pt": 13.5,
+      "bottom_padding_pt": 13.5,
+      "source_pdf_sha256": "53fb3632e1da7b81df8a93c7b8f9857485569c9215fb55340a598268f902e95f",
+      "article_section": "Change across two domains",
+      "paragraphs_above": 1,
+      "paragraphs_below": 1,
+      "prose_bottom_pt": 725.7661132812503
+    }
+  ]
+}

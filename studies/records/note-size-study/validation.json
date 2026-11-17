@@ -1,0 +1,292 @@
+{
+  "candidate_sizes_pt": [
+    6,
+    7,
+    8
+  ],
+  "control_size_pt": 10,
+  "figure_height_factor": 0.75,
+  "figure_geometry_unchanged": true,
+  "approved_style_unchanged": true,
+  "source_exports_byte_unchanged": true,
+  "pdf_fonts_embedded": true,
+  "pdf_pages": 10,
+  "figures": [
+    {
+      "figure_id": "T1",
+      "source_notes_font_pt": 6,
+      "card_size_pt": [
+        486.0,
+        320.3462066650393
+      ],
+      "chart_rect_pt": [
+        18.0,
+        46.900390625,
+        468.0,
+        256.74562072753906
+      ],
+      "source_top_pt": 264.24562072753906,
+      "notes_top_pt": 277.56573791503905,
+      "notes_bottom_pt": 284.88585510253904,
+      "bottom_padding_pt": 35.46035156250025,
+      "figure_height_factor": 0.75,
+      "chart_sha256": "56bf1cbe48304542fd091f69a03957496b38d01b440d9b97d61bd7ad9139aaf5",
+      "other_figure_text_pt": 10,
+      "footer_bold": false,
+      "text_overlaps": 0
+    },
+    {
+      "figure_id": "T1",
+      "source_notes_font_pt": 7,
+      "card_size_pt": [
+        486.0,
+        320.3462066650393
+      ],
+      "chart_rect_pt": [
+        18.0,
+        46.900390625,
+        468.0,
+        256.74562072753906
+      ],
+      "source_top_pt": 264.24562072753906,
+      "notes_top_pt": 278.78575744628904,
+      "notes_bottom_pt": 287.325894165039,
+      "bottom_padding_pt": 33.02031250000027,
+      "figure_height_factor": 0.75,
+      "chart_sha256": "56bf1cbe48304542fd091f69a03957496b38d01b440d9b97d61bd7ad9139aaf5",
+      "other_figure_text_pt": 10,
+      "footer_bold": false,
+      "text_overlaps": 0
+    },
+    {
+      "figure_id": "T1",
+      "source_notes_font_pt": 8,
+      "card_size_pt": [
+        486.0,
+        320.3462066650393
+      ],
+      "chart_rect_pt": [
+        18.0,
+        46.900390625,
+        468.0,
+        256.74562072753906
+      ],
+      "source_top_pt": 264.24562072753906,
+      "notes_top_pt": 280.0057769775391,
+      "notes_bottom_pt": 289.76593322753905,
+      "bottom_padding_pt": 30.58027343750024,
+      "figure_height_factor": 0.75,
+      "chart_sha256": "56bf1cbe48304542fd091f69a03957496b38d01b440d9b97d61bd7ad9139aaf5",
+      "other_figure_text_pt": 10,
+      "footer_bold": false,
+      "text_overlaps": 0
+    },
+    {
+      "figure_id": "T1",
+      "source_notes_font_pt": 10,
+      "card_size_pt": [
+        486.0,
+        320.3462066650393
+      ],
+      "chart_rect_pt": [
+        18.0,
+        46.900390625,
+        468.0,
+        256.74562072753906
+      ],
+      "source_top_pt": 264.24562072753906,
+      "notes_top_pt": 282.44581604003906,
+      "notes_bottom_pt": 306.84620666503906,
+      "bottom_padding_pt": 13.500000000000227,
+      "figure_height_factor": 0.75,
+      "chart_sha256": "56bf1cbe48304542fd091f69a03957496b38d01b440d9b97d61bd7ad9139aaf5",
+      "other_figure_text_pt": 10,
+      "footer_bold": false,
+      "text_overlaps": 0
+    },
+    {
+      "figure_id": "U1",
+      "source_notes_font_pt": 6,
+      "card_size_pt": [
+        486.0,
+        320.60984802246094
+      ],
+      "chart_rect_pt": [
+        18.0,
+        46.900390625,
+        468.0,
+        257.00926208496094
+      ],
+      "source_top_pt": 264.50926208496094,
+      "notes_top_pt": 277.8293792724609,
+      "notes_bottom_pt": 285.1494964599609,
+      "bottom_padding_pt": 35.46035156250002,
+      "figure_height_factor": 0.75,
+      "chart_sha256": "bfe2e48320e44763c52117693dead2634439965b47d2bae7cb10436f220d0a41",
+      "other_figure_text_pt": 10,
+      "footer_bold": false,
+      "text_overlaps": 0
+    },
+    {
+      "figure_id": "U1",
+      "source_notes_font_pt": 7,
+      "card_size_pt": [
+        486.0,
+        320.60984802246094
+      ],
+      "chart_rect_pt": [
+        18.0,
+        46.900390625,
+        468.0,
+        257.00926208496094
+      ],
+      "source_top_pt": 264.50926208496094,
+      "notes_top_pt": 279.0493988037109,
+      "notes_bottom_pt": 296.1296722412109,
+      "bottom_padding_pt": 24.48017578125001,
+      "figure_height_factor": 0.75,
+      "chart_sha256": "bfe2e48320e44763c52117693dead2634439965b47d2bae7cb10436f220d0a41",
+      "other_figure_text_pt": 10,
+      "footer_bold": false,
+      "text_overlaps": 0
+    },
+    {
+      "figure_id": "U1",
+      "source_notes_font_pt": 8,
+      "card_size_pt": [
+        486.0,
+        320.60984802246094
+      ],
+      "chart_rect_pt": [
+        18.0,
+        46.900390625,
+        468.0,
+        257.00926208496094
+      ],
+      "source_top_pt": 264.50926208496094,
+      "notes_top_pt": 280.26941833496096,
+      "notes_bottom_pt": 299.78973083496095,
+      "bottom_padding_pt": 20.82011718749999,
+      "figure_height_factor": 0.75,
+      "chart_sha256": "bfe2e48320e44763c52117693dead2634439965b47d2bae7cb10436f220d0a41",
+      "other_figure_text_pt": 10,
+      "footer_bold": false,
+      "text_overlaps": 0
+    },
+    {
+      "figure_id": "U1",
+      "source_notes_font_pt": 10,
+      "card_size_pt": [
+        486.0,
+        320.60984802246094
+      ],
+      "chart_rect_pt": [
+        18.0,
+        46.900390625,
+        468.0,
+        257.00926208496094
+      ],
+      "source_top_pt": 264.50926208496094,
+      "notes_top_pt": 282.70945739746094,
+      "notes_bottom_pt": 307.10984802246094,
+      "bottom_padding_pt": 13.5,
+      "figure_height_factor": 0.75,
+      "chart_sha256": "bfe2e48320e44763c52117693dead2634439965b47d2bae7cb10436f220d0a41",
+      "other_figure_text_pt": 10,
+      "footer_bold": false,
+      "text_overlaps": 0
+    },
+    {
+      "figure_id": "M2",
+      "source_notes_font_pt": 6,
+      "card_size_pt": [
+        972.0,
+        469.77410888671864
+      ],
+      "chart_rect_pt": [
+        18.0,
+        46.900390624999886,
+        954.0,
+        418.37371826171864
+      ],
+      "source_top_pt": 425.87371826171864,
+      "notes_top_pt": 439.1938354492187,
+      "notes_bottom_pt": 446.51395263671867,
+      "bottom_padding_pt": 23.260156249999966,
+      "figure_height_factor": 0.75,
+      "chart_sha256": "22d663cc59e9f3d7884c921233d430fba228c4c07233d6a6e66890f796875356",
+      "other_figure_text_pt": 10,
+      "footer_bold": false,
+      "text_overlaps": 0
+    },
+    {
+      "figure_id": "M2",
+      "source_notes_font_pt": 7,
+      "card_size_pt": [
+        972.0,
+        469.77410888671864
+      ],
+      "chart_rect_pt": [
+        18.0,
+        46.900390624999886,
+        954.0,
+        418.37371826171864
+      ],
+      "source_top_pt": 425.87371826171864,
+      "notes_top_pt": 440.4138549804686,
+      "notes_bottom_pt": 448.9539916992186,
+      "bottom_padding_pt": 20.820117187500045,
+      "figure_height_factor": 0.75,
+      "chart_sha256": "22d663cc59e9f3d7884c921233d430fba228c4c07233d6a6e66890f796875356",
+      "other_figure_text_pt": 10,
+      "footer_bold": false,
+      "text_overlaps": 0
+    },
+    {
+      "figure_id": "M2",
+      "source_notes_font_pt": 8,
+      "card_size_pt": [
+        972.0,
+        469.77410888671864
+      ],
+      "chart_rect_pt": [
+        18.0,
+        46.900390624999886,
+        954.0,
+        418.37371826171864
+      ],
+      "source_top_pt": 425.87371826171864,
+      "notes_top_pt": 441.63387451171866,
+      "notes_bottom_pt": 451.3940307617186,
+      "bottom_padding_pt": 18.38007812500001,
+      "figure_height_factor": 0.75,
+      "chart_sha256": "22d663cc59e9f3d7884c921233d430fba228c4c07233d6a6e66890f796875356",
+      "other_figure_text_pt": 10,
+      "footer_bold": false,
+      "text_overlaps": 0
+    },
+    {
+      "figure_id": "M2",
+      "source_notes_font_pt": 10,
+      "card_size_pt": [
+        972.0,
+        469.77410888671864
+      ],
+      "chart_rect_pt": [
+        18.0,
+        46.900390624999886,
+        954.0,
+        418.37371826171864
+      ],
+      "source_top_pt": 425.87371826171864,
+      "notes_top_pt": 444.07391357421864,
+      "notes_bottom_pt": 456.27410888671864,
+      "bottom_padding_pt": 13.5,
+      "figure_height_factor": 0.75,
+      "chart_sha256": "22d663cc59e9f3d7884c921233d430fba228c4c07233d6a6e66890f796875356",
+      "other_figure_text_pt": 10,
+      "footer_bold": false,
+      "text_overlaps": 0
+    }
+  ]
+}

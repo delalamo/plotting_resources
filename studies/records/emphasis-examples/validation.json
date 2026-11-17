@@ -1,0 +1,118 @@
+{
+  "selected_exports_unchanged": {
+    "selected-style.json": "bc59671348b81b05be6f527ef317994349af3ff403658baf5fa24b5194e34848",
+    "s3-design-study/cobalt-brick-gold/bars_comparison_IEDB.svg": "a399a698d73a843bd43c88bd227236db8527eb10c1c434126df517a22408d221",
+    "s3-design-study/cobalt-brick-gold/comparison_radar.png": "a99f1a1f4cea0bde158820dd8e7a2dfd891b89b906ca3efa59860791f32882a0",
+    "s3-design-study/cobalt-brick-gold/comparison_radar.pdf": "364098609f83fd6c28fdb79d39afc6f64cecbd3fb1985cb9494130afc429891c",
+    "s3-design-study/cobalt-brick-gold/brute_force.svg": "2a89cd9c7047195f3f2dff3454e8a7a9ba084bdd50593046664fbd4a2bd10358",
+    "s3-design-study/cobalt-brick-gold/comparison_posttraining.svg": "a21a843a32597123a1284fc6bd6dc97301b09872891025809feb7653fa721006",
+    "s3-design-study/cobalt-brick-gold/gallery.pdf": "11699638d84b6dcfec0e18f8ca3f64f161c3a98f06ac3332fc42d54e512110d0",
+    "s3-design-study/cobalt-brick-gold/brute_force.pdf": "89fcdb4b2accfd611038a7fc5f5f0701667a9a30e1a8f189d5328bc8c4ef0723",
+    "s3-design-study/cobalt-brick-gold/comparison_posttraining.pdf": "52d2e279c902773424760794f62724a1c6414daa9680e180e849ec06fbb47bcb",
+    "s3-design-study/cobalt-brick-gold/comparison_posttraining.png": "3ac5c88b1012c8144c4979b5b1975d4d5c1dcf24a56de7e8436af4c78570db33",
+    "s3-design-study/cobalt-brick-gold/brute_force.png": "db59472a9044f609ab31b9adf3d61a9bb749bd33c372990dd42cfafff7bc6a75",
+    "s3-design-study/cobalt-brick-gold/bars_comparison_IEDB.pdf": "034d3bef24ed16b84c2da1e340596a9e94d0cc58302f0d79b47b9b8147c22ab7",
+    "s3-design-study/cobalt-brick-gold/comparison_radar.svg": "fd184006ce3d9eae20a473264e97a079dbe8e8cd07568e4f6c4efe099b1369a3",
+    "s3-design-study/cobalt-brick-gold/bars_comparison_IEDB.png": "5ab2b27f4db417d8871bd9a557158d4647e06bba5ce57bbeae87c90b69eda89d",
+    "s3-design-study/cobalt-brick-gold/concept.pdf": "45039158d8447b6eb56afc19e4b64fad0790033d20b1f4162a87df839c07bdfe",
+    "s3-design-study/cobalt-brick-gold/trend_by_month.pdf": "0a3258867d0cd694155bbb97d84692625215eea63f5c86c724dd28ae14ee0372",
+    "s3-design-study/cobalt-brick-gold/trend_by_month.png": "43fd70481fab94e5adb20e3b96bffbd132261f7963ed2440980b7db1108b3d14",
+    "s3-design-study/cobalt-brick-gold/profile.png": "c9463ea75954400410c95e75cbd8c144a4181aa9f2364c127a353b5b85fdca80",
+    "s3-design-study/cobalt-brick-gold/concept.png": "2c44eff159e9e6eaa569a580caefdc9ae26c60ae2b3fd2a591299f3fcdac0258",
+    "s3-design-study/cobalt-brick-gold/concept.svg": "40ac92c01c62d90f943105ebf4b5bb929ed4135160aa60f41374b6372259162b",
+    "s3-design-study/cobalt-brick-gold/trend_by_month.svg": "0bcaab2614551d355b58ea0802e871f29ca331038379374d1b19626e4be41165"
+  },
+  "typeface": "Helvetica",
+  "focus_contrast": 5.819421393607464,
+  "gray_contrasts": {
+    "#777777": 3.9307105590494857,
+    "#808080": 3.4666802188407133,
+    "#898989": 3.0705577143910827,
+    "#929292": 2.7313034869295367,
+    "#9C9C9C": 2.4098565416186775,
+    "#A5A5A5": 2.162175072579966,
+    "#AEAEAE": 1.9474250940130307,
+    "#B7B7B7": 1.7604544205978194
+  },
+  "samples": [
+    {
+      "id": "H1",
+      "synthetic": false,
+      "references": 3,
+      "gray_colors": [
+        "#777777",
+        "#979797",
+        "#B7B7B7"
+      ],
+      "all_line_widths_pt": 1.25,
+      "plotted_values_equal_input": true
+    },
+    {
+      "id": "H2",
+      "synthetic": true,
+      "references": 5,
+      "gray_colors": [
+        "#777777",
+        "#878787",
+        "#979797",
+        "#A7A7A7",
+        "#B7B7B7"
+      ],
+      "all_line_widths_pt": 1.25,
+      "plotted_values_equal_input": true
+    },
+    {
+      "id": "H3",
+      "synthetic": true,
+      "references": 8,
+      "gray_colors": [
+        "#777777",
+        "#808080",
+        "#898989",
+        "#929292",
+        "#9C9C9C",
+        "#A5A5A5",
+        "#AEAEAE",
+        "#B7B7B7"
+      ],
+      "all_line_widths_pt": 1.25,
+      "plotted_values_equal_input": true
+    },
+    {
+      "id": "H4",
+      "synthetic": true,
+      "references": 4,
+      "gray_colors": [
+        "#777777",
+        "#8C8C8C",
+        "#A2A2A2",
+        "#B7B7B7"
+      ],
+      "all_line_widths_pt": 1.25,
+      "plotted_values_equal_input": true
+    }
+  ],
+  "export_checks": {
+    "pdf_pages": {
+      "blue-focus-gray-context.pdf": 6,
+      "learning-curves.pdf": 1,
+      "reference-trajectories.pdf": 1,
+      "parameter-response.pdf": 1,
+      "original-benchmark.pdf": 1
+    },
+    "fonts_embedded": true,
+    "fonts": [
+      "BIERBN+Helvetica",
+      "CJIGXG+Helvetica",
+      "ECHJAG+Helvetica",
+      "EDFMQE+Helvetica",
+      "GJBLEZ+Helvetica",
+      "GRYRSS+Helvetica"
+    ],
+    "text_outside_page": false,
+    "legend_footer_separation_checked": true,
+    "gallery_links_exist": true,
+    "native_png_dpi": 300,
+    "native_svg_text": true
+  }
+}

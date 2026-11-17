@@ -1,0 +1,1847 @@
+{
+  "source_geometry_equal": true,
+  "typography_fixed": true,
+  "all_non_palette_S3_tokens_equal": true,
+  "source_fingerprints": {
+    "bars_comparison_IEDB": "4020a9fd2bbbc5caf3e5879ac8699cb2dc3dc3903b638791a54d1e451562934c",
+    "brute_force": "6e90bdb8b1b136bb696d937a3d4f405fab12c9a70b1bd7b54afd4ac6201b0281",
+    "comparison_radar": "dea342610c6ae6f9fb833aab7ea3e80e56e86ef9679349ab374b9614a5be4237",
+    "comparison_posttraining": "9cebf3ab18ca025137fc3462eccca7b980a78e27b3c64c013ff3aa98deaa86d0",
+    "concept": "2d54af73884fd7d2588e85cc25cb3d05e9ec30a95593d80f23f2722511c6bc8a",
+    "trend_by_month": "ce06b7a07a0db521cc709f679ecc9e97c348ce6e01962e81369203dad7730b4d"
+  },
+  "protected_exports_sha256": {
+    "figures/bars_comparison_IEDB.svg": "aeebf64c82a76c912b1f100c62eb3e83d9296b12f0f2d1a0897a51c9c0e44612",
+    "figures/comparison_radar.png": "70073ff472a286c891e1a02273155fa1e777db79a428830acb266e10139ee0b5",
+    "figures/comparison_radar.pdf": "4d4b30528493af89e6d1f4d2b3cdcccd6dcf472a03b065d1eb7032ae9d00ca48",
+    "figures/brute_force.svg": "a408d192cde6605a8e0e48af956c0332809204d70a02085d62e7a2c666f0b5c5",
+    "figures/comparison_posttraining.svg": "916b149cc3727c5f720709d59ae8ee06eb4db3ed79f8c698e858ba69e4742efe",
+    "figures/brute_force.pdf": "0a8de88463fec0d463c24d3f936df4c01aced77b3dad814554be2b3bc3bccbdc",
+    "figures/comparison_posttraining.pdf": "710fecee473ea0835a18b4d5d00d44f0354d20e780700cfc989173146573627d",
+    "figures/comparison_posttraining.png": "749b3e2a21f50dedc847f65ebd35ee2919fc7bd77a0bd3a6fdb6fe8cfba6f0f1",
+    "figures/brute_force.png": "3159c608d4d8709e854c58cf53f70df4ee5cbc22368a5dfb4c362afe65c841b9",
+    "figures/bars_comparison_IEDB.pdf": "fb3e797b45dbc7f71b41e70c84b39356385cd7ef4e9523e2b8b361bbe99b06d5",
+    "figures/comparison_radar.svg": "ebf86d9dc70b4cf1e9171b95b00b768440030cde7c4ab60fb61b67ae709dd800",
+    "figures/bars_comparison_IEDB.png": "c8ea3cca1f04968133c64afda78c81ce80538faa3c3c2dcca8cae146b1e5ab9a",
+    "figures/concept.pdf": "1616a47cf6089b90c26916dd563984e2897dff086ef953b8b072d87f5511b795",
+    "figures/trend_by_month.pdf": "5c290304224cd495fe1d578cea525edd281f33e8f968ab5b6a2854e6a7a0860e",
+    "figures/trend_by_month.png": "f7572bcc62b97fd6e8dce3cebd64e3b3bb64154a45b7722970905ac754c0de19",
+    "figures/concept.png": "297031f5b67763b842f91ac06dd1a838b51f950016183711bf93941238951f2a",
+    "figures/concept.svg": "e58b4ff727393a509b44c7502667bfd1da3e076838368b3ca75ec7bb963b3b19",
+    "figures/trend_by_month.svg": "bd6eb4c1e43562805169b0d86dcc6de514ac89cdd36289a024dbed56874a1243",
+    "gallery.pdf": "31ef4ad70968ab4e81703739e7394e3f4b855d071e6fdaa846c8c10f489f4f80",
+    "gallery-beige.pdf": "31ef4ad70968ab4e81703739e7394e3f4b855d071e6fdaa846c8c10f489f4f80",
+    "full-style-study/mineral-grid/bars_comparison_IEDB.svg": "a547838550adff96ba74d6f019e132a91b7da6305930352ac8062f98667f558a",
+    "full-style-study/mineral-grid/comparison_radar.png": "98ccba5b220f0419e990ca65dde561546f2667afb46efbe213c9eca08ca76cfd",
+    "full-style-study/mineral-grid/comparison_radar.pdf": "0e5931d00e96f7c100b5fc247749104305cbcf43545abbef9331d0a60f18a62c",
+    "full-style-study/mineral-grid/brute_force.svg": "637bcb656f702e0ff7aa3c7ad77ce59013c227b7c424ed8f18f9d6685e7f8226",
+    "full-style-study/mineral-grid/comparison_posttraining.svg": "bf5be2c6d0e7d88896fe9e0dfbd8f542bc0496ef7a5601e52ccb4f674e056e1e",
+    "full-style-study/mineral-grid/gallery.pdf": "2d5eeec8b42bda46148b6d87cb9f1656b94504d447e7637d7d8d5c80cd9f1eba",
+    "full-style-study/mineral-grid/brute_force.pdf": "bd1bb138cb508b19e730a51f982a7de12657c8ae768f5f9819d123132168ed62",
+    "full-style-study/mineral-grid/comparison_posttraining.pdf": "a8a70b9cde3a90e38f8316a161909d1dd7b62dfe6cf8e92a12526b031398fc20",
+    "full-style-study/mineral-grid/comparison_posttraining.png": "96cb908308ea974dcd981d7e522c9b27d500b5ae764b1063593f83d57f659799",
+    "full-style-study/mineral-grid/brute_force.png": "8613854611180667b8016a2a45fe4d98521f1ae4f6e8ad44cc38c2a4e1ad0941",
+    "full-style-study/mineral-grid/bars_comparison_IEDB.pdf": "f0e32c50d4bbb1101f4d839355324df419aa334749c933097c1e6e963e9a01f9",
+    "full-style-study/mineral-grid/comparison_radar.svg": "460e2eb6e4d5dafc24a198a7afd1c7224f5e3611934aac5c2f3bc0d2a2916c80",
+    "full-style-study/mineral-grid/bars_comparison_IEDB.png": "f17476b63e96c0b25e0f5c7d2580104fdef5b362b503746a7bccec08d181967d",
+    "full-style-study/mineral-grid/concept.pdf": "808ab591c5088964696cab724e2d4acc1af214f301f9a3abfd7b65af3886439c",
+    "full-style-study/mineral-grid/trend_by_month.pdf": "3edd11d14cc16cac085c1e88c094ce2f2e7157ef772b5eda4b6189af5251e84e",
+    "full-style-study/mineral-grid/trend_by_month.png": "ed55c144bb4bda274552b0641e2460b449ae466fa7d4be958d7ee5bbb6cac7d1",
+    "full-style-study/mineral-grid/profile.png": "56d9cda959de16ee697a33752b088f7701ec796a7780c61bc1929bffb2996a97",
+    "full-style-study/mineral-grid/concept.png": "76eeaa6a0ea9e396f4233654818aaf1625f06ee37edb735f9506e93603c08484",
+    "full-style-study/mineral-grid/concept.svg": "f17ca4a66a3f060401e39fd665ac1d9e182e43fa400296b9dc1737e80a568c9c",
+    "full-style-study/mineral-grid/trend_by_month.svg": "63688bfb0fd2d4897e5d01b5b6ad430e487f275cadb81f05931cbb08cde7f765"
+  },
+  "candidates": {
+    "C1": {
+      "core_contrast": [
+        7.649,
+        5.093,
+        3.4
+      ],
+      "extended_contrast": [
+        7.649,
+        5.093,
+        3.4,
+        4.896,
+        4.035,
+        4.732,
+        5.596,
+        3.222,
+        8.297
+      ],
+      "text_on_panel": 12.941,
+      "text_on_canvas": 14.743,
+      "closest_core_distance": {
+        "normal": 0.101,
+        "deutan": 0.0957,
+        "protan": 0.0872,
+        "tritan": 0.096,
+        "gray": 0.0947
+      },
+      "expanded_close_pairs": {
+        "normal": [
+          {
+            "colors": [
+              "#274E70",
+              "#284B53"
+            ],
+            "oklab_distance": 0.0485
+          },
+          {
+            "colors": [
+              "#216F7A",
+              "#496B8C"
+            ],
+            "oklab_distance": 0.0511
+          },
+          {
+            "colors": [
+              "#216F7A",
+              "#52616E"
+            ],
+            "oklab_distance": 0.057
+          },
+          {
+            "colors": [
+              "#71839B",
+              "#8A8297"
+            ],
+            "oklab_distance": 0.0353
+          },
+          {
+            "colors": [
+              "#496B8C",
+              "#626988"
+            ],
+            "oklab_distance": 0.0324
+          },
+          {
+            "colors": [
+              "#496B8C",
+              "#52616E"
+            ],
+            "oklab_distance": 0.0489
+          },
+          {
+            "colors": [
+              "#626988",
+              "#52616E"
+            ],
+            "oklab_distance": 0.0511
+          }
+        ],
+        "deutan": [
+          {
+            "colors": [
+              "#274E70",
+              "#284B53"
+            ],
+            "oklab_distance": 0.0475
+          },
+          {
+            "colors": [
+              "#216F7A",
+              "#496B8C"
+            ],
+            "oklab_distance": 0.0269
+          },
+          {
+            "colors": [
+              "#216F7A",
+              "#626988"
+            ],
+            "oklab_distance": 0.0283
+          },
+          {
+            "colors": [
+              "#216F7A",
+              "#52616E"
+            ],
+            "oklab_distance": 0.0199
+          },
+          {
+            "colors": [
+              "#71839B",
+              "#487F75"
+            ],
+            "oklab_distance": 0.0597
+          },
+          {
+            "colors": [
+              "#71839B",
+              "#8A8297"
+            ],
+            "oklab_distance": 0.0247
+          },
+          {
+            "colors": [
+              "#496B8C",
+              "#626988"
+            ],
+            "oklab_distance": 0.0194
+          },
+          {
+            "colors": [
+              "#496B8C",
+              "#52616E"
+            ],
+            "oklab_distance": 0.0466
+          },
+          {
+            "colors": [
+              "#487F75",
+              "#626988"
+            ],
+            "oklab_distance": 0.0543
+          },
+          {
+            "colors": [
+              "#626988",
+              "#52616E"
+            ],
+            "oklab_distance": 0.0466
+          }
+        ],
+        "protan": [
+          {
+            "colors": [
+              "#274E70",
+              "#284B53"
+            ],
+            "oklab_distance": 0.049
+          },
+          {
+            "colors": [
+              "#216F7A",
+              "#496B8C"
+            ],
+            "oklab_distance": 0.0303
+          },
+          {
+            "colors": [
+              "#216F7A",
+              "#487F75"
+            ],
+            "oklab_distance": 0.0595
+          },
+          {
+            "colors": [
+              "#216F7A",
+              "#626988"
+            ],
+            "oklab_distance": 0.0232
+          },
+          {
+            "colors": [
+              "#216F7A",
+              "#52616E"
+            ],
+            "oklab_distance": 0.0348
+          },
+          {
+            "colors": [
+              "#71839B",
+              "#487F75"
+            ],
+            "oklab_distance": 0.0588
+          },
+          {
+            "colors": [
+              "#71839B",
+              "#8A8297"
+            ],
+            "oklab_distance": 0.0102
+          },
+          {
+            "colors": [
+              "#496B8C",
+              "#626988"
+            ],
+            "oklab_distance": 0.0072
+          },
+          {
+            "colors": [
+              "#496B8C",
+              "#52616E"
+            ],
+            "oklab_distance": 0.0515
+          },
+          {
+            "colors": [
+              "#487F75",
+              "#8A8297"
+            ],
+            "oklab_distance": 0.0553
+          },
+          {
+            "colors": [
+              "#626988",
+              "#52616E"
+            ],
+            "oklab_distance": 0.0472
+          }
+        ],
+        "tritan": [
+          {
+            "colors": [
+              "#274E70",
+              "#284B53"
+            ],
+            "oklab_distance": 0.0278
+          },
+          {
+            "colors": [
+              "#216F7A",
+              "#496B8C"
+            ],
+            "oklab_distance": 0.0205
+          },
+          {
+            "colors": [
+              "#216F7A",
+              "#487F75"
+            ],
+            "oklab_distance": 0.0486
+          },
+          {
+            "colors": [
+              "#71839B",
+              "#8A8297"
+            ],
+            "oklab_distance": 0.0466
+          },
+          {
+            "colors": [
+              "#496B8C",
+              "#487F75"
+            ],
+            "oklab_distance": 0.0439
+          },
+          {
+            "colors": [
+              "#496B8C",
+              "#626988"
+            ],
+            "oklab_distance": 0.0449
+          },
+          {
+            "colors": [
+              "#496B8C",
+              "#52616E"
+            ],
+            "oklab_distance": 0.0482
+          },
+          {
+            "colors": [
+              "#487F75",
+              "#626988"
+            ],
+            "oklab_distance": 0.0591
+          },
+          {
+            "colors": [
+              "#626988",
+              "#52616E"
+            ],
+            "oklab_distance": 0.0419
+          }
+        ],
+        "gray": [
+          {
+            "colors": [
+              "#274E70",
+              "#284B53"
+            ],
+            "oklab_distance": 0.0193
+          },
+          {
+            "colors": [
+              "#216F7A",
+              "#496B8C"
+            ],
+            "oklab_distance": 0.0092
+          },
+          {
+            "colors": [
+              "#216F7A",
+              "#487F75"
+            ],
+            "oklab_distance": 0.0551
+          },
+          {
+            "colors": [
+              "#216F7A",
+              "#626988"
+            ],
+            "oklab_distance": 0.0172
+          },
+          {
+            "colors": [
+              "#216F7A",
+              "#52616E"
+            ],
+            "oklab_distance": 0.022
+          },
+          {
+            "colors": [
+              "#71839B",
+              "#487F75"
+            ],
+            "oklab_distance": 0.0417
+          },
+          {
+            "colors": [
+              "#71839B",
+              "#8A8297"
+            ],
+            "oklab_distance": 0.0133
+          },
+          {
+            "colors": [
+              "#496B8C",
+              "#487F75"
+            ],
+            "oklab_distance": 0.0459
+          },
+          {
+            "colors": [
+              "#496B8C",
+              "#626988"
+            ],
+            "oklab_distance": 0.008
+          },
+          {
+            "colors": [
+              "#496B8C",
+              "#52616E"
+            ],
+            "oklab_distance": 0.0312
+          },
+          {
+            "colors": [
+              "#487F75",
+              "#626988"
+            ],
+            "oklab_distance": 0.0379
+          },
+          {
+            "colors": [
+              "#487F75",
+              "#8A8297"
+            ],
+            "oklab_distance": 0.055
+          },
+          {
+            "colors": [
+              "#626988",
+              "#52616E"
+            ],
+            "oklab_distance": 0.0392
+          }
+        ]
+      },
+      "close_pair_rule": "Distance <0.06 is an editorial review flag, not an accessibility standard."
+    },
+    "C2": {
+      "core_contrast": [
+        6.859,
+        4.21,
+        3.3
+      ],
+      "extended_contrast": [
+        6.859,
+        4.21,
+        3.3,
+        3.744,
+        4.79,
+        4.023,
+        3.996,
+        5.175,
+        7.209
+      ],
+      "text_on_panel": 12.941,
+      "text_on_canvas": 14.743,
+      "closest_core_distance": {
+        "normal": 0.1546,
+        "deutan": 0.0834,
+        "protan": 0.0692,
+        "tritan": 0.1189,
+        "gray": 0.0593
+      },
+      "expanded_close_pairs": {
+        "normal": [
+          {
+            "colors": [
+              "#237F78",
+              "#497C92"
+            ],
+            "oklab_distance": 0.0566
+          },
+          {
+            "colors": [
+              "#527EAA",
+              "#526A94"
+            ],
+            "oklab_distance": 0.06
+          },
+          {
+            "colors": [
+              "#527EAA",
+              "#497C92"
+            ],
+            "oklab_distance": 0.0396
+          },
+          {
+            "colors": [
+              "#527EAA",
+              "#677887"
+            ],
+            "oklab_distance": 0.0553
+          },
+          {
+            "colors": [
+              "#526A94",
+              "#497C92"
+            ],
+            "oklab_distance": 0.0544
+          },
+          {
+            "colors": [
+              "#526A94",
+              "#725B87"
+            ],
+            "oklab_distance": 0.0588
+          },
+          {
+            "colors": [
+              "#497C92",
+              "#677887"
+            ],
+            "oklab_distance": 0.0366
+          }
+        ],
+        "deutan": [
+          {
+            "colors": [
+              "#237F78",
+              "#497C92"
+            ],
+            "oklab_distance": 0.0375
+          },
+          {
+            "colors": [
+              "#237F78",
+              "#677887"
+            ],
+            "oklab_distance": 0.0251
+          },
+          {
+            "colors": [
+              "#237F78",
+              "#725B87"
+            ],
+            "oklab_distance": 0.0496
+          },
+          {
+            "colors": [
+              "#947AA5",
+              "#527EAA"
+            ],
+            "oklab_distance": 0.0559
+          },
+          {
+            "colors": [
+              "#947AA5",
+              "#677887"
+            ],
+            "oklab_distance": 0.0585
+          },
+          {
+            "colors": [
+              "#527EAA",
+              "#526A94"
+            ],
+            "oklab_distance": 0.0562
+          },
+          {
+            "colors": [
+              "#527EAA",
+              "#497C92"
+            ],
+            "oklab_distance": 0.0357
+          },
+          {
+            "colors": [
+              "#527EAA",
+              "#677887"
+            ],
+            "oklab_distance": 0.0544
+          },
+          {
+            "colors": [
+              "#526A94",
+              "#497C92"
+            ],
+            "oklab_distance": 0.0443
+          },
+          {
+            "colors": [
+              "#526A94",
+              "#725B87"
+            ],
+            "oklab_distance": 0.021
+          },
+          {
+            "colors": [
+              "#497C92",
+              "#677887"
+            ],
+            "oklab_distance": 0.0237
+          },
+          {
+            "colors": [
+              "#497C92",
+              "#725B87"
+            ],
+            "oklab_distance": 0.0463
+          },
+          {
+            "colors": [
+              "#677887",
+              "#725B87"
+            ],
+            "oklab_distance": 0.0597
+          }
+        ],
+        "protan": [
+          {
+            "colors": [
+              "#414F86",
+              "#725B87"
+            ],
+            "oklab_distance": 0.0568
+          },
+          {
+            "colors": [
+              "#237F78",
+              "#497C92"
+            ],
+            "oklab_distance": 0.0413
+          },
+          {
+            "colors": [
+              "#237F78",
+              "#677887"
+            ],
+            "oklab_distance": 0.0255
+          },
+          {
+            "colors": [
+              "#947AA5",
+              "#527EAA"
+            ],
+            "oklab_distance": 0.0167
+          },
+          {
+            "colors": [
+              "#947AA5",
+              "#497C92"
+            ],
+            "oklab_distance": 0.0338
+          },
+          {
+            "colors": [
+              "#947AA5",
+              "#677887"
+            ],
+            "oklab_distance": 0.0492
+          },
+          {
+            "colors": [
+              "#527EAA",
+              "#497C92"
+            ],
+            "oklab_distance": 0.0372
+          },
+          {
+            "colors": [
+              "#527EAA",
+              "#677887"
+            ],
+            "oklab_distance": 0.0541
+          },
+          {
+            "colors": [
+              "#526A94",
+              "#497C92"
+            ],
+            "oklab_distance": 0.0526
+          },
+          {
+            "colors": [
+              "#526A94",
+              "#677887"
+            ],
+            "oklab_distance": 0.0565
+          },
+          {
+            "colors": [
+              "#526A94",
+              "#725B87"
+            ],
+            "oklab_distance": 0.0339
+          },
+          {
+            "colors": [
+              "#497C92",
+              "#677887"
+            ],
+            "oklab_distance": 0.0169
+          }
+        ],
+        "tritan": [
+          {
+            "colors": [
+              "#414F86",
+              "#2E5461"
+            ],
+            "oklab_distance": 0.0248
+          },
+          {
+            "colors": [
+              "#237F78",
+              "#527EAA"
+            ],
+            "oklab_distance": 0.0324
+          },
+          {
+            "colors": [
+              "#237F78",
+              "#526A94"
+            ],
+            "oklab_distance": 0.0486
+          },
+          {
+            "colors": [
+              "#237F78",
+              "#497C92"
+            ],
+            "oklab_distance": 0.0157
+          },
+          {
+            "colors": [
+              "#527EAA",
+              "#497C92"
+            ],
+            "oklab_distance": 0.0205
+          },
+          {
+            "colors": [
+              "#527EAA",
+              "#677887"
+            ],
+            "oklab_distance": 0.0555
+          },
+          {
+            "colors": [
+              "#526A94",
+              "#497C92"
+            ],
+            "oklab_distance": 0.0451
+          },
+          {
+            "colors": [
+              "#526A94",
+              "#677887"
+            ],
+            "oklab_distance": 0.0513
+          },
+          {
+            "colors": [
+              "#497C92",
+              "#677887"
+            ],
+            "oklab_distance": 0.0518
+          }
+        ],
+        "gray": [
+          {
+            "colors": [
+              "#414F86",
+              "#2E5461"
+            ],
+            "oklab_distance": 0.0116
+          },
+          {
+            "colors": [
+              "#237F78",
+              "#947AA5"
+            ],
+            "oklab_distance": 0.0593
+          },
+          {
+            "colors": [
+              "#237F78",
+              "#527EAA"
+            ],
+            "oklab_distance": 0.0283
+          },
+          {
+            "colors": [
+              "#237F78",
+              "#526A94"
+            ],
+            "oklab_distance": 0.0306
+          },
+          {
+            "colors": [
+              "#237F78",
+              "#497C92"
+            ],
+            "oklab_distance": 0.0109
+          },
+          {
+            "colors": [
+              "#237F78",
+              "#677887"
+            ],
+            "oklab_distance": 0.0125
+          },
+          {
+            "colors": [
+              "#237F78",
+              "#725B87"
+            ],
+            "oklab_distance": 0.0487
+          },
+          {
+            "colors": [
+              "#947AA5",
+              "#527EAA"
+            ],
+            "oklab_distance": 0.031
+          },
+          {
+            "colors": [
+              "#947AA5",
+              "#497C92"
+            ],
+            "oklab_distance": 0.0484
+          },
+          {
+            "colors": [
+              "#947AA5",
+              "#677887"
+            ],
+            "oklab_distance": 0.0468
+          },
+          {
+            "colors": [
+              "#527EAA",
+              "#526A94"
+            ],
+            "oklab_distance": 0.0589
+          },
+          {
+            "colors": [
+              "#527EAA",
+              "#497C92"
+            ],
+            "oklab_distance": 0.0174
+          },
+          {
+            "colors": [
+              "#527EAA",
+              "#677887"
+            ],
+            "oklab_distance": 0.0157
+          },
+          {
+            "colors": [
+              "#526A94",
+              "#497C92"
+            ],
+            "oklab_distance": 0.0414
+          },
+          {
+            "colors": [
+              "#526A94",
+              "#677887"
+            ],
+            "oklab_distance": 0.0431
+          },
+          {
+            "colors": [
+              "#526A94",
+              "#725B87"
+            ],
+            "oklab_distance": 0.0181
+          },
+          {
+            "colors": [
+              "#497C92",
+              "#677887"
+            ],
+            "oklab_distance": 0.0017
+          },
+          {
+            "colors": [
+              "#497C92",
+              "#725B87"
+            ],
+            "oklab_distance": 0.0596
+          }
+        ]
+      },
+      "close_pair_rule": "Distance <0.06 is an editorial review flag, not an accessibility standard."
+    },
+    "C3": {
+      "core_contrast": [
+        6.732,
+        3.921,
+        3.055
+      ],
+      "extended_contrast": [
+        6.732,
+        3.921,
+        3.055,
+        4.641,
+        3.274,
+        6.074,
+        4.731,
+        3.405,
+        8.036
+      ],
+      "text_on_panel": 12.941,
+      "text_on_canvas": 14.743,
+      "closest_core_distance": {
+        "normal": 0.1025,
+        "deutan": 0.0924,
+        "protan": 0.0966,
+        "tritan": 0.0669,
+        "gray": 0.0615
+      },
+      "expanded_close_pairs": {
+        "normal": [
+          {
+            "colors": [
+              "#205B63",
+              "#405C7B"
+            ],
+            "oklab_distance": 0.0543
+          },
+          {
+            "colors": [
+              "#205B63",
+              "#304C56"
+            ],
+            "oklab_distance": 0.0466
+          },
+          {
+            "colors": [
+              "#4B8176",
+              "#748676"
+            ],
+            "oklab_distance": 0.0534
+          },
+          {
+            "colors": [
+              "#668DB4",
+              "#6C8992"
+            ],
+            "oklab_distance": 0.05
+          },
+          {
+            "colors": [
+              "#3A728D",
+              "#5D6D72"
+            ],
+            "oklab_distance": 0.0526
+          },
+          {
+            "colors": [
+              "#6C8992",
+              "#748676"
+            ],
+            "oklab_distance": 0.0403
+          }
+        ],
+        "deutan": [
+          {
+            "colors": [
+              "#205B63",
+              "#405C7B"
+            ],
+            "oklab_distance": 0.0389
+          },
+          {
+            "colors": [
+              "#205B63",
+              "#304C56"
+            ],
+            "oklab_distance": 0.0377
+          },
+          {
+            "colors": [
+              "#4B8176",
+              "#6C8992"
+            ],
+            "oklab_distance": 0.052
+          },
+          {
+            "colors": [
+              "#4B8176",
+              "#5D6D72"
+            ],
+            "oklab_distance": 0.0402
+          },
+          {
+            "colors": [
+              "#4B8176",
+              "#748676"
+            ],
+            "oklab_distance": 0.0448
+          },
+          {
+            "colors": [
+              "#668DB4",
+              "#6C8992"
+            ],
+            "oklab_distance": 0.0496
+          },
+          {
+            "colors": [
+              "#3A728D",
+              "#405C7B"
+            ],
+            "oklab_distance": 0.0589
+          },
+          {
+            "colors": [
+              "#3A728D",
+              "#5D6D72"
+            ],
+            "oklab_distance": 0.0471
+          },
+          {
+            "colors": [
+              "#6C8992",
+              "#748676"
+            ],
+            "oklab_distance": 0.0402
+          }
+        ],
+        "protan": [
+          {
+            "colors": [
+              "#205B63",
+              "#405C7B"
+            ],
+            "oklab_distance": 0.0394
+          },
+          {
+            "colors": [
+              "#205B63",
+              "#304C56"
+            ],
+            "oklab_distance": 0.0473
+          },
+          {
+            "colors": [
+              "#4B8176",
+              "#6C8992"
+            ],
+            "oklab_distance": 0.0486
+          },
+          {
+            "colors": [
+              "#4B8176",
+              "#5D6D72"
+            ],
+            "oklab_distance": 0.0556
+          },
+          {
+            "colors": [
+              "#4B8176",
+              "#748676"
+            ],
+            "oklab_distance": 0.0274
+          },
+          {
+            "colors": [
+              "#668DB4",
+              "#6C8992"
+            ],
+            "oklab_distance": 0.0512
+          },
+          {
+            "colors": [
+              "#3A728D",
+              "#5D6D72"
+            ],
+            "oklab_distance": 0.0422
+          },
+          {
+            "colors": [
+              "#6C8992",
+              "#748676"
+            ],
+            "oklab_distance": 0.0414
+          }
+        ],
+        "tritan": [
+          {
+            "colors": [
+              "#205B63",
+              "#405C7B"
+            ],
+            "oklab_distance": 0.0289
+          },
+          {
+            "colors": [
+              "#205B63",
+              "#304C56"
+            ],
+            "oklab_distance": 0.0495
+          },
+          {
+            "colors": [
+              "#4B8176",
+              "#3A728D"
+            ],
+            "oklab_distance": 0.041
+          },
+          {
+            "colors": [
+              "#4B8176",
+              "#6C8992"
+            ],
+            "oklab_distance": 0.0557
+          },
+          {
+            "colors": [
+              "#668DB4",
+              "#6C8992"
+            ],
+            "oklab_distance": 0.0335
+          },
+          {
+            "colors": [
+              "#6C8992",
+              "#748676"
+            ],
+            "oklab_distance": 0.0277
+          }
+        ],
+        "gray": [
+          {
+            "colors": [
+              "#205B63",
+              "#405C7B"
+            ],
+            "oklab_distance": 0.0239
+          },
+          {
+            "colors": [
+              "#205B63",
+              "#304C56"
+            ],
+            "oklab_distance": 0.0415
+          },
+          {
+            "colors": [
+              "#4B8176",
+              "#3A728D"
+            ],
+            "oklab_distance": 0.0402
+          },
+          {
+            "colors": [
+              "#4B8176",
+              "#6C8992"
+            ],
+            "oklab_distance": 0.0442
+          },
+          {
+            "colors": [
+              "#4B8176",
+              "#5D6D72"
+            ],
+            "oklab_distance": 0.0447
+          },
+          {
+            "colors": [
+              "#4B8176",
+              "#748676"
+            ],
+            "oklab_distance": 0.0345
+          },
+          {
+            "colors": [
+              "#668DB4",
+              "#6C8992"
+            ],
+            "oklab_distance": 0.0173
+          },
+          {
+            "colors": [
+              "#668DB4",
+              "#748676"
+            ],
+            "oklab_distance": 0.0271
+          },
+          {
+            "colors": [
+              "#3A728D",
+              "#5D6D72"
+            ],
+            "oklab_distance": 0.0045
+          },
+          {
+            "colors": [
+              "#6C8992",
+              "#748676"
+            ],
+            "oklab_distance": 0.0097
+          },
+          {
+            "colors": [
+              "#405C7B",
+              "#5D6D72"
+            ],
+            "oklab_distance": 0.0583
+          }
+        ]
+      },
+      "close_pair_rule": "Distance <0.06 is an editorial review flag, not an accessibility standard."
+    },
+    "C4": {
+      "core_contrast": [
+        8.909,
+        4.058,
+        3.1
+      ],
+      "extended_contrast": [
+        8.909,
+        4.058,
+        3.1,
+        5.257,
+        3.912,
+        5.539,
+        4.022,
+        3.071,
+        7.091
+      ],
+      "text_on_panel": 12.941,
+      "text_on_canvas": 14.743,
+      "closest_core_distance": {
+        "normal": 0.0997,
+        "deutan": 0.0986,
+        "protan": 0.0664,
+        "tritan": 0.1178,
+        "gray": 0.0662
+      },
+      "expanded_close_pairs": {
+        "normal": [
+          {
+            "colors": [
+              "#5974AF",
+              "#597B98"
+            ],
+            "oklab_distance": 0.0463
+          },
+          {
+            "colors": [
+              "#5974AF",
+              "#69768E"
+            ],
+            "oklab_distance": 0.0569
+          },
+          {
+            "colors": [
+              "#9581A3",
+              "#89879B"
+            ],
+            "oklab_distance": 0.0293
+          },
+          {
+            "colors": [
+              "#46658D",
+              "#5A5B8F"
+            ],
+            "oklab_distance": 0.038
+          },
+          {
+            "colors": [
+              "#597B98",
+              "#69768E"
+            ],
+            "oklab_distance": 0.0247
+          }
+        ],
+        "deutan": [
+          {
+            "colors": [
+              "#5974AF",
+              "#597B98"
+            ],
+            "oklab_distance": 0.045
+          },
+          {
+            "colors": [
+              "#9581A3",
+              "#89879B"
+            ],
+            "oklab_distance": 0.0116
+          },
+          {
+            "colors": [
+              "#46658D",
+              "#5A5B8F"
+            ],
+            "oklab_distance": 0.0099
+          },
+          {
+            "colors": [
+              "#597B98",
+              "#69768E"
+            ],
+            "oklab_distance": 0.0159
+          }
+        ],
+        "protan": [
+          {
+            "colors": [
+              "#5974AF",
+              "#597B98"
+            ],
+            "oklab_distance": 0.0449
+          },
+          {
+            "colors": [
+              "#5974AF",
+              "#69768E"
+            ],
+            "oklab_distance": 0.0554
+          },
+          {
+            "colors": [
+              "#9581A3",
+              "#597B98"
+            ],
+            "oklab_distance": 0.0412
+          },
+          {
+            "colors": [
+              "#9581A3",
+              "#69768E"
+            ],
+            "oklab_distance": 0.0548
+          },
+          {
+            "colors": [
+              "#9581A3",
+              "#89879B"
+            ],
+            "oklab_distance": 0.0183
+          },
+          {
+            "colors": [
+              "#46658D",
+              "#5A5B8F"
+            ],
+            "oklab_distance": 0.0236
+          },
+          {
+            "colors": [
+              "#597B98",
+              "#69768E"
+            ],
+            "oklab_distance": 0.0168
+          },
+          {
+            "colors": [
+              "#597B98",
+              "#89879B"
+            ],
+            "oklab_distance": 0.0516
+          }
+        ],
+        "tritan": [
+          {
+            "colors": [
+              "#343E70",
+              "#3E5265"
+            ],
+            "oklab_distance": 0.0528
+          },
+          {
+            "colors": [
+              "#5974AF",
+              "#597B98"
+            ],
+            "oklab_distance": 0.0139
+          },
+          {
+            "colors": [
+              "#5974AF",
+              "#69768E"
+            ],
+            "oklab_distance": 0.0429
+          },
+          {
+            "colors": [
+              "#9581A3",
+              "#89879B"
+            ],
+            "oklab_distance": 0.0237
+          },
+          {
+            "colors": [
+              "#46658D",
+              "#5A5B8F"
+            ],
+            "oklab_distance": 0.041
+          },
+          {
+            "colors": [
+              "#597B98",
+              "#69768E"
+            ],
+            "oklab_distance": 0.0342
+          }
+        ],
+        "gray": [
+          {
+            "colors": [
+              "#343E70",
+              "#3E5265"
+            ],
+            "oklab_distance": 0.0542
+          },
+          {
+            "colors": [
+              "#5974AF",
+              "#597B98"
+            ],
+            "oklab_distance": 0.0088
+          },
+          {
+            "colors": [
+              "#5974AF",
+              "#69768E"
+            ],
+            "oklab_distance": 0.0021
+          },
+          {
+            "colors": [
+              "#9581A3",
+              "#597B98"
+            ],
+            "oklab_distance": 0.0573
+          },
+          {
+            "colors": [
+              "#9581A3",
+              "#89879B"
+            ],
+            "oklab_distance": 0.0023
+          },
+          {
+            "colors": [
+              "#46658D",
+              "#5A5B8F"
+            ],
+            "oklab_distance": 0.0122
+          },
+          {
+            "colors": [
+              "#597B98",
+              "#69768E"
+            ],
+            "oklab_distance": 0.0067
+          },
+          {
+            "colors": [
+              "#597B98",
+              "#89879B"
+            ],
+            "oklab_distance": 0.0597
+          },
+          {
+            "colors": [
+              "#5A5B8F",
+              "#3E5265"
+            ],
+            "oklab_distance": 0.0574
+          }
+        ]
+      },
+      "close_pair_rule": "Distance <0.06 is an editorial review flag, not an accessibility standard."
+    },
+    "C5": {
+      "core_contrast": [
+        7.346,
+        3.507,
+        4.883
+      ],
+      "extended_contrast": [
+        7.346,
+        3.507,
+        4.883,
+        3.685,
+        4.929,
+        5.04,
+        4.23,
+        3.739,
+        7.716
+      ],
+      "text_on_panel": 12.941,
+      "text_on_canvas": 14.743,
+      "closest_core_distance": {
+        "normal": 0.1522,
+        "deutan": 0.0766,
+        "protan": 0.0685,
+        "tritan": 0.1378,
+        "gray": 0.0793
+      },
+      "expanded_close_pairs": {
+        "normal": [
+          {
+            "colors": [
+              "#188C9A",
+              "#3D82AE"
+            ],
+            "oklab_distance": 0.053
+          },
+          {
+            "colors": [
+              "#426F70",
+              "#5F748B"
+            ],
+            "oklab_distance": 0.0589
+          }
+        ],
+        "deutan": [
+          {
+            "colors": [
+              "#188C9A",
+              "#3D82AE"
+            ],
+            "oklab_distance": 0.0389
+          },
+          {
+            "colors": [
+              "#188C9A",
+              "#5F748B"
+            ],
+            "oklab_distance": 0.0357
+          },
+          {
+            "colors": [
+              "#188C9A",
+              "#8A719D"
+            ],
+            "oklab_distance": 0.004
+          },
+          {
+            "colors": [
+              "#8055A7",
+              "#3D82AE"
+            ],
+            "oklab_distance": 0.0499
+          },
+          {
+            "colors": [
+              "#8055A7",
+              "#5C60A3"
+            ],
+            "oklab_distance": 0.018
+          },
+          {
+            "colors": [
+              "#3D82AE",
+              "#5F748B"
+            ],
+            "oklab_distance": 0.053
+          },
+          {
+            "colors": [
+              "#3D82AE",
+              "#8A719D"
+            ],
+            "oklab_distance": 0.0398
+          },
+          {
+            "colors": [
+              "#426F70",
+              "#5F748B"
+            ],
+            "oklab_distance": 0.0465
+          },
+          {
+            "colors": [
+              "#5F748B",
+              "#8A719D"
+            ],
+            "oklab_distance": 0.0396
+          }
+        ],
+        "protan": [
+          {
+            "colors": [
+              "#188C9A",
+              "#3D82AE"
+            ],
+            "oklab_distance": 0.0441
+          },
+          {
+            "colors": [
+              "#188C9A",
+              "#8A719D"
+            ],
+            "oklab_distance": 0.0513
+          },
+          {
+            "colors": [
+              "#8055A7",
+              "#5C60A3"
+            ],
+            "oklab_distance": 0.0145
+          },
+          {
+            "colors": [
+              "#3D82AE",
+              "#5F748B"
+            ],
+            "oklab_distance": 0.0593
+          },
+          {
+            "colors": [
+              "#3D82AE",
+              "#8A719D"
+            ],
+            "oklab_distance": 0.0324
+          },
+          {
+            "colors": [
+              "#426F70",
+              "#5F748B"
+            ],
+            "oklab_distance": 0.0449
+          },
+          {
+            "colors": [
+              "#5F748B",
+              "#8A719D"
+            ],
+            "oklab_distance": 0.0286
+          }
+        ],
+        "tritan": [
+          {
+            "colors": [
+              "#184D91",
+              "#254F66"
+            ],
+            "oklab_distance": 0.0341
+          },
+          {
+            "colors": [
+              "#188C9A",
+              "#3D82AE"
+            ],
+            "oklab_distance": 0.0183
+          },
+          {
+            "colors": [
+              "#426F70",
+              "#5C60A3"
+            ],
+            "oklab_distance": 0.0331
+          },
+          {
+            "colors": [
+              "#426F70",
+              "#5F748B"
+            ],
+            "oklab_distance": 0.0481
+          },
+          {
+            "colors": [
+              "#5C60A3",
+              "#5F748B"
+            ],
+            "oklab_distance": 0.0398
+          }
+        ],
+        "gray": [
+          {
+            "colors": [
+              "#184D91",
+              "#254F66"
+            ],
+            "oklab_distance": 0.0115
+          },
+          {
+            "colors": [
+              "#188C9A",
+              "#3D82AE"
+            ],
+            "oklab_distance": 0.0121
+          },
+          {
+            "colors": [
+              "#188C9A",
+              "#5F748B"
+            ],
+            "oklab_distance": 0.0454
+          },
+          {
+            "colors": [
+              "#188C9A",
+              "#8A719D"
+            ],
+            "oklab_distance": 0.0157
+          },
+          {
+            "colors": [
+              "#8055A7",
+              "#426F70"
+            ],
+            "oklab_distance": 0.0022
+          },
+          {
+            "colors": [
+              "#8055A7",
+              "#5C60A3"
+            ],
+            "oklab_distance": 0.0075
+          },
+          {
+            "colors": [
+              "#8055A7",
+              "#5F748B"
+            ],
+            "oklab_distance": 0.0339
+          },
+          {
+            "colors": [
+              "#3D82AE",
+              "#5F748B"
+            ],
+            "oklab_distance": 0.0333
+          },
+          {
+            "colors": [
+              "#3D82AE",
+              "#8A719D"
+            ],
+            "oklab_distance": 0.0036
+          },
+          {
+            "colors": [
+              "#426F70",
+              "#5C60A3"
+            ],
+            "oklab_distance": 0.0052
+          },
+          {
+            "colors": [
+              "#426F70",
+              "#5F748B"
+            ],
+            "oklab_distance": 0.0362
+          },
+          {
+            "colors": [
+              "#5C60A3",
+              "#5F748B"
+            ],
+            "oklab_distance": 0.0414
+          },
+          {
+            "colors": [
+              "#5F748B",
+              "#8A719D"
+            ],
+            "oklab_distance": 0.0297
+          }
+        ]
+      },
+      "close_pair_rule": "Distance <0.06 is an editorial review flag, not an accessibility standard."
+    }
+  },
+  "figure_count": 30,
+  "example_count": 6,
+  "candidate_count": 5,
+  "export_QA": {
+    "pdf_count": 36,
+    "pdf_page_counts": {
+      "arctic-signal/bars_comparison_IEDB.pdf": 1,
+      "arctic-signal/brute_force.pdf": 1,
+      "arctic-signal/comparison_posttraining.pdf": 1,
+      "arctic-signal/comparison_radar.pdf": 1,
+      "arctic-signal/concept.pdf": 1,
+      "arctic-signal/gallery.pdf": 6,
+      "arctic-signal/trend_by_month.pdf": 1,
+      "blue-hour/bars_comparison_IEDB.pdf": 1,
+      "blue-hour/brute_force.pdf": 1,
+      "blue-hour/comparison_posttraining.pdf": 1,
+      "blue-hour/comparison_radar.pdf": 1,
+      "blue-hour/concept.pdf": 1,
+      "blue-hour/gallery.pdf": 6,
+      "blue-hour/trend_by_month.pdf": 1,
+      "fjord/bars_comparison_IEDB.pdf": 1,
+      "fjord/brute_force.pdf": 1,
+      "fjord/comparison_posttraining.pdf": 1,
+      "fjord/comparison_radar.pdf": 1,
+      "fjord/concept.pdf": 1,
+      "fjord/gallery.pdf": 6,
+      "fjord/trend_by_month.pdf": 1,
+      "glacial-iris/bars_comparison_IEDB.pdf": 1,
+      "glacial-iris/brute_force.pdf": 1,
+      "glacial-iris/comparison_posttraining.pdf": 1,
+      "glacial-iris/comparison_radar.pdf": 1,
+      "glacial-iris/concept.pdf": 1,
+      "glacial-iris/gallery.pdf": 6,
+      "glacial-iris/trend_by_month.pdf": 1,
+      "s3-cool-palettes.pdf": 9,
+      "sea-glass/bars_comparison_IEDB.pdf": 1,
+      "sea-glass/brute_force.pdf": 1,
+      "sea-glass/comparison_posttraining.pdf": 1,
+      "sea-glass/comparison_radar.pdf": 1,
+      "sea-glass/concept.pdf": 1,
+      "sea-glass/gallery.pdf": 6,
+      "sea-glass/trend_by_month.pdf": 1
+    },
+    "embedded_fonts": [
+      "CJIGXG+Helvetica",
+      "CMFTIO+DejaVuSans",
+      "CNAZHH+DejaVuSans-Oblique",
+      "CQXFBD+Helvetica",
+      "DHQJIF+DejaVuSans-Oblique",
+      "DMPBQX+Helvetica",
+      "DXPYOD+Helvetica",
+      "EHPMOV+Helvetica",
+      "ESRFLK+Helvetica",
+      "FNHVRN+Helvetica",
+      "FOUXMA+STIXNonUnicode-Italic",
+      "FRDJVK+Helvetica",
+      "FSDOXE+Helvetica",
+      "FTNTXY+Helvetica",
+      "JWACRD+DejaVuSans-Oblique",
+      "ZIUYJZ+DejaVuSans-Oblique"
+    ],
+    "text_outside_page": [],
+    "native_png_dpi": 300,
+    "native_svg_text": true,
+    "exact_panel_RGB": [
+      235,
+      241,
+      245
+    ],
+    "gallery_links_exist": true
+  }
+}

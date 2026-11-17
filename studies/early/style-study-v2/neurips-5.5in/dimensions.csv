@@ -1,0 +1,49 @@
+"id","type","size","figure_width_in","panel_width_in","panel_height_in","columns","gutter_in","tick_pt","axis_pt"
+"A","Scatterplot","small",5.5,1.74,1.8,3,0.14,7.5,8
+"A","Scatterplot","compact",5.5,1.27,1.65,4,0.14,7.5,8
+"A","Scatterplot","medium",5.5,2.68,2.05,2,0.14,7.5,8
+"A","Scatterplot","large",5.5,5.5,2.65,1,0.14,7.5,8
+"B","Line and uncertainty","small",5.5,1.74,1.8,3,0.14,7.5,8
+"B","Line and uncertainty","compact",5.5,1.27,1.65,4,0.14,7.5,8
+"B","Line and uncertainty","medium",5.5,2.68,2.05,2,0.14,7.5,8
+"B","Line and uncertainty","large",5.5,5.5,2.65,1,0.14,7.5,8
+"C","Paired comparison","small",5.5,1.74,1.8,3,0.14,7.5,8
+"C","Paired comparison","compact",5.5,1.27,1.65,4,0.14,7.5,8
+"C","Paired comparison","medium",5.5,2.68,2.05,2,0.14,7.5,8
+"C","Paired comparison","large",5.5,5.5,2.65,1,0.14,7.5,8
+"D","Point and interval","small",5.5,1.74,1.8,3,0.14,7.5,8
+"D","Point and interval","compact",5.5,1.27,1.65,4,0.14,7.5,8
+"D","Point and interval","medium",5.5,2.68,2.05,2,0.14,7.5,8
+"D","Point and interval","large",5.5,5.5,2.65,1,0.14,7.5,8
+"E","Boxplot and observations","small",5.5,1.74,1.8,3,0.14,7.5,8
+"E","Boxplot and observations","compact",5.5,1.27,1.65,4,0.14,7.5,8
+"E","Boxplot and observations","medium",5.5,2.68,2.05,2,0.14,7.5,8
+"E","Boxplot and observations","large",5.5,5.5,2.65,1,0.14,7.5,8
+"F","Violin plot","small",5.5,1.74,1.8,3,0.14,7.5,8
+"F","Violin plot","compact",5.5,1.27,1.65,4,0.14,7.5,8
+"F","Violin plot","medium",5.5,2.68,2.05,2,0.14,7.5,8
+"F","Violin plot","large",5.5,5.5,2.65,1,0.14,7.5,8
+"G","Histogram","small",5.5,1.74,1.8,3,0.14,7.5,8
+"G","Histogram","compact",5.5,1.27,1.65,4,0.14,7.5,8
+"G","Histogram","medium",5.5,2.68,2.05,2,0.14,7.5,8
+"G","Histogram","large",5.5,5.5,2.65,1,0.14,7.5,8
+"H","Density plot","small",5.5,1.74,1.8,3,0.14,7.5,8
+"H","Density plot","compact",5.5,1.27,1.65,4,0.14,7.5,8
+"H","Density plot","medium",5.5,2.68,2.05,2,0.14,7.5,8
+"H","Density plot","large",5.5,5.5,2.65,1,0.14,7.5,8
+"I","Grouped bars","small",5.5,1.74,1.8,3,0.14,7.5,8
+"I","Grouped bars","compact",5.5,1.27,1.65,4,0.14,7.5,8
+"I","Grouped bars","medium",5.5,2.68,2.05,2,0.14,7.5,8
+"I","Grouped bars","large",5.5,5.5,2.65,1,0.14,7.5,8
+"J","Heatmap","small",5.5,1.74,1.8,3,0.14,7.5,8
+"J","Heatmap","compact",5.5,1.27,1.65,4,0.14,7.5,8
+"J","Heatmap","medium",5.5,2.68,2.05,2,0.14,7.5,8
+"J","Heatmap","large",5.5,5.5,2.65,1,0.14,7.5,8
+"K","Small multiples","small",5.5,1.74,4.15,3,0.14,7.5,8
+"K","Small multiples","compact",5.5,1.27,4.15,4,0.14,7.5,8
+"K","Small multiples","medium",5.5,2.68,2.6,2,0.14,7.5,8
+"K","Small multiples","large",5.5,5.5,3,1,0.14,7.5,8
+"L","Density and scatter","small",5.5,1.74,2.2,3,0.14,7.5,8
+"L","Density and scatter","compact",5.5,1.27,2.05,4,0.14,7.5,8
+"L","Density and scatter","medium",5.5,2.68,2.55,2,0.14,7.5,8
+"L","Density and scatter","large",5.5,5.5,3.15,1,0.14,7.5,8

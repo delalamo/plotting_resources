@@ -1,0 +1,1104 @@
+{
+  "panel_background": "#EBF1F5",
+  "fixed_S3": {
+    "panel": "#EBF1F5",
+    "canvas": "#FFFFFF",
+    "ink": "#282828",
+    "muted": "#666666",
+    "grid_color": "#CBD6DF",
+    "frame_color": "#566C7B",
+    "line": 1.25,
+    "error": 0.65,
+    "grid_width": 0.45,
+    "frame_width": 0.45,
+    "frame": "box",
+    "grid": "xy",
+    "grid_style": ":",
+    "ticks": 2,
+    "marker": 3.5,
+    "marker_fill": "open",
+    "dashes": true,
+    "bar_width": 0.7,
+    "bar_edge": 0.35,
+    "cap": 2,
+    "fill_alpha": 0.08,
+    "area_alpha": [
+      0.14,
+      0.22
+    ],
+    "radar_alpha": 0.035,
+    "hatch_color": "#707070",
+    "hatch_width": 0.4,
+    "composition_alpha": 0.8,
+    "emphasis": false
+  },
+  "fixed_typography": {
+    "font": "Helvetica",
+    "weight": "normal",
+    "labels_pt": 10.0,
+    "ticks_legends_pt": 8.571428571428571,
+    "titles_pt": 11.428571428571429
+  },
+  "sources": [
+    {
+      "id": "G",
+      "title": "Gisbert Poppler: Garden Home, reported by Yatzer",
+      "url": "https://www.yatzer.com/garden-house-gisbert-poppler",
+      "kind": "Design publication with designer interview and project photographs",
+      "finding": "The project combines light blue, crimson red and mustard yellow; green and orange appear elsewhere.",
+      "application": "R1 keeps blue/red/gold as its core and uses the other hue families in the expanded set."
+    },
+    {
+      "id": "P",
+      "title": "Pinterest Palette 2026",
+      "url": "https://business.pinterest.com/pinterest-palette/",
+      "kind": "Primary source: published digital palette",
+      "finding": "Cool Blue #D7EFFF appears with Plum Noir #351E28, Persimmon #FF5C34, Wasabi #E9F056 and Jade #AEB8A0.",
+      "application": "R2 borrows the plum/orange/yellow-green relationship. Orange and citron are darkened for thin marks; the full source palette is not copied."
+    },
+    {
+      "id": "T",
+      "title": "Temp Project: Gunia showroom, architect-supplied description",
+      "url": "https://www.archdaily.com/1039360/gunia-project-showroom-temp-project",
+      "kind": "Primary source: description provided by the architects",
+      "finding": "The architects describe greens, blues, pale pinks and soft beige alongside retained wooden panels and mahogany cabinets.",
+      "application": "R3 uses cocoa, rose and jade on S3, adapting the material/color relationships into darker plotting inks."
+    },
+    {
+      "id": "H",
+      "title": "Gunia Project: Hospitality Design project report",
+      "url": "https://hospitalitydesign.com/news/gunia-project-store-kyiv-ukraine/183578/",
+      "kind": "Design publication: project report",
+      "finding": "The report specifically identifies chocolate brown with pale blue, and also describes sky blue, green and flower pink.",
+      "application": "This supports the pale-blue/brown relationship in R3; rose and jade keep its categories varied."
+    },
+    {
+      "id": "B",
+      "title": "Benjamin Moore: complementary color combinations",
+      "url": "https://www.benjaminmoore.com/en-us/color-overview/color-insights/complementary-colors-guide",
+      "kind": "Primary source: manufacturer design guidance",
+      "finding": "A blue room illustration opens into orange; another example pairs turquoise tiles with orange-red cabinetry.",
+      "application": "R4 shifts that relationship to petrol and coral on a pale blue-gray panel."
+    },
+    {
+      "id": "L",
+      "title": "Little Greene: blue walls and yellow woodwork",
+      "url": "https://www.littlegreene.com/advice-hub/8-interior-wall-and-skirting-board-colour-combinations",
+      "kind": "Primary source: manufacturer design guidance",
+      "finding": "The blue/yellow example uses Grey Stone and Woad with Sunlight; another combines blue-purple with yellow highlights.",
+      "application": "Saffron is the authored third plotting color in R4, drawing on this blue/yellow pairing."
+    },
+    {
+      "id": "A",
+      "title": "Benjamin Moore: historical living-room color schemes",
+      "url": "https://www.benjaminmoore.com/en-us/benjamin-moore-co-archives/living-room-color-schemes",
+      "kind": "Primary source: manufacturer archive",
+      "finding": "The circa-1930 room has a light blue ceiling, gray-green rug, red upholstery and bright blue bookcases.",
+      "application": "R5 interprets those accents as wine, olive and denim. These are original contemporary sRGB choices."
+    }
+  ],
+  "candidates": [
+    {
+      "id": "R1",
+      "slug": "cobalt-brick-gold",
+      "name": "Cobalt / brick / gold",
+      "palette": {
+        "id": "R1",
+        "name": "Cobalt / brick / gold",
+        "colors": [
+          "#285F96",
+          "#B9413A",
+          "#A68517",
+          "#2B7C70",
+          "#9E638C",
+          "#685B80"
+        ],
+        "names": [
+          "Cobalt",
+          "Brick red",
+          "Old gold",
+          "Malachite",
+          "Heather rose",
+          "Violet slate"
+        ],
+        "extra": [
+          "#717B7F",
+          "#A96E45",
+          "#5B713C"
+        ],
+        "neutral": "#7A7770",
+        "sources": [
+          "G"
+        ],
+        "precedent": "Garden Home: light blue + crimson + mustard"
+      },
+      "panel": "#EBF1F5",
+      "canvas": "#FFFFFF",
+      "ink": "#282828",
+      "muted": "#666666",
+      "grid_color": "#CBD6DF",
+      "frame_color": "#566C7B",
+      "line": 1.25,
+      "error": 0.65,
+      "grid_width": 0.45,
+      "frame_width": 0.45,
+      "frame": "box",
+      "grid": "xy",
+      "grid_style": ":",
+      "ticks": 2,
+      "marker": 3.5,
+      "marker_fill": "open",
+      "dashes": true,
+      "bar_width": 0.7,
+      "bar_edge": 0.35,
+      "cap": 2,
+      "fill_alpha": 0.08,
+      "area_alpha": [
+        0.14,
+        0.22
+      ],
+      "radar_alpha": 0.035,
+      "hatch_color": "#707070",
+      "hatch_width": 0.4,
+      "composition_alpha": 0.8,
+      "emphasis": false,
+      "caption": "Clear blue with warm brick and mustard-gold.",
+      "best": "A confident blue/red/yellow identity with a recognizable warm-cool balance.",
+      "tradeoff": "Blue and red can have similar grayscale value; retain the marker shapes.",
+      "theme": {
+        "base": 10.0,
+        "small": 8.571428571428571,
+        "title": 11.428571428571429,
+        "line": 1.25,
+        "error": 0.65,
+        "grid": 0.45,
+        "outline": 0.4,
+        "frame": 0.45,
+        "marker": 3.5,
+        "ink": "#282828",
+        "muted": "#666666",
+        "grid_color": "#CBD6DF",
+        "background": "#EBF1F5",
+        "frame_color": "#566C7B",
+        "teal": "#285F96",
+        "rust": "#B9413A",
+        "ochre": "#A68517",
+        "taupe": "#7A7770",
+        "scatter": "#285F96"
+      },
+      "assignments": {
+        "methods": [
+          "#B9413A",
+          "#A68517",
+          "#285F96"
+        ],
+        "comparison": [
+          "#717B7F",
+          "#685B80",
+          "#A96E45",
+          "#2B7C70",
+          "#B9413A",
+          "#9E638C",
+          "#5B713C",
+          "#A68517",
+          "#285F96"
+        ],
+        "composition": [
+          "#285F96",
+          "#B9413A",
+          "#A68517",
+          "#2B7C70",
+          "#9E638C",
+          "#685B80",
+          "#717B7F"
+        ]
+      },
+      "category_mappings": {
+        "methods": [
+          [
+            "DPO",
+            "#B9413A"
+          ],
+          [
+            "DA-DPO",
+            "#A68517"
+          ],
+          [
+            "VIGIL (Ours)",
+            "#285F96"
+          ]
+        ],
+        "comparison": [
+          [
+            "Prime-2.1",
+            "#717B7F"
+          ],
+          [
+            "NetMHCpan",
+            "#685B80"
+          ],
+          [
+            "MHCnuggets",
+            "#A96E45"
+          ],
+          [
+            "MHCflurry",
+            "#2B7C70"
+          ],
+          [
+            "DeepNeo",
+            "#B9413A"
+          ],
+          [
+            "BigMHC-EL",
+            "#9E638C"
+          ],
+          [
+            "BigMHC-IM",
+            "#5B713C"
+          ],
+          [
+            "BigMHC$_\\text{retrained}$",
+            "#A68517"
+          ],
+          [
+            "ImmunoStruct (ours)",
+            "#285F96"
+          ]
+        ],
+        "composition": [
+          [
+            "DeepSeek R1 Distill Qwen 1.5B",
+            "#285F96"
+          ],
+          [
+            "DeepSeek R1 Distill Qwen 14B",
+            "#B9413A"
+          ],
+          [
+            "DeepSeek R1 Distill Llama 70B",
+            "#A68517"
+          ],
+          [
+            "deepseek-chat (Deepseek-V3)",
+            "#2B7C70"
+          ],
+          [
+            "deepseek-reasoner (Deepseek-R1)",
+            "#9E638C"
+          ],
+          [
+            "gemini-2.5-flash-preview-04-17",
+            "#685B80"
+          ],
+          [
+            "OpenAI o3",
+            "#717B7F"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "R2",
+      "slug": "plum-orange-citron",
+      "name": "Plum / orange / citron",
+      "palette": {
+        "id": "R2",
+        "name": "Plum / orange / citron",
+        "colors": [
+          "#6E354F",
+          "#BC5430",
+          "#8B9026",
+          "#417899",
+          "#43775B",
+          "#B2638A"
+        ],
+        "names": [
+          "Plum wine",
+          "Persimmon ink",
+          "Citron",
+          "Mineral blue",
+          "Garden green",
+          "Dahlia"
+        ],
+        "extra": [
+          "#687B85",
+          "#806147",
+          "#8671AA"
+        ],
+        "neutral": "#7B716E",
+        "sources": [
+          "P"
+        ],
+        "precedent": "Pinterest: icy blue + plum + persimmon + yellow-green"
+      },
+      "panel": "#EBF1F5",
+      "canvas": "#FFFFFF",
+      "ink": "#282828",
+      "muted": "#666666",
+      "grid_color": "#CBD6DF",
+      "frame_color": "#566C7B",
+      "line": 1.25,
+      "error": 0.65,
+      "grid_width": 0.45,
+      "frame_width": 0.45,
+      "frame": "box",
+      "grid": "xy",
+      "grid_style": ":",
+      "ticks": 2,
+      "marker": 3.5,
+      "marker_fill": "open",
+      "dashes": true,
+      "bar_width": 0.7,
+      "bar_edge": 0.35,
+      "cap": 2,
+      "fill_alpha": 0.08,
+      "area_alpha": [
+        0.14,
+        0.22
+      ],
+      "radar_alpha": 0.035,
+      "hatch_color": "#707070",
+      "hatch_width": 0.4,
+      "composition_alpha": 0.8,
+      "emphasis": false,
+      "caption": "Deep plum, orange-red and yellow-green; the most adventurous mix.",
+      "best": "The largest shift from S3 without changing its quiet background.",
+      "tradeoff": "Orange and citron move closer under red-green color-vision simulation.",
+      "theme": {
+        "base": 10.0,
+        "small": 8.571428571428571,
+        "title": 11.428571428571429,
+        "line": 1.25,
+        "error": 0.65,
+        "grid": 0.45,
+        "outline": 0.4,
+        "frame": 0.45,
+        "marker": 3.5,
+        "ink": "#282828",
+        "muted": "#666666",
+        "grid_color": "#CBD6DF",
+        "background": "#EBF1F5",
+        "frame_color": "#566C7B",
+        "teal": "#6E354F",
+        "rust": "#BC5430",
+        "ochre": "#8B9026",
+        "taupe": "#7B716E",
+        "scatter": "#6E354F"
+      },
+      "assignments": {
+        "methods": [
+          "#BC5430",
+          "#8B9026",
+          "#6E354F"
+        ],
+        "comparison": [
+          "#687B85",
+          "#B2638A",
+          "#806147",
+          "#417899",
+          "#BC5430",
+          "#43775B",
+          "#8671AA",
+          "#8B9026",
+          "#6E354F"
+        ],
+        "composition": [
+          "#6E354F",
+          "#BC5430",
+          "#8B9026",
+          "#417899",
+          "#43775B",
+          "#B2638A",
+          "#687B85"
+        ]
+      },
+      "category_mappings": {
+        "methods": [
+          [
+            "DPO",
+            "#BC5430"
+          ],
+          [
+            "DA-DPO",
+            "#8B9026"
+          ],
+          [
+            "VIGIL (Ours)",
+            "#6E354F"
+          ]
+        ],
+        "comparison": [
+          [
+            "Prime-2.1",
+            "#687B85"
+          ],
+          [
+            "NetMHCpan",
+            "#B2638A"
+          ],
+          [
+            "MHCnuggets",
+            "#806147"
+          ],
+          [
+            "MHCflurry",
+            "#417899"
+          ],
+          [
+            "DeepNeo",
+            "#BC5430"
+          ],
+          [
+            "BigMHC-EL",
+            "#43775B"
+          ],
+          [
+            "BigMHC-IM",
+            "#8671AA"
+          ],
+          [
+            "BigMHC$_\\text{retrained}$",
+            "#8B9026"
+          ],
+          [
+            "ImmunoStruct (ours)",
+            "#6E354F"
+          ]
+        ],
+        "composition": [
+          [
+            "DeepSeek R1 Distill Qwen 1.5B",
+            "#6E354F"
+          ],
+          [
+            "DeepSeek R1 Distill Qwen 14B",
+            "#BC5430"
+          ],
+          [
+            "DeepSeek R1 Distill Llama 70B",
+            "#8B9026"
+          ],
+          [
+            "deepseek-chat (Deepseek-V3)",
+            "#417899"
+          ],
+          [
+            "deepseek-reasoner (Deepseek-R1)",
+            "#43775B"
+          ],
+          [
+            "gemini-2.5-flash-preview-04-17",
+            "#B2638A"
+          ],
+          [
+            "OpenAI o3",
+            "#687B85"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "R3",
+      "slug": "cocoa-rose-jade",
+      "name": "Cocoa / rose / jade",
+      "palette": {
+        "id": "R3",
+        "name": "Cocoa / rose / jade",
+        "colors": [
+          "#67463B",
+          "#B96588",
+          "#338269",
+          "#4E7C9D",
+          "#A68234",
+          "#7B6C9D"
+        ],
+        "names": [
+          "Cocoa",
+          "Rose velvet",
+          "Jade",
+          "Glazed blue",
+          "Brass",
+          "Smoked lilac"
+        ],
+        "extra": [
+          "#768072",
+          "#9E5B4D",
+          "#44636C"
+        ],
+        "neutral": "#80766F",
+        "sources": [
+          "T",
+          "H"
+        ],
+        "precedent": "Gunia showroom: pale blue + dark wood + pink + green"
+      },
+      "panel": "#EBF1F5",
+      "canvas": "#FFFFFF",
+      "ink": "#282828",
+      "muted": "#666666",
+      "grid_color": "#CBD6DF",
+      "frame_color": "#566C7B",
+      "line": 1.25,
+      "error": 0.65,
+      "grid_width": 0.45,
+      "frame_width": 0.45,
+      "frame": "box",
+      "grid": "xy",
+      "grid_style": ":",
+      "ticks": 2,
+      "marker": 3.5,
+      "marker_fill": "open",
+      "dashes": true,
+      "bar_width": 0.7,
+      "bar_edge": 0.35,
+      "cap": 2,
+      "fill_alpha": 0.08,
+      "area_alpha": [
+        0.14,
+        0.22
+      ],
+      "radar_alpha": 0.035,
+      "hatch_color": "#707070",
+      "hatch_width": 0.4,
+      "composition_alpha": 0.8,
+      "emphasis": false,
+      "caption": "Warm cocoa, rose and green against the blue-gray surface.",
+      "best": "A material-inspired direction that moves the signature color away from blue.",
+      "tradeoff": "Rose and jade need their distinct markers in grayscale.",
+      "theme": {
+        "base": 10.0,
+        "small": 8.571428571428571,
+        "title": 11.428571428571429,
+        "line": 1.25,
+        "error": 0.65,
+        "grid": 0.45,
+        "outline": 0.4,
+        "frame": 0.45,
+        "marker": 3.5,
+        "ink": "#282828",
+        "muted": "#666666",
+        "grid_color": "#CBD6DF",
+        "background": "#EBF1F5",
+        "frame_color": "#566C7B",
+        "teal": "#67463B",
+        "rust": "#B96588",
+        "ochre": "#338269",
+        "taupe": "#80766F",
+        "scatter": "#67463B"
+      },
+      "assignments": {
+        "methods": [
+          "#B96588",
+          "#338269",
+          "#67463B"
+        ],
+        "comparison": [
+          "#768072",
+          "#7B6C9D",
+          "#9E5B4D",
+          "#4E7C9D",
+          "#B96588",
+          "#A68234",
+          "#44636C",
+          "#338269",
+          "#67463B"
+        ],
+        "composition": [
+          "#67463B",
+          "#B96588",
+          "#338269",
+          "#4E7C9D",
+          "#A68234",
+          "#7B6C9D",
+          "#768072"
+        ]
+      },
+      "category_mappings": {
+        "methods": [
+          [
+            "DPO",
+            "#B96588"
+          ],
+          [
+            "DA-DPO",
+            "#338269"
+          ],
+          [
+            "VIGIL (Ours)",
+            "#67463B"
+          ]
+        ],
+        "comparison": [
+          [
+            "Prime-2.1",
+            "#768072"
+          ],
+          [
+            "NetMHCpan",
+            "#7B6C9D"
+          ],
+          [
+            "MHCnuggets",
+            "#9E5B4D"
+          ],
+          [
+            "MHCflurry",
+            "#4E7C9D"
+          ],
+          [
+            "DeepNeo",
+            "#B96588"
+          ],
+          [
+            "BigMHC-EL",
+            "#A68234"
+          ],
+          [
+            "BigMHC-IM",
+            "#44636C"
+          ],
+          [
+            "BigMHC$_\\text{retrained}$",
+            "#338269"
+          ],
+          [
+            "ImmunoStruct (ours)",
+            "#67463B"
+          ]
+        ],
+        "composition": [
+          [
+            "DeepSeek R1 Distill Qwen 1.5B",
+            "#67463B"
+          ],
+          [
+            "DeepSeek R1 Distill Qwen 14B",
+            "#B96588"
+          ],
+          [
+            "DeepSeek R1 Distill Llama 70B",
+            "#338269"
+          ],
+          [
+            "deepseek-chat (Deepseek-V3)",
+            "#4E7C9D"
+          ],
+          [
+            "deepseek-reasoner (Deepseek-R1)",
+            "#A68234"
+          ],
+          [
+            "gemini-2.5-flash-preview-04-17",
+            "#7B6C9D"
+          ],
+          [
+            "OpenAI o3",
+            "#768072"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "R4",
+      "slug": "petrol-coral-saffron",
+      "name": "Petrol / coral / saffron",
+      "palette": {
+        "id": "R4",
+        "name": "Petrol / coral / saffron",
+        "colors": [
+          "#155D68",
+          "#C85745",
+          "#AE811C",
+          "#5469A1",
+          "#9B5C85",
+          "#6A8142"
+        ],
+        "names": [
+          "Petrol",
+          "Coral",
+          "Saffron",
+          "Ultramarine",
+          "Orchid",
+          "Leaf green"
+        ],
+        "extra": [
+          "#74818A",
+          "#7B5643",
+          "#8874A1"
+        ],
+        "neutral": "#7D7970",
+        "sources": [
+          "B",
+          "L"
+        ],
+        "precedent": "Benjamin Moore + Little Greene: blue/orange and blue/yellow"
+      },
+      "panel": "#EBF1F5",
+      "canvas": "#FFFFFF",
+      "ink": "#282828",
+      "muted": "#666666",
+      "grid_color": "#CBD6DF",
+      "frame_color": "#566C7B",
+      "line": 1.25,
+      "error": 0.65,
+      "grid_width": 0.45,
+      "frame_width": 0.45,
+      "frame": "box",
+      "grid": "xy",
+      "grid_style": ":",
+      "ticks": 2,
+      "marker": 3.5,
+      "marker_fill": "open",
+      "dashes": true,
+      "bar_width": 0.7,
+      "bar_edge": 0.35,
+      "cap": 2,
+      "fill_alpha": 0.08,
+      "area_alpha": [
+        0.14,
+        0.22
+      ],
+      "radar_alpha": 0.035,
+      "hatch_color": "#707070",
+      "hatch_width": 0.4,
+      "composition_alpha": 0.8,
+      "emphasis": false,
+      "caption": "Deep petrol balances two brighter, warmer accents.",
+      "best": "A lively mix for curves, bars and area fills, with a dark anchor.",
+      "tradeoff": "The two warm colors are less distinct without hue; keep labels and dashes.",
+      "theme": {
+        "base": 10.0,
+        "small": 8.571428571428571,
+        "title": 11.428571428571429,
+        "line": 1.25,
+        "error": 0.65,
+        "grid": 0.45,
+        "outline": 0.4,
+        "frame": 0.45,
+        "marker": 3.5,
+        "ink": "#282828",
+        "muted": "#666666",
+        "grid_color": "#CBD6DF",
+        "background": "#EBF1F5",
+        "frame_color": "#566C7B",
+        "teal": "#155D68",
+        "rust": "#C85745",
+        "ochre": "#AE811C",
+        "taupe": "#7D7970",
+        "scatter": "#155D68"
+      },
+      "assignments": {
+        "methods": [
+          "#C85745",
+          "#AE811C",
+          "#155D68"
+        ],
+        "comparison": [
+          "#74818A",
+          "#6A8142",
+          "#7B5643",
+          "#5469A1",
+          "#C85745",
+          "#9B5C85",
+          "#8874A1",
+          "#AE811C",
+          "#155D68"
+        ],
+        "composition": [
+          "#155D68",
+          "#C85745",
+          "#AE811C",
+          "#5469A1",
+          "#9B5C85",
+          "#6A8142",
+          "#74818A"
+        ]
+      },
+      "category_mappings": {
+        "methods": [
+          [
+            "DPO",
+            "#C85745"
+          ],
+          [
+            "DA-DPO",
+            "#AE811C"
+          ],
+          [
+            "VIGIL (Ours)",
+            "#155D68"
+          ]
+        ],
+        "comparison": [
+          [
+            "Prime-2.1",
+            "#74818A"
+          ],
+          [
+            "NetMHCpan",
+            "#6A8142"
+          ],
+          [
+            "MHCnuggets",
+            "#7B5643"
+          ],
+          [
+            "MHCflurry",
+            "#5469A1"
+          ],
+          [
+            "DeepNeo",
+            "#C85745"
+          ],
+          [
+            "BigMHC-EL",
+            "#9B5C85"
+          ],
+          [
+            "BigMHC-IM",
+            "#8874A1"
+          ],
+          [
+            "BigMHC$_\\text{retrained}$",
+            "#AE811C"
+          ],
+          [
+            "ImmunoStruct (ours)",
+            "#155D68"
+          ]
+        ],
+        "composition": [
+          [
+            "DeepSeek R1 Distill Qwen 1.5B",
+            "#155D68"
+          ],
+          [
+            "DeepSeek R1 Distill Qwen 14B",
+            "#C85745"
+          ],
+          [
+            "DeepSeek R1 Distill Llama 70B",
+            "#AE811C"
+          ],
+          [
+            "deepseek-chat (Deepseek-V3)",
+            "#5469A1"
+          ],
+          [
+            "deepseek-reasoner (Deepseek-R1)",
+            "#9B5C85"
+          ],
+          [
+            "gemini-2.5-flash-preview-04-17",
+            "#6A8142"
+          ],
+          [
+            "OpenAI o3",
+            "#74818A"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "R5",
+      "slug": "wine-olive-denim",
+      "name": "Wine / olive / denim",
+      "palette": {
+        "id": "R5",
+        "name": "Wine / olive / denim",
+        "colors": [
+          "#863B50",
+          "#6F813B",
+          "#5185A6",
+          "#B97638",
+          "#2D706B",
+          "#9F6C88"
+        ],
+        "names": [
+          "Wine",
+          "Olive leaf",
+          "Denim",
+          "Copper",
+          "Deep jade",
+          "Rosewood"
+        ],
+        "extra": [
+          "#776B61",
+          "#7F709D",
+          "#A7594A"
+        ],
+        "neutral": "#7D786D",
+        "sources": [
+          "A"
+        ],
+        "precedent": "Benjamin Moore archive: pale blue + red + gray-green + blue"
+      },
+      "panel": "#EBF1F5",
+      "canvas": "#FFFFFF",
+      "ink": "#282828",
+      "muted": "#666666",
+      "grid_color": "#CBD6DF",
+      "frame_color": "#566C7B",
+      "line": 1.25,
+      "error": 0.65,
+      "grid_width": 0.45,
+      "frame_width": 0.45,
+      "frame": "box",
+      "grid": "xy",
+      "grid_style": ":",
+      "ticks": 2,
+      "marker": 3.5,
+      "marker_fill": "open",
+      "dashes": true,
+      "bar_width": 0.7,
+      "bar_edge": 0.35,
+      "cap": 2,
+      "fill_alpha": 0.08,
+      "area_alpha": [
+        0.14,
+        0.22
+      ],
+      "radar_alpha": 0.035,
+      "hatch_color": "#707070",
+      "hatch_width": 0.4,
+      "composition_alpha": 0.8,
+      "emphasis": false,
+      "caption": "Wine red, olive and denim; an earthy but more varied direction.",
+      "best": "Closest to the original balance, with a red signature instead of blue.",
+      "tradeoff": "Wine and olive need redundant encoding for red-green color-vision differences.",
+      "theme": {
+        "base": 10.0,
+        "small": 8.571428571428571,
+        "title": 11.428571428571429,
+        "line": 1.25,
+        "error": 0.65,
+        "grid": 0.45,
+        "outline": 0.4,
+        "frame": 0.45,
+        "marker": 3.5,
+        "ink": "#282828",
+        "muted": "#666666",
+        "grid_color": "#CBD6DF",
+        "background": "#EBF1F5",
+        "frame_color": "#566C7B",
+        "teal": "#863B50",
+        "rust": "#6F813B",
+        "ochre": "#5185A6",
+        "taupe": "#7D786D",
+        "scatter": "#863B50"
+      },
+      "assignments": {
+        "methods": [
+          "#6F813B",
+          "#5185A6",
+          "#863B50"
+        ],
+        "comparison": [
+          "#776B61",
+          "#9F6C88",
+          "#7F709D",
+          "#B97638",
+          "#6F813B",
+          "#2D706B",
+          "#A7594A",
+          "#5185A6",
+          "#863B50"
+        ],
+        "composition": [
+          "#863B50",
+          "#6F813B",
+          "#5185A6",
+          "#B97638",
+          "#2D706B",
+          "#9F6C88",
+          "#776B61"
+        ]
+      },
+      "category_mappings": {
+        "methods": [
+          [
+            "DPO",
+            "#6F813B"
+          ],
+          [
+            "DA-DPO",
+            "#5185A6"
+          ],
+          [
+            "VIGIL (Ours)",
+            "#863B50"
+          ]
+        ],
+        "comparison": [
+          [
+            "Prime-2.1",
+            "#776B61"
+          ],
+          [
+            "NetMHCpan",
+            "#9F6C88"
+          ],
+          [
+            "MHCnuggets",
+            "#7F709D"
+          ],
+          [
+            "MHCflurry",
+            "#B97638"
+          ],
+          [
+            "DeepNeo",
+            "#6F813B"
+          ],
+          [
+            "BigMHC-EL",
+            "#2D706B"
+          ],
+          [
+            "BigMHC-IM",
+            "#A7594A"
+          ],
+          [
+            "BigMHC$_\\text{retrained}$",
+            "#5185A6"
+          ],
+          [
+            "ImmunoStruct (ours)",
+            "#863B50"
+          ]
+        ],
+        "composition": [
+          [
+            "DeepSeek R1 Distill Qwen 1.5B",
+            "#863B50"
+          ],
+          [
+            "DeepSeek R1 Distill Qwen 14B",
+            "#6F813B"
+          ],
+          [
+            "DeepSeek R1 Distill Llama 70B",
+            "#5185A6"
+          ],
+          [
+            "deepseek-chat (Deepseek-V3)",
+            "#B97638"
+          ],
+          [
+            "deepseek-reasoner (Deepseek-R1)",
+            "#2D706B"
+          ],
+          [
+            "gemini-2.5-flash-preview-04-17",
+            "#9F6C88"
+          ],
+          [
+            "OpenAI o3",
+            "#776B61"
+          ]
+        ]
+      }
+    }
+  ]
+}

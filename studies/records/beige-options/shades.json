@@ -1,0 +1,100 @@
+{
+  "shades": [
+    {
+      "id": "A",
+      "name": "Ivory",
+      "color": "#FCFAF5",
+      "note": "Lightest"
+    },
+    {
+      "id": "B",
+      "name": "Light cream",
+      "color": "#FAF6EE",
+      "note": "Selected"
+    },
+    {
+      "id": "C",
+      "name": "Original beige",
+      "color": "#F7F2E8",
+      "note": "Previous"
+    },
+    {
+      "id": "D",
+      "name": "Soft sand",
+      "color": "#F0E8DA",
+      "note": "Darker"
+    },
+    {
+      "id": "E",
+      "name": "Warm linen",
+      "color": "#E8DDCA",
+      "note": "Darkest"
+    }
+  ],
+  "fixed_settings": {
+    "font": "Helvetica",
+    "frame_pt": 0.55,
+    "grid_color": "#E3DCCF",
+    "palettes": {
+      "comparison": [
+        "#8F857A",
+        "#C3A35A",
+        "#CB907B",
+        "#A08397",
+        "#B66B4C",
+        "#9BAA85",
+        "#778958",
+        "#54788D",
+        "#246C68"
+      ],
+      "composition": [
+        "#8EA6A0",
+        "#5D8E83",
+        "#316E65",
+        "#C58E76",
+        "#A65E45",
+        "#B2954F",
+        "#345D78"
+      ],
+      "methods": [
+        "#B2674D",
+        "#9B8644",
+        "#246C68"
+      ]
+    }
+  },
+  "checks": [
+    "A/bars_comparison_IEDB: correct panel background",
+    "A/brute_force: correct panel background",
+    "A/comparison_radar: correct panel background",
+    "A/comparison_posttraining: correct panel background",
+    "A/concept: correct panel background",
+    "A/trend_by_month: correct panel background",
+    "B/bars_comparison_IEDB: correct panel background",
+    "B/brute_force: correct panel background",
+    "B/comparison_radar: correct panel background",
+    "B/comparison_posttraining: correct panel background",
+    "B/concept: correct panel background",
+    "B/trend_by_month: correct panel background",
+    "C/bars_comparison_IEDB: correct panel background",
+    "C/brute_force: correct panel background",
+    "C/comparison_radar: correct panel background",
+    "C/comparison_posttraining: correct panel background",
+    "C/concept: correct panel background",
+    "C/trend_by_month: correct panel background",
+    "D/bars_comparison_IEDB: correct panel background",
+    "D/brute_force: correct panel background",
+    "D/comparison_radar: correct panel background",
+    "D/comparison_posttraining: correct panel background",
+    "D/concept: correct panel background",
+    "D/trend_by_month: correct panel background",
+    "E/bars_comparison_IEDB: correct panel background",
+    "E/brute_force: correct panel background",
+    "E/comparison_radar: correct panel background",
+    "E/comparison_posttraining: correct panel background",
+    "E/concept: correct panel background",
+    "E/trend_by_month: correct panel background"
+  ],
+  "accepted_files_unchanged": true,
+  "selected_id": "B"
+}

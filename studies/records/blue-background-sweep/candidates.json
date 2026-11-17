@@ -1,0 +1,411 @@
+{
+  "status": "selected",
+  "page_background": "#FFFFFF",
+  "figure_background": "#EDF4F9",
+  "previous_plot_background": "#DCEAF4",
+  "source_chart": {
+    "id": "T1",
+    "slug": "template-posttraining-lines",
+    "group": "Our template",
+    "short": "Post-training performance",
+    "title": "VIGIL Maintains the Highest Score After Post-Training",
+    "subtitle": "Performance on highly vision-dependent tasks, original benchmark scale",
+    "source": "Source: Chen Liu, figures4papers, figure_VIGIL/plot_posttraining.py (CC BY-NC 4.0).",
+    "notes": "Notes: All five steps and all three method series are unchanged. The SFT reference stays at the shared initial value of 22.",
+    "rule": "Urban layout: series named at their right endpoints; the redundant legend is removed.",
+    "url": "https://github.com/ChenLiu-1996/figures4papers",
+    "previous": "../s3-design-study/cobalt-brick-gold/comparison_posttraining.png",
+    "alt": "VIGIL rises from 22 to 58.5, DA-DPO to 40.5 and DPO to 30.2 after 800 steps, above the SFT-only reference at 22.",
+    "data": {
+      "methods": [
+        "DPO",
+        "DA-DPO",
+        "VIGIL (Ours)"
+      ],
+      "colors": [
+        "#D88F8A",
+        "#8BCF8B",
+        "#0F4D92"
+      ],
+      "steps": [
+        0,
+        200,
+        400,
+        600,
+        800
+      ],
+      "results": [
+        [
+          22.0,
+          25.5,
+          28.2,
+          29.5,
+          30.2
+        ],
+        [
+          22.0,
+          33.5,
+          38.2,
+          39.8,
+          40.5
+        ],
+        [
+          22.0,
+          52.5,
+          56.8,
+          57.9,
+          58.5
+        ]
+      ]
+    }
+  },
+  "candidates": [
+    {
+      "option": "A",
+      "plot_background": "#D8E8F4",
+      "figure_background": "#EDF4F9",
+      "chart_size_pt": [
+        450.0,
+        300.1295312499999
+      ],
+      "panel_rect_pt": [
+        41.76,
+        2.999999999999943,
+        378.0,
+        264.3599999999999
+      ],
+      "chart_scale": 1.0,
+      "source_chart_id": "T1",
+      "source_data_sha256": "a755782f8fcf77b686f381af5643af1bbc53f88a787be35410f47e4f9bde780c",
+      "spacing": {
+        "legend_position": "below",
+        "legend_count": 0,
+        "plot_labels_to_legend_pt": null,
+        "top_export_padding_pt": 3.0,
+        "legend_group_gap_pt": null,
+        "plot_geometry_preserved": true
+      },
+      "font": "Arial",
+      "font_pt": 10,
+      "ink_contrast": 11.773,
+      "panel_to_figure_contrast": 1.128,
+      "card_rect": [
+        63,
+        186.02387695312495,
+        549,
+        613.1543847656249
+      ],
+      "chart_rect": [
+        81.0,
+        240.42426757812495,
+        531.0,
+        540.5537988281249
+      ],
+      "prose_bottom": 707.9978906249999
+    },
+    {
+      "option": "B",
+      "plot_background": "#D3E5F2",
+      "figure_background": "#EDF4F9",
+      "chart_size_pt": [
+        450.0,
+        300.1295312499999
+      ],
+      "panel_rect_pt": [
+        41.76,
+        2.999999999999943,
+        378.0,
+        264.3599999999999
+      ],
+      "chart_scale": 1.0,
+      "source_chart_id": "T1",
+      "source_data_sha256": "a755782f8fcf77b686f381af5643af1bbc53f88a787be35410f47e4f9bde780c",
+      "spacing": {
+        "legend_position": "below",
+        "legend_count": 0,
+        "plot_labels_to_legend_pt": null,
+        "top_export_padding_pt": 3.0,
+        "legend_group_gap_pt": null,
+        "plot_geometry_preserved": true
+      },
+      "font": "Arial",
+      "font_pt": 10,
+      "ink_contrast": 11.415,
+      "panel_to_figure_contrast": 1.163,
+      "card_rect": [
+        63,
+        186.02387695312495,
+        549,
+        613.1543847656249
+      ],
+      "chart_rect": [
+        81.0,
+        240.42426757812495,
+        531.0,
+        540.5537988281249
+      ],
+      "prose_bottom": 707.9978906249999
+    },
+    {
+      "option": "C",
+      "plot_background": "#CEE1F0",
+      "figure_background": "#EDF4F9",
+      "chart_size_pt": [
+        450.0,
+        300.1295312499999
+      ],
+      "panel_rect_pt": [
+        41.76,
+        2.999999999999943,
+        378.0,
+        264.3599999999999
+      ],
+      "chart_scale": 1.0,
+      "source_chart_id": "T1",
+      "source_data_sha256": "a755782f8fcf77b686f381af5643af1bbc53f88a787be35410f47e4f9bde780c",
+      "spacing": {
+        "legend_position": "below",
+        "legend_count": 0,
+        "plot_labels_to_legend_pt": null,
+        "top_export_padding_pt": 3.0,
+        "legend_group_gap_pt": null,
+        "plot_geometry_preserved": true
+      },
+      "font": "Arial",
+      "font_pt": 10,
+      "ink_contrast": 10.989,
+      "panel_to_figure_contrast": 1.208,
+      "card_rect": [
+        63,
+        186.02387695312495,
+        549,
+        613.1543847656249
+      ],
+      "chart_rect": [
+        81.0,
+        240.42426757812495,
+        531.0,
+        540.5537988281249
+      ],
+      "prose_bottom": 707.9978906249999
+    },
+    {
+      "option": "D",
+      "plot_background": "#C9DEED",
+      "figure_background": "#EDF4F9",
+      "chart_size_pt": [
+        450.0,
+        300.1295312499999
+      ],
+      "panel_rect_pt": [
+        41.76,
+        2.999999999999943,
+        378.0,
+        264.3599999999999
+      ],
+      "chart_scale": 1.0,
+      "source_chart_id": "T1",
+      "source_data_sha256": "a755782f8fcf77b686f381af5643af1bbc53f88a787be35410f47e4f9bde780c",
+      "spacing": {
+        "legend_position": "below",
+        "legend_count": 0,
+        "plot_labels_to_legend_pt": null,
+        "top_export_padding_pt": 3.0,
+        "legend_group_gap_pt": null,
+        "plot_geometry_preserved": true
+      },
+      "font": "Arial",
+      "font_pt": 10,
+      "ink_contrast": 10.64,
+      "panel_to_figure_contrast": 1.248,
+      "card_rect": [
+        63,
+        186.02387695312495,
+        549,
+        613.1543847656249
+      ],
+      "chart_rect": [
+        81.0,
+        240.42426757812495,
+        531.0,
+        540.5537988281249
+      ],
+      "prose_bottom": 707.9978906249999
+    },
+    {
+      "option": "E",
+      "plot_background": "#C4DBEA",
+      "figure_background": "#EDF4F9",
+      "chart_size_pt": [
+        450.0,
+        300.1295312499999
+      ],
+      "panel_rect_pt": [
+        41.76,
+        2.999999999999943,
+        378.0,
+        264.3599999999999
+      ],
+      "chart_scale": 1.0,
+      "source_chart_id": "T1",
+      "source_data_sha256": "a755782f8fcf77b686f381af5643af1bbc53f88a787be35410f47e4f9bde780c",
+      "spacing": {
+        "legend_position": "below",
+        "legend_count": 0,
+        "plot_labels_to_legend_pt": null,
+        "top_export_padding_pt": 3.0,
+        "legend_group_gap_pt": null,
+        "plot_geometry_preserved": true
+      },
+      "font": "Arial",
+      "font_pt": 10,
+      "ink_contrast": 10.298,
+      "panel_to_figure_contrast": 1.289,
+      "card_rect": [
+        63,
+        186.02387695312495,
+        549,
+        613.1543847656249
+      ],
+      "chart_rect": [
+        81.0,
+        240.42426757812495,
+        531.0,
+        540.5537988281249
+      ],
+      "prose_bottom": 707.9978906249999
+    },
+    {
+      "option": "F",
+      "plot_background": "#BFD8E7",
+      "figure_background": "#EDF4F9",
+      "chart_size_pt": [
+        450.0,
+        300.1295312499999
+      ],
+      "panel_rect_pt": [
+        41.76,
+        2.999999999999943,
+        378.0,
+        264.3599999999999
+      ],
+      "chart_scale": 1.0,
+      "source_chart_id": "T1",
+      "source_data_sha256": "a755782f8fcf77b686f381af5643af1bbc53f88a787be35410f47e4f9bde780c",
+      "spacing": {
+        "legend_position": "below",
+        "legend_count": 0,
+        "plot_labels_to_legend_pt": null,
+        "top_export_padding_pt": 3.0,
+        "legend_group_gap_pt": null,
+        "plot_geometry_preserved": true
+      },
+      "font": "Arial",
+      "font_pt": 10,
+      "ink_contrast": 9.963,
+      "panel_to_figure_contrast": 1.332,
+      "card_rect": [
+        63,
+        186.02387695312495,
+        549,
+        613.1543847656249
+      ],
+      "chart_rect": [
+        81.0,
+        240.42426757812495,
+        531.0,
+        540.5537988281249
+      ],
+      "prose_bottom": 707.9978906249999
+    },
+    {
+      "option": "G",
+      "plot_background": "#BAD4E4",
+      "figure_background": "#EDF4F9",
+      "chart_size_pt": [
+        450.0,
+        300.1295312499999
+      ],
+      "panel_rect_pt": [
+        41.76,
+        2.999999999999943,
+        378.0,
+        264.3599999999999
+      ],
+      "chart_scale": 1.0,
+      "source_chart_id": "T1",
+      "source_data_sha256": "a755782f8fcf77b686f381af5643af1bbc53f88a787be35410f47e4f9bde780c",
+      "spacing": {
+        "legend_position": "below",
+        "legend_count": 0,
+        "plot_labels_to_legend_pt": null,
+        "top_export_padding_pt": 3.0,
+        "legend_group_gap_pt": null,
+        "plot_geometry_preserved": true
+      },
+      "font": "Arial",
+      "font_pt": 10,
+      "ink_contrast": 9.566,
+      "panel_to_figure_contrast": 1.388,
+      "card_rect": [
+        63,
+        186.02387695312495,
+        549,
+        613.1543847656249
+      ],
+      "chart_rect": [
+        81.0,
+        240.42426757812495,
+        531.0,
+        540.5537988281249
+      ],
+      "prose_bottom": 707.9978906249999
+    },
+    {
+      "option": "H",
+      "plot_background": "#B5D1E1",
+      "figure_background": "#EDF4F9",
+      "chart_size_pt": [
+        450.0,
+        300.1295312499999
+      ],
+      "panel_rect_pt": [
+        41.76,
+        2.999999999999943,
+        378.0,
+        264.3599999999999
+      ],
+      "chart_scale": 1.0,
+      "source_chart_id": "T1",
+      "source_data_sha256": "a755782f8fcf77b686f381af5643af1bbc53f88a787be35410f47e4f9bde780c",
+      "spacing": {
+        "legend_position": "below",
+        "legend_count": 0,
+        "plot_labels_to_legend_pt": null,
+        "top_export_padding_pt": 3.0,
+        "legend_group_gap_pt": null,
+        "plot_geometry_preserved": true
+      },
+      "font": "Arial",
+      "font_pt": 10,
+      "ink_contrast": 9.248,
+      "panel_to_figure_contrast": 1.436,
+      "card_rect": [
+        63,
+        186.02387695312495,
+        549,
+        613.1543847656249
+      ],
+      "chart_rect": [
+        81.0,
+        240.42426757812495,
+        531.0,
+        540.5537988281249
+      ],
+      "prose_bottom": 707.9978906249999
+    }
+  ],
+  "selected_option": "A",
+  "selected_plot_background": "#D8E8F4",
+  "selection_basis": "User chose the first option."
+}

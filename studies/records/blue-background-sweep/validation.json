@@ -1,0 +1,362 @@
+{
+  "pages": 8,
+  "figure_background": "#EDF4F9",
+  "candidate_order": "lighter to darker",
+  "only_plot_background_varies": true,
+  "native_chart_dimensions_preserved": true,
+  "font": "Arial",
+  "chart_font_pt": 10,
+  "pdf_fonts_embedded": true,
+  "chart_data_unchanged": true,
+  "text_and_layout_identical": true,
+  "no_text_overlaps": true,
+  "no_text_outside_page": true,
+  "selected_style_unchanged": true,
+  "plot_and_figure_pixel_colors_verified": true,
+  "candidates": [
+    {
+      "option": "A",
+      "plot_background": "#D8E8F4",
+      "figure_background": "#EDF4F9",
+      "chart_size_pt": [
+        450.0,
+        300.1295312499999
+      ],
+      "panel_rect_pt": [
+        41.76,
+        2.999999999999943,
+        378.0,
+        264.3599999999999
+      ],
+      "chart_scale": 1.0,
+      "source_chart_id": "T1",
+      "source_data_sha256": "a755782f8fcf77b686f381af5643af1bbc53f88a787be35410f47e4f9bde780c",
+      "spacing": {
+        "legend_position": "below",
+        "legend_count": 0,
+        "plot_labels_to_legend_pt": null,
+        "top_export_padding_pt": 3.0,
+        "legend_group_gap_pt": null,
+        "plot_geometry_preserved": true
+      },
+      "font": "Arial",
+      "font_pt": 10,
+      "ink_contrast": 11.773,
+      "panel_to_figure_contrast": 1.128,
+      "card_rect": [
+        63,
+        186.02387695312495,
+        549,
+        613.1543847656249
+      ],
+      "chart_rect": [
+        81.0,
+        240.42426757812495,
+        531.0,
+        540.5537988281249
+      ],
+      "prose_bottom": 707.9978906249999
+    },
+    {
+      "option": "B",
+      "plot_background": "#D3E5F2",
+      "figure_background": "#EDF4F9",
+      "chart_size_pt": [
+        450.0,
+        300.1295312499999
+      ],
+      "panel_rect_pt": [
+        41.76,
+        2.999999999999943,
+        378.0,
+        264.3599999999999
+      ],
+      "chart_scale": 1.0,
+      "source_chart_id": "T1",
+      "source_data_sha256": "a755782f8fcf77b686f381af5643af1bbc53f88a787be35410f47e4f9bde780c",
+      "spacing": {
+        "legend_position": "below",
+        "legend_count": 0,
+        "plot_labels_to_legend_pt": null,
+        "top_export_padding_pt": 3.0,
+        "legend_group_gap_pt": null,
+        "plot_geometry_preserved": true
+      },
+      "font": "Arial",
+      "font_pt": 10,
+      "ink_contrast": 11.415,
+      "panel_to_figure_contrast": 1.163,
+      "card_rect": [
+        63,
+        186.02387695312495,
+        549,
+        613.1543847656249
+      ],
+      "chart_rect": [
+        81.0,
+        240.42426757812495,
+        531.0,
+        540.5537988281249
+      ],
+      "prose_bottom": 707.9978906249999
+    },
+    {
+      "option": "C",
+      "plot_background": "#CEE1F0",
+      "figure_background": "#EDF4F9",
+      "chart_size_pt": [
+        450.0,
+        300.1295312499999
+      ],
+      "panel_rect_pt": [
+        41.76,
+        2.999999999999943,
+        378.0,
+        264.3599999999999
+      ],
+      "chart_scale": 1.0,
+      "source_chart_id": "T1",
+      "source_data_sha256": "a755782f8fcf77b686f381af5643af1bbc53f88a787be35410f47e4f9bde780c",
+      "spacing": {
+        "legend_position": "below",
+        "legend_count": 0,
+        "plot_labels_to_legend_pt": null,
+        "top_export_padding_pt": 3.0,
+        "legend_group_gap_pt": null,
+        "plot_geometry_preserved": true
+      },
+      "font": "Arial",
+      "font_pt": 10,
+      "ink_contrast": 10.989,
+      "panel_to_figure_contrast": 1.208,
+      "card_rect": [
+        63,
+        186.02387695312495,
+        549,
+        613.1543847656249
+      ],
+      "chart_rect": [
+        81.0,
+        240.42426757812495,
+        531.0,
+        540.5537988281249
+      ],
+      "prose_bottom": 707.9978906249999
+    },
+    {
+      "option": "D",
+      "plot_background": "#C9DEED",
+      "figure_background": "#EDF4F9",
+      "chart_size_pt": [
+        450.0,
+        300.1295312499999
+      ],
+      "panel_rect_pt": [
+        41.76,
+        2.999999999999943,
+        378.0,
+        264.3599999999999
+      ],
+      "chart_scale": 1.0,
+      "source_chart_id": "T1",
+      "source_data_sha256": "a755782f8fcf77b686f381af5643af1bbc53f88a787be35410f47e4f9bde780c",
+      "spacing": {
+        "legend_position": "below",
+        "legend_count": 0,
+        "plot_labels_to_legend_pt": null,
+        "top_export_padding_pt": 3.0,
+        "legend_group_gap_pt": null,
+        "plot_geometry_preserved": true
+      },
+      "font": "Arial",
+      "font_pt": 10,
+      "ink_contrast": 10.64,
+      "panel_to_figure_contrast": 1.248,
+      "card_rect": [
+        63,
+        186.02387695312495,
+        549,
+        613.1543847656249
+      ],
+      "chart_rect": [
+        81.0,
+        240.42426757812495,
+        531.0,
+        540.5537988281249
+      ],
+      "prose_bottom": 707.9978906249999
+    },
+    {
+      "option": "E",
+      "plot_background": "#C4DBEA",
+      "figure_background": "#EDF4F9",
+      "chart_size_pt": [
+        450.0,
+        300.1295312499999
+      ],
+      "panel_rect_pt": [
+        41.76,
+        2.999999999999943,
+        378.0,
+        264.3599999999999
+      ],
+      "chart_scale": 1.0,
+      "source_chart_id": "T1",
+      "source_data_sha256": "a755782f8fcf77b686f381af5643af1bbc53f88a787be35410f47e4f9bde780c",
+      "spacing": {
+        "legend_position": "below",
+        "legend_count": 0,
+        "plot_labels_to_legend_pt": null,
+        "top_export_padding_pt": 3.0,
+        "legend_group_gap_pt": null,
+        "plot_geometry_preserved": true
+      },
+      "font": "Arial",
+      "font_pt": 10,
+      "ink_contrast": 10.298,
+      "panel_to_figure_contrast": 1.289,
+      "card_rect": [
+        63,
+        186.02387695312495,
+        549,
+        613.1543847656249
+      ],
+      "chart_rect": [
+        81.0,
+        240.42426757812495,
+        531.0,
+        540.5537988281249
+      ],
+      "prose_bottom": 707.9978906249999
+    },
+    {
+      "option": "F",
+      "plot_background": "#BFD8E7",
+      "figure_background": "#EDF4F9",
+      "chart_size_pt": [
+        450.0,
+        300.1295312499999
+      ],
+      "panel_rect_pt": [
+        41.76,
+        2.999999999999943,
+        378.0,
+        264.3599999999999
+      ],
+      "chart_scale": 1.0,
+      "source_chart_id": "T1",
+      "source_data_sha256": "a755782f8fcf77b686f381af5643af1bbc53f88a787be35410f47e4f9bde780c",
+      "spacing": {
+        "legend_position": "below",
+        "legend_count": 0,
+        "plot_labels_to_legend_pt": null,
+        "top_export_padding_pt": 3.0,
+        "legend_group_gap_pt": null,
+        "plot_geometry_preserved": true
+      },
+      "font": "Arial",
+      "font_pt": 10,
+      "ink_contrast": 9.963,
+      "panel_to_figure_contrast": 1.332,
+      "card_rect": [
+        63,
+        186.02387695312495,
+        549,
+        613.1543847656249
+      ],
+      "chart_rect": [
+        81.0,
+        240.42426757812495,
+        531.0,
+        540.5537988281249
+      ],
+      "prose_bottom": 707.9978906249999
+    },
+    {
+      "option": "G",
+      "plot_background": "#BAD4E4",
+      "figure_background": "#EDF4F9",
+      "chart_size_pt": [
+        450.0,
+        300.1295312499999
+      ],
+      "panel_rect_pt": [
+        41.76,
+        2.999999999999943,
+        378.0,
+        264.3599999999999
+      ],
+      "chart_scale": 1.0,
+      "source_chart_id": "T1",
+      "source_data_sha256": "a755782f8fcf77b686f381af5643af1bbc53f88a787be35410f47e4f9bde780c",
+      "spacing": {
+        "legend_position": "below",
+        "legend_count": 0,
+        "plot_labels_to_legend_pt": null,
+        "top_export_padding_pt": 3.0,
+        "legend_group_gap_pt": null,
+        "plot_geometry_preserved": true
+      },
+      "font": "Arial",
+      "font_pt": 10,
+      "ink_contrast": 9.566,
+      "panel_to_figure_contrast": 1.388,
+      "card_rect": [
+        63,
+        186.02387695312495,
+        549,
+        613.1543847656249
+      ],
+      "chart_rect": [
+        81.0,
+        240.42426757812495,
+        531.0,
+        540.5537988281249
+      ],
+      "prose_bottom": 707.9978906249999
+    },
+    {
+      "option": "H",
+      "plot_background": "#B5D1E1",
+      "figure_background": "#EDF4F9",
+      "chart_size_pt": [
+        450.0,
+        300.1295312499999
+      ],
+      "panel_rect_pt": [
+        41.76,
+        2.999999999999943,
+        378.0,
+        264.3599999999999
+      ],
+      "chart_scale": 1.0,
+      "source_chart_id": "T1",
+      "source_data_sha256": "a755782f8fcf77b686f381af5643af1bbc53f88a787be35410f47e4f9bde780c",
+      "spacing": {
+        "legend_position": "below",
+        "legend_count": 0,
+        "plot_labels_to_legend_pt": null,
+        "top_export_padding_pt": 3.0,
+        "legend_group_gap_pt": null,
+        "plot_geometry_preserved": true
+      },
+      "font": "Arial",
+      "font_pt": 10,
+      "ink_contrast": 9.248,
+      "panel_to_figure_contrast": 1.436,
+      "card_rect": [
+        63,
+        186.02387695312495,
+        549,
+        613.1543847656249
+      ],
+      "chart_rect": [
+        81.0,
+        240.42426757812495,
+        531.0,
+        540.5537988281249
+      ],
+      "prose_bottom": 707.9978906249999
+    }
+  ]
+}

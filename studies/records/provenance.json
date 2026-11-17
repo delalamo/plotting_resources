@@ -1,0 +1,22 @@
+{
+  "repository": "https://github.com/ChenLiu-1996/figures4papers",
+  "commit": "0ddfbd3fc9892e804a3fa01ae46bd0d32617f2aa",
+  "retrieved": "2026-11-15",
+  "files": {
+    "figure_ImmunoStruct/raw_data.py": "837be4150b7419085caa84746734099ccc78e0f3fb4242e91b81ce1bde6009ca",
+    "figure_ImmunoStruct/plot_bars.py": "1d028144e620d1cfac66ea5ab57004dfa286d80214480c76d046d9f346fda408",
+    "figure_Brainteaser/plot_brute_force.py": "46906a9de2e8a069a2d3022a78087b2933e2cd898a38800242d005ceec40057f",
+    "figure_Dispersion/plot_illustration.py": "7f9c451d336f718a2c4287130a45ec4597b9fad43746de314a018655c639ec98",
+    "figure_VIGIL/plot_comparison_radar.py": "d30da4f6a14b33eb7e3350f6f9623caf58d178c099f961270a6e1c17aaaabbee",
+    "figure_VIGIL/plot_posttraining.py": "bb1371ace0f1742eb99019c87e18ecc44588ff063141fed5775429e0e373dc1c",
+    "figure_VIGIL/plot_concept.py": "b494343947cb33dd076924522a1a0ed910ded2f72b311525890f0e9e6f4a6030",
+    "figure_ophthal_review/plot_trend.py": "0a66624628f6e1da4f2da697e86ac79d46576d4bd552f5d585b2ceff05204811",
+    "figure_ImmunoStruct/figures/bars_comparison_IEDB.png": "18a52f7a910fe9c9ff06015f5a1e63527458a86c847f573eb96ba254d4645ac1",
+    "figure_Brainteaser/figures/brute_force.png": "abb63055b0d49edbe9002e820294a622db1429d31b1d2446340036cf1db92607",
+    "figure_Dispersion/figures/illustration.png": "2528309a41ba6edab9c377a2304c144813c0e99565239a849c427ab00a14643b",
+    "figure_VIGIL/figures/comparison_radar.png": "d6613715d9d4564fb0c7354430b227d43c9df04032e32b346601971381e5ba2d",
+    "figure_VIGIL/figures/comparison_posttraining.png": "a6f2e75e7d8361754445d86ce04386b5764a46bf2cbc94e8df0c75ecf1bab142",
+    "figure_VIGIL/figures/concept.png": "3554b9af671886dfbbe985016440c5ba1633b4e8b08d50539d992982c5cc2bf5",
+    "figure_ophthal_review/figures/trend_by_month.png": "66fe0f27f44697547b6cb219ff90696f54a6fef48984c9578ace258e0ebce4d4"
+  }
+}

@@ -1,0 +1,188 @@
+[
+  {
+    "page": 1,
+    "fonts": [
+      "Arial-BoldMT",
+      "ArialMT"
+    ],
+    "sizes_pt": [
+      10.0
+    ],
+    "spans": 40,
+    "fonts_embedded": true,
+    "text_inside_page": true
+  },
+  {
+    "page": 2,
+    "fonts": [
+      "Arial-BoldMT",
+      "ArialMT"
+    ],
+    "sizes_pt": [
+      8.0,
+      10.0
+    ],
+    "spans": 47,
+    "fonts_embedded": true,
+    "text_inside_page": true
+  },
+  {
+    "page": 3,
+    "fonts": [
+      "Arial-BoldMT",
+      "ArialMT"
+    ],
+    "sizes_pt": [
+      8.0,
+      10.0
+    ],
+    "spans": 41,
+    "fonts_embedded": true,
+    "text_inside_page": true
+  },
+  {
+    "page": 4,
+    "fonts": [
+      "Arial-BoldMT",
+      "ArialMT"
+    ],
+    "sizes_pt": [
+      8.0,
+      10.0
+    ],
+    "spans": 48,
+    "fonts_embedded": true,
+    "text_inside_page": true
+  },
+  {
+    "page": 5,
+    "fonts": [
+      "Arial-BoldMT",
+      "ArialMT"
+    ],
+    "sizes_pt": [
+      8.0,
+      10.0
+    ],
+    "spans": 46,
+    "fonts_embedded": true,
+    "text_inside_page": true
+  },
+  {
+    "page": 6,
+    "fonts": [
+      "Arial-BoldMT",
+      "ArialMT"
+    ],
+    "sizes_pt": [
+      8.0,
+      10.0
+    ],
+    "spans": 49,
+    "fonts_embedded": true,
+    "text_inside_page": true
+  },
+  {
+    "page": 7,
+    "fonts": [
+      "Arial-BoldMT",
+      "Arial-ItalicMT",
+      "ArialMT"
+    ],
+    "sizes_pt": [
+      7.0,
+      8.0,
+      10.0
+    ],
+    "spans": 47,
+    "fonts_embedded": true,
+    "text_inside_page": true
+  },
+  {
+    "page": 8,
+    "fonts": [
+      "Arial-BoldMT",
+      "ArialMT"
+    ],
+    "sizes_pt": [
+      8.0,
+      10.0
+    ],
+    "spans": 22,
+    "fonts_embedded": true,
+    "text_inside_page": true
+  },
+  {
+    "page": 9,
+    "fonts": [
+      "Arial-BoldMT",
+      "ArialMT"
+    ],
+    "sizes_pt": [
+      8.0,
+      10.0
+    ],
+    "spans": 60,
+    "fonts_embedded": true,
+    "text_inside_page": true
+  },
+  {
+    "page": 10,
+    "fonts": [
+      "Arial-BoldMT",
+      "ArialMT"
+    ],
+    "sizes_pt": [
+      8.0,
+      10.0
+    ],
+    "spans": 157,
+    "fonts_embedded": true,
+    "text_inside_page": true
+  },
+  {
+    "page": 11,
+    "fonts": [
+      "Arial-BoldMT",
+      "Arial-ItalicMT",
+      "ArialMT",
+      "STIXGeneral-Regular",
+      "STIXNonUnicode-Italic"
+    ],
+    "sizes_pt": [
+      7.0,
+      8.0,
+      10.0
+    ],
+    "spans": 78,
+    "fonts_embedded": true,
+    "text_inside_page": true
+  },
+  {
+    "page": 12,
+    "fonts": [
+      "Arial-BoldMT",
+      "ArialMT"
+    ],
+    "sizes_pt": [
+      8.0,
+      10.0
+    ],
+    "spans": 56,
+    "fonts_embedded": true,
+    "text_inside_page": true
+  },
+  {
+    "page": 13,
+    "fonts": [
+      "Arial-BoldMT",
+      "ArialMT"
+    ],
+    "sizes_pt": [
+      10.0
+    ],
+    "spans": 32,
+    "fonts_embedded": true,
+    "text_inside_page": true
+  }
+]

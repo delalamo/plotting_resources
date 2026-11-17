@@ -1,0 +1,217 @@
+{
+  "status": "selected",
+  "selected_on": "2026-11-15",
+  "style_id": "R1",
+  "base_style": "S3",
+  "name": "Cobalt / brick / gold",
+  "typography": {
+    "font": "Arial",
+    "weight": "normal",
+    "axis_title_weight": "bold",
+    "labels_pt": 10.0,
+    "ticks_legends_pt": 8.571428571428571,
+    "titles_pt": 11.428571428571429
+  },
+  "style": {
+    "id": "R1",
+    "slug": "cobalt-brick-gold",
+    "name": "Cobalt / brick / gold",
+    "palette": {
+      "id": "R1",
+      "name": "Cobalt / brick / gold",
+      "colors": [
+        "#285F96",
+        "#B9413A",
+        "#A68517",
+        "#2B7C70",
+        "#9E638C",
+        "#685B80"
+      ],
+      "names": [
+        "Cobalt",
+        "Brick red",
+        "Old gold",
+        "Malachite",
+        "Heather rose",
+        "Violet slate"
+      ],
+      "extra": [
+        "#717B7F",
+        "#A96E45",
+        "#5B713C"
+      ],
+      "neutral": "#7A7770",
+      "sources": [
+        "G"
+      ],
+      "precedent": "Garden Home: light blue + crimson + mustard"
+    },
+    "panel": "#EBF1F5",
+    "canvas": "#FFFFFF",
+    "ink": "#282828",
+    "muted": "#666666",
+    "grid_color": "#CBD6DF",
+    "frame_color": "#566C7B",
+    "line": 1.25,
+    "error": 0.65,
+    "grid_width": 0.45,
+    "frame_width": 0.45,
+    "frame": "box",
+    "grid": "xy",
+    "grid_style": ":",
+    "ticks": 2,
+    "marker": 3.5,
+    "marker_fill": "open",
+    "dashes": true,
+    "bar_width": 0.7,
+    "bar_edge": 0.35,
+    "cap": 2,
+    "fill_alpha": 0.08,
+    "area_alpha": [
+      0.14,
+      0.22
+    ],
+    "radar_alpha": 0.035,
+    "hatch_color": "#707070",
+    "hatch_width": 0.4,
+    "composition_alpha": 0.8,
+    "emphasis": false,
+    "caption": "Clear blue with warm brick and mustard-gold.",
+    "best": "A confident blue/red/yellow identity with a recognizable warm-cool balance.",
+    "tradeoff": "Blue and red can have similar grayscale value; retain the marker shapes.",
+    "theme": {
+      "base": 10.0,
+      "small": 8.571428571428571,
+      "title": 11.428571428571429,
+      "line": 1.25,
+      "error": 0.65,
+      "grid": 0.45,
+      "outline": 0.4,
+      "frame": 0.45,
+      "marker": 3.5,
+      "ink": "#282828",
+      "muted": "#666666",
+      "grid_color": "#CBD6DF",
+      "background": "#EBF1F5",
+      "frame_color": "#566C7B",
+      "teal": "#285F96",
+      "rust": "#B9413A",
+      "ochre": "#A68517",
+      "taupe": "#7A7770",
+      "scatter": "#285F96"
+    },
+    "assignments": {
+      "methods": [
+        "#B9413A",
+        "#A68517",
+        "#285F96"
+      ],
+      "comparison": [
+        "#717B7F",
+        "#685B80",
+        "#A96E45",
+        "#2B7C70",
+        "#B9413A",
+        "#9E638C",
+        "#5B713C",
+        "#A68517",
+        "#285F96"
+      ],
+      "composition": [
+        "#285F96",
+        "#B9413A",
+        "#A68517",
+        "#2B7C70",
+        "#9E638C",
+        "#685B80",
+        "#717B7F"
+      ]
+    },
+    "category_mappings": {
+      "methods": [
+        [
+          "DPO",
+          "#B9413A"
+        ],
+        [
+          "DA-DPO",
+          "#A68517"
+        ],
+        [
+          "VIGIL (Ours)",
+          "#285F96"
+        ]
+      ],
+      "comparison": [
+        [
+          "Prime-2.1",
+          "#717B7F"
+        ],
+        [
+          "NetMHCpan",
+          "#685B80"
+        ],
+        [
+          "MHCnuggets",
+          "#A96E45"
+        ],
+        [
+          "MHCflurry",
+          "#2B7C70"
+        ],
+        [
+          "DeepNeo",
+          "#B9413A"
+        ],
+        [
+          "BigMHC-EL",
+          "#9E638C"
+        ],
+        [
+          "BigMHC-IM",
+          "#5B713C"
+        ],
+        [
+          "BigMHC$_\\text{retrained}$",
+          "#A68517"
+        ],
+        [
+          "ImmunoStruct (ours)",
+          "#285F96"
+        ]
+      ],
+      "composition": [
+        [
+          "DeepSeek R1 Distill Qwen 1.5B",
+          "#285F96"
+        ],
+        [
+          "DeepSeek R1 Distill Qwen 14B",
+          "#B9413A"
+        ],
+        [
+          "DeepSeek R1 Distill Llama 70B",
+          "#A68517"
+        ],
+        [
+          "deepseek-chat (Deepseek-V3)",
+          "#2B7C70"
+        ],
+        [
+          "deepseek-reasoner (Deepseek-R1)",
+          "#9E638C"
+        ],
+        [
+          "gemini-2.5-flash-preview-04-17",
+          "#685B80"
+        ],
+        [
+          "OpenAI o3",
+          "#717B7F"
+        ]
+      ]
+    }
+  },
+  "example_directory": "s3-design-study/cobalt-brick-gold",
+  "renderer": "render_s3_design_study.py"
+}

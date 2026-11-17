@@ -1,0 +1,15 @@
+{
+  "font": "Arial",
+  "embedded_font_faces": [
+    "Arial-BoldMT",
+    "ArialMT"
+  ],
+  "axis_titles": "bold",
+  "other_text": "regular",
+  "PDF_pages": 8,
+  "samples": 6,
+  "source_data_unchanged": true,
+  "PDF_text_within_page": true,
+  "gallery_links": "pass",
+  "zip_integrity": "pass"
+}

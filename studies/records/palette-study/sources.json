@@ -1,0 +1,133 @@
+{
+  "accessed": "2026-11-15",
+  "sources": [
+    {
+      "id": "economist",
+      "title": "The Economist: choosing a limited chart palette",
+      "domain": "Editorial graphics",
+      "url": "https://education.economist.com/blog/interviews/tips-for-visualising-data-like-the-economist",
+      "finding": "The team describes dark and light blue as recurring colors, a small working palette, and highlighting a main series when many series compete.",
+      "transfer": "Use one recognizable signature color repeatedly, with two companions and a quiet neutral."
+    },
+    {
+      "id": "bbc",
+      "title": "BBC Visual and Data Journalism: R graphics cookbook",
+      "domain": "Newsroom system",
+      "url": "https://bbc.github.io/rcookbook/",
+      "finding": "The public cookbook separates its reusable chart theme from explicitly assigned data colors. Examples use blue #1380A1 and other deliberate color assignments.",
+      "transfer": "Keep typography and framing fixed while changing named color roles. The cookbook is a 2019 public reference, not a claim about every current BBC graphic."
+    },
+    {
+      "id": "ons",
+      "title": "ONS: using colours in charts",
+      "domain": "Statistical publication",
+      "url": "https://service-manual.ons.gov.uk/data-visualisation/colours/using-colours-in-charts",
+      "finding": "The palette includes ocean blue #206095, spring green #A8BD3A and beetroot #871A5B. Guidance favors few categories, consistent mappings, and gray context plus a highlighted series.",
+      "transfer": "Separate an everyday three-color core from an extended palette. Many categories should not automatically mean many equally prominent colors."
+    },
+    {
+      "id": "datawrapper",
+      "title": "Datawrapper: colors in data-vis style guides",
+      "domain": "Visualization practice",
+      "url": "https://www.datawrapper.de/blog/colors-for-data-vis-style-guides",
+      "finding": "The guide distinguishes categories, accents, neutral grays, and sequential/diverging scales. Its discussion with the Financial Times explains how a tinted background constrains usable lightness and neutrals.",
+      "transfer": "Specify a complete system of roles and test colors on the actual cream background, not isolated white swatches."
+    },
+    {
+      "id": "nature",
+      "title": "Nature: preparing figures, our specifications",
+      "domain": "Scientific publishing",
+      "url": "https://research-figure-guide.nature.com/figures/preparing-figures-our-specifications/",
+      "finding": "The research-figure guide asks for accessible colors, standard sans-serif fonts such as Helvetica, and dark legend text. It also has its own rules for ticks, grids, patterns and final text size.",
+      "transfer": "Use the current style as a lab identity, then apply journal-specific output settings at submission. A familiar journal name does not define one universal author-figure palette."
+    },
+    {
+      "id": "acs",
+      "title": "ACS Inclusivity Style Guide: data visualization",
+      "domain": "Scientific communication",
+      "url": "https://www.acs.org/about/inclusion/inclusivity-style-guide/data-visualization.html",
+      "finding": "ACS recommends considering color-vision deficiency and grayscale, matching color-scale type to data, and combining color with direct labels or symbols.",
+      "transfer": "Use redundant markers and line patterns, and keep categorical identity separate from numerical magnitude."
+    },
+    {
+      "id": "crameri",
+      "title": "Fabio Crameri: Scientific colour maps",
+      "domain": "Scientific color scales",
+      "url": "https://www.fabiocrameri.ch/colourmaps/",
+      "finding": "The Scientific colour maps project develops ordered, perceptually controlled scales for quantitative data, including color-vision and grayscale considerations.",
+      "transfer": "Treat continuous scales as a separate engineering problem. The custom ramps here are prototypes, not replacements for validated scientific maps in demanding measurements."
+    },
+    {
+      "id": "architecture",
+      "title": "Les Couleurs: Le Corbusier color system",
+      "domain": "Architecture / interiors",
+      "url": "https://www.lescouleurs.ch/the-colour-system",
+      "finding": "The architectural system contains 63 colors in two collections. It organizes solid colors and graduated shades, and uses color keyboards to explore combinations.",
+      "transfer": "Borrow the relationship of muted mineral hues, warm neutrals and a few stronger accents. No official swatch set or color codes were reproduced."
+    },
+    {
+      "id": "albers",
+      "title": "Albers Foundation: Interaction of Color",
+      "domain": "Graphic-design education",
+      "url": "https://www.albersfoundation.org/alberses/teaching/interaction-of-color",
+      "finding": "Albers's teaching examines how neighboring colors and context change perceived color through practical visual exercises.",
+      "transfer": "Judge every palette in thin curves, large fills and actual plots on the approved background. This informs the method, not a borrowed Albers palette."
+    },
+    {
+      "id": "weaving",
+      "title": "Albers Foundation: In Thread and On Paper",
+      "domain": "Textiles / printmaking",
+      "url": "https://www.albersfoundation.org/exhibitions/anni-albers-in-thread-and-on-paper",
+      "finding": "The exhibition documents movement between woven textiles, prints and functional design, including cotton samples and wool works.",
+      "transfer": "Use material and dye associations as creative prompts for P2 and P3. The proposed hex values are new selections, not measured colors from these works."
+    },
+    {
+      "id": "riso",
+      "title": "Martian Press: ink colors",
+      "domain": "Graphic design / printmaking",
+      "url": "https://martian.press/ink-colors",
+      "finding": "The studio works with a finite ink library. It explains that largely transparent inks, layering and paper affect the resulting color; digital swatches are approximations.",
+      "transfer": "Borrow the limited-ink discipline for P5. Avoid fluorescence, paper texture and overprint effects in quantitative marks; none of its ink palette is copied wholesale."
+    },
+    {
+      "id": "w3c",
+      "title": "W3C: understanding non-text contrast",
+      "domain": "Contrast method",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html",
+      "finding": "The guidance uses a 3:1 contrast criterion for meaningful graphical elements against adjacent colors and notes that thin anti-aliased marks can appear fainter.",
+      "transfer": "Check opaque series against cream at 3:1 as a screening target. This is not a claim that every complete figure is WCAG compliant."
+    },
+    {
+      "id": "oklab",
+      "title": "Bjorn Ottosson: Oklab color space",
+      "domain": "Ramp method",
+      "url": "https://bottosson.github.io/posts/oklab/",
+      "finding": "Oklab represents lightness and two chromatic coordinates and supports perceptual color interpolation.",
+      "transfer": "Build prototype ramps with controlled lightness, then inspect them and test for monotonic luminance after conversion to sRGB."
+    },
+    {
+      "id": "machado",
+      "title": "Machado et al. matrices in Colorspacious",
+      "domain": "Simulation method",
+      "url": "https://raw.githubusercontent.com/njsmith/colorspacious/master/colorspacious/cvd.py",
+      "finding": "This implementation distributes the 2009 Machado, Oliveira and Fernandes simulation matrices over a range of severities.",
+      "transfer": "Use severity-100 protan, deutan and tritan matrices on linear RGB, plus luminance grayscale. Simulations are screening aids, not guarantees of accessibility."
+    },
+    {
+      "id": "nature_reviews",
+      "title": "Nature Reviews: figure and illustration guide",
+      "domain": "Scientific illustration identity",
+      "url": "https://www.nature.com/documents/natrev-artworkguide.pdf",
+      "finding": "For commissioned explanatory illustrations, Nature organizes its house palette into accent colors and neutral context, with an extended palette for grouping and exceptions for scientific conventions.",
+      "transfer": "Borrow the hierarchy of focus versus context. Distinguish this editorial illustration system from the research-figure specifications; neither is a palette to clone."
+    },
+    {
+      "id": "okabe_ito",
+      "title": "Okabe and Ito: Color Universal Design",
+      "domain": "Scientific categorical colors",
+      "url": "https://jfly.uni-koeln.de/color/",
+      "finding": "The authors propose blue, sky blue, bluish green, vermilion, orange, yellow and reddish purple with black, and recommend direct labeling and redundant shape/line coding.",
+      "transfer": "Use this as a functional reference. Our muted material palettes serve identity and require their own checks; they do not inherit the accessibility of another palette."
+    }
+  ]
+}

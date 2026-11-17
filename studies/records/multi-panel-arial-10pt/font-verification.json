@@ -1,0 +1,91 @@
+[
+  {
+    "file": "multipanel-r1-arial-10pt-math-fixed.pdf",
+    "pages": 4,
+    "text_spans": 343,
+    "fonts": [
+      "Arial-BoldMT",
+      "Arial-ItalicMT",
+      "ArialMT",
+      "STIXGeneral-Regular",
+      "STIXNonUnicode-Italic"
+    ],
+    "sizes_pt": [
+      7.0,
+      8.0,
+      10.0
+    ],
+    "base_size_pt": 10,
+    "conventional_script_spans": 18,
+    "all_fonts_embedded": true,
+    "text_inside_canvas": true
+  },
+  {
+    "file": "brute-force-eight-panels.pdf",
+    "pages": 1,
+    "text_spans": 150,
+    "fonts": [
+      "Arial-BoldMT",
+      "ArialMT"
+    ],
+    "sizes_pt": [
+      10.0
+    ],
+    "base_size_pt": 10,
+    "conventional_script_spans": 0,
+    "all_fonts_embedded": true,
+    "text_inside_canvas": true
+  },
+  {
+    "file": "concept-two-panels.pdf",
+    "pages": 1,
+    "text_spans": 71,
+    "fonts": [
+      "Arial-BoldMT",
+      "Arial-ItalicMT",
+      "ArialMT",
+      "STIXGeneral-Regular",
+      "STIXNonUnicode-Italic"
+    ],
+    "sizes_pt": [
+      7.0,
+      10.0
+    ],
+    "base_size_pt": 10,
+    "conventional_script_spans": 18,
+    "all_fonts_embedded": true,
+    "text_inside_canvas": true
+  },
+  {
+    "file": "iedb-three-metrics.pdf",
+    "pages": 1,
+    "text_spans": 53,
+    "fonts": [
+      "Arial-BoldMT",
+      "ArialMT"
+    ],
+    "sizes_pt": [
+      10.0
+    ],
+    "base_size_pt": 10,
+    "conventional_script_spans": 0,
+    "all_fonts_embedded": true,
+    "text_inside_canvas": true
+  },
+  {
+    "file": "publication-trends-two-panels.pdf",
+    "pages": 1,
+    "text_spans": 49,
+    "fonts": [
+      "Arial-BoldMT",
+      "ArialMT"
+    ],
+    "sizes_pt": [
+      10.0
+    ],
+    "base_size_pt": 10,
+    "conventional_script_spans": 0,
+    "all_fonts_embedded": true,
+    "text_inside_canvas": true
+  }
+]

@@ -1,0 +1,2105 @@
+[
+  {
+    "id": "U1",
+    "slug": "urban-spending-bars",
+    "group": "Urban example",
+    "short": "Spending priorities",
+    "title": "Education Accounts for One-Fifth of State and Local Spending",
+    "subtitle": "Share of total spending by function, fiscal year 2021",
+    "source": "Source: US Census Bureau state and local finance survey, via Urban Institute; fiscal year 2021.",
+    "notes": "Notes: Selected functions are shown. Government liquor stores, utilities and insurance trusts are excluded. Medicaid spans welfare and health spending.",
+    "rule": "Urban layout: horizontal categories, zero baseline, direct values and no redundant numeric axis or grid.",
+    "url": "https://urbaninstitute.github.io/graphics-styleguide/StyleGuideGraphs.xlsx",
+    "original": "urban-original-bar.png",
+    "alt": "Education is highlighted in cobalt at 20.5 percent; public welfare is highest at 23.4 percent. Seven further spending categories are gray.",
+    "data": {
+      "labels": [
+        "Public welfare",
+        "Elementary and second education",
+        "Health and hospitals",
+        "Higher education",
+        "Highways and roads",
+        "Police",
+        "Corrections",
+        "Housing and community development",
+        "Courts"
+      ],
+      "values": [
+        23.4,
+        20.5,
+        10.2,
+        8.5,
+        5.6,
+        3.7000000000000006,
+        2.4,
+        1.8000000000000003,
+        1.4
+      ],
+      "unit": "percent"
+    }
+  },
+  {
+    "id": "U2",
+    "slug": "urban-poverty-paired-bars",
+    "group": "Urban example",
+    "short": "Two policy scenarios",
+    "title": "Trust Fund Depletion Raises Projected Poverty Across Groups",
+    "subtitle": "Projected poverty rates under two Social Security scenarios, 2045",
+    "source": "Source: Urban Institute DYNASIM4, run 1004, via its example workbook.",
+    "notes": "Notes: Adults aged 62+ or receiving disability benefits. Black, White and identity-not-listed groups are non-Hispanic; the last includes Asian, Indigenous and multiracial people.",
+    "rule": "Urban layout: paired bars from zero, category order preserved, direct values and a below-chart legend (our layout override).",
+    "url": "https://www.urban.org/urban-wire/if-social-security-runs-out-money-poverty-among-older-adults-and-people-disabilities",
+    "original": "urban-original-paired-bar.png",
+    "alt": "Projected poverty rates are higher under trust fund depletion for all four groups. Paired bars compare 16.2 versus 9.9, 24.0 versus 17.8, 6.4 versus 3.5, and 9.3 versus 6.4 percent.",
+    "data": {
+      "groups": [
+        "Black",
+        "Hispanic",
+        "White",
+        "Identity not listed"
+      ],
+      "depleted": [
+        16.2,
+        24.0,
+        6.4,
+        9.3
+      ],
+      "benefits_paid": [
+        9.9,
+        17.8,
+        3.5000000000000004,
+        6.4
+      ],
+      "unit": "percent"
+    }
+  },
+  {
+    "id": "U3",
+    "slug": "urban-home-equity-lines",
+    "group": "Urban example",
+    "short": "Home-equity lending",
+    "title": "Home-Equity Debt Rebounds but Remains Below Its Earlier Peak",
+    "subtitle": "Outstanding balances, billions of US dollars, 1999-2023",
+    "source": "Source: Inside Mortgage Finance, via Urban Institute's LineChart workbook sheet.",
+    "notes": "Notes: HELOCs are home-equity lines of credit. Years use column A; the final observation is 2023, correcting a repeated 2022 tick in the original chart.",
+    "rule": "Urban layout: four series, a below-chart legend (our layout override) for long names and open circles for near-parallel trajectories.",
+    "url": "https://www.urban.org/urban-wire/freddie-macs-new-second-lien-pilot-first-step-toward-helping-borrowers-cap-too",
+    "original": "urban-original-line.png",
+    "alt": "Four home-equity debt series rise to peaks around 2007-2009, fall through 2021 and rise again by 2023. Total debt ends at 512.34 billion dollars.",
+    "data": {
+      "years": [
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ],
+      "series": {
+        "Total home-equity debt": [
+          371.49,
+          441.13,
+          466.14,
+          525.55,
+          618.69,
+          801.06,
+          943.29,
+          1094.83,
+          1168.14,
+          1159.86,
+          1076.47,
+          983.53,
+          908.51,
+          827.6,
+          758.83,
+          728.89,
+          691.01,
+          649.85,
+          618.98,
+          582.41,
+          550.44,
+          490.86,
+          446.86,
+          478.07,
+          512.34
+        ],
+        "Depository home-equity debt": [
+          268.7,
+          328.5,
+          350.69,
+          413.53,
+          504.02,
+          666.45,
+          770.71,
+          872.17,
+          960.92,
+          986.79,
+          930.29,
+          866.37,
+          804.11,
+          727.46,
+          668.01,
+          640.92,
+          608.73,
+          570.28,
+          542.0,
+          509.74,
+          477.2,
+          420.1,
+          378.79,
+          415.3,
+          445.71
+        ],
+        "Funded HELOCs": [
+          153.51,
+          187.74,
+          211.18,
+          289.02,
+          385.65,
+          525.01,
+          572.54,
+          596.52,
+          648.12,
+          709.14,
+          704.38,
+          680.06,
+          646.54,
+          597.11,
+          552.47,
+          536.93,
+          513.01,
+          485.25,
+          464.54,
+          434.08,
+          402.06,
+          357.84,
+          325.32,
+          352.06,
+          364.7
+        ],
+        "Closed-end second mortgages": [
+          115.19,
+          140.76,
+          139.51,
+          124.51,
+          118.37,
+          141.44,
+          198.17,
+          275.65,
+          312.8,
+          277.65,
+          225.91,
+          186.31,
+          157.57,
+          130.35,
+          115.54,
+          103.99,
+          95.72,
+          85.03,
+          77.46,
+          75.66,
+          75.14,
+          62.26,
+          53.47,
+          63.24,
+          81.01
+        ]
+      },
+      "unit": "USD billions",
+      "correction": "Dates use workbook column A. The source image repeats 2022 at its last tick; column A identifies that observation as 2023."
+    }
+  },
+  {
+    "id": "T1",
+    "slug": "template-posttraining-lines",
+    "group": "Our template",
+    "short": "Post-training performance",
+    "title": "VIGIL Maintains the Highest Score After Post-Training",
+    "subtitle": "Performance on highly vision-dependent tasks, original benchmark scale",
+    "source": "Source: Chen Liu, figures4papers, figure_VIGIL/plot_posttraining.py (CC BY-NC 4.0).",
+    "notes": "Notes: All five steps and all three method series are unchanged. The SFT reference stays at the shared initial value of 22.",
+    "rule": "Urban layout: series named at their right endpoints; the redundant legend is removed.",
+    "url": "https://github.com/ChenLiu-1996/figures4papers",
+    "previous": "../s3-design-study/cobalt-brick-gold/comparison_posttraining.png",
+    "alt": "VIGIL rises from 22 to 58.5, DA-DPO to 40.5 and DPO to 30.2 after 800 steps, above the SFT-only reference at 22.",
+    "data": {
+      "methods": [
+        "DPO",
+        "DA-DPO",
+        "VIGIL (Ours)"
+      ],
+      "colors": [
+        "#D88F8A",
+        "#8BCF8B",
+        "#0F4D92"
+      ],
+      "steps": [
+        0,
+        200,
+        400,
+        600,
+        800
+      ],
+      "results": [
+        [
+          22.0,
+          25.5,
+          28.2,
+          29.5,
+          30.2
+        ],
+        [
+          22.0,
+          33.5,
+          38.2,
+          39.8,
+          40.5
+        ],
+        [
+          22.0,
+          52.5,
+          56.8,
+          57.9,
+          58.5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "T2",
+    "slug": "template-iedb-bars",
+    "group": "Our template",
+    "short": "Benchmark comparison",
+    "title": "ImmunoStruct Leads the IEDB AUROC Comparison",
+    "subtitle": "Area under the receiver operating characteristic curve; higher is better",
+    "source": "Source: Chen Liu, figures4papers, figure_ImmunoStruct/raw_data.py (CC BY-NC 4.0).",
+    "notes": "Notes: This sample shows the AUROC metric from the original three-metric template. Means and supplied standard deviations are unchanged; bars show mean +/- SD.",
+    "rule": "Urban layout: bars begin at zero, methods are ranked, long names run horizontally and values are directly labeled.",
+    "url": "https://github.com/ChenLiu-1996/figures4papers",
+    "previous": "../s3-design-study/cobalt-brick-gold/bars_comparison_IEDB.png",
+    "alt": "All nine methods are ranked by AUROC on a zero-based scale, with ImmunoStruct highlighted at 0.882 and eight gray comparison bars. Error bars show supplied standard deviations.",
+    "data": {
+      "methods": [
+        "ImmunoStruct (ours)",
+        "BigMHC retrained",
+        "DeepNeo",
+        "BigMHC-IM",
+        "BigMHC-EL",
+        "MHCflurry",
+        "MHCnuggets",
+        "Prime-2.1",
+        "NetMHCpan"
+      ],
+      "mean": [
+        0.882,
+        0.793,
+        0.767,
+        0.684,
+        0.588,
+        0.577,
+        0.546,
+        0.538,
+        0.537
+      ],
+      "std": [
+        0.005,
+        0.013,
+        0.032,
+        0.028,
+        0.018,
+        0.021,
+        0.023,
+        0.012,
+        0.027
+      ],
+      "metric": "AUROC",
+      "original_order_indices": [
+        8,
+        7,
+        4,
+        6,
+        5,
+        3,
+        2,
+        0,
+        1
+      ],
+      "values_unchanged": true
+    }
+  },
+  {
+    "id": "T3",
+    "slug": "template-emphasis-lines",
+    "group": "Our template",
+    "short": "A selected curve in context",
+    "title": "A Highlighted Method Can Sit Within the Comparison Group",
+    "subtitle": "Illustrative learning curves; synthetic scores across 100 training epochs",
+    "source": "Source: Our existing H2 learning-curves sample; deterministic illustrative data.",
+    "notes": "Notes: All six series are unchanged. Cobalt identifies the selected method; selection does not indicate the best performance.",
+    "rule": "Urban layout: direct endpoint labels with short leaders; gray comparisons retain distinct dash patterns.",
+    "url": "../emphasis-examples/data.json",
+    "previous": "../emphasis-examples/learning-curves.png",
+    "alt": "One cobalt selected-method curve and five dashed gray references rise and level off. The selected curve finishes below the best reference, demonstrating emphasis without implying superiority.",
+    "data": {
+      "id": "H2",
+      "slug": "learning-curves",
+      "title": "Learning curves",
+      "subtitle": "One focus among five baselines; it need not be the best",
+      "origin": "Synthetic illustration, generated deterministically; not experimental results.",
+      "synthetic": true,
+      "x": [
+        0,
+        5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        35,
+        40,
+        45,
+        50,
+        55,
+        60,
+        65,
+        70,
+        75,
+        80,
+        85,
+        90,
+        95,
+        100
+      ],
+      "xlabel": "Training epoch",
+      "ylabel": "Illustrative score",
+      "xlim": [
+        -2,
+        103
+      ],
+      "ylim": [
+        45,
+        92
+      ],
+      "xticks": [
+        0,
+        25,
+        50,
+        75,
+        100
+      ],
+      "yticks": [
+        50,
+        60,
+        70,
+        80,
+        90
+      ],
+      "focus": {
+        "name": "Selected method",
+        "y": [
+          50.0,
+          57.28252716758258,
+          62.88313343477288,
+          67.16805931198567,
+          70.42282878842467,
+          72.87476314559576,
+          74.70868899687369,
+          76.07696014439571,
+          77.10507044335921,
+          77.8942638111022,
+          78.52256824418386,
+          79.04554797040943,
+          79.49777708247294,
+          79.89562398628863,
+          80.24146419564377,
+          80.5289909075201,
+          80.74894839101901,
+          80.89443399744614,
+          80.96493044376642,
+          80.96843272040383,
+          80.92137852171484
+        ],
+        "short": "Focus"
+      },
+      "references": [
+        {
+          "name": "Baseline 1",
+          "y": [
+            48.0,
+            55.51183602232787,
+            60.91021680377122,
+            64.76727914631695,
+            67.49486719420423,
+            69.39426044322784,
+            70.69074788628446,
+            71.5567908104288,
+            72.12673148120074,
+            72.50548976087572,
+            72.77331276043785,
+            72.98831078145083,
+            73.18816989276081,
+            73.39205524997155,
+            73.60331608979234,
+            73.81320065223213,
+            74.00542623086032,
+            74.16116691410095,
+            74.26385243527784,
+            74.30313388562065,
+            74.27746445899831
+          ]
+        },
+        {
+          "name": "Baseline 2",
+          "y": [
+            52.294514844682766,
+            57.42356958583064,
+            61.53851011340314,
+            64.82026704889803,
+            67.42589378963142,
+            69.4929950297795,
+            71.14159635508351,
+            72.47424210375797,
+            73.57520364794107,
+            74.50966341904555,
+            75.32360689279044,
+            76.04492216310857,
+            76.68590961278511,
+            77.24708943259309,
+            77.72191300867921,
+            78.10178109982203,
+            78.38067990506941,
+            78.55877957702867,
+            78.64449135130597,
+            78.65472216552655,
+            78.61335698527091
+          ]
+        },
+        {
+          "name": "Baseline 3",
+          "y": [
+            50.31825409938899,
+            55.29818109334538,
+            59.46065691464371,
+            62.94661993239756,
+            65.88178810491854,
+            68.375254891285,
+            70.51784290015962,
+            72.38097089185985,
+            74.01662915513236,
+            75.45880703797707,
+            76.72641579858939,
+            77.82744994574331,
+            78.76388096274336,
+            79.53662036989851,
+            80.14985045146962,
+            80.61410651899511,
+            80.94768903493713,
+            81.17625347132785,
+            81.33072385169885,
+            81.4439511339287,
+            81.54674252076255
+          ]
+        },
+        {
+          "name": "Baseline 4",
+          "y": [
+            54.04939200282095,
+            58.678537839963205,
+            62.63342669642992,
+            66.03588140766848,
+            68.98673863788905,
+            71.56530415847072,
+            73.830075205716,
+            75.82095596528713,
+            77.56288615707248,
+            79.07051763072087,
+            80.35335754860623,
+            81.4206852419352,
+            82.28556148043555,
+            82.967381039976,
+            83.49264890740606,
+            83.8939474803982,
+            84.20735717481573,
+            84.46884510065395,
+            84.71030244346474,
+            84.95596223123951,
+            85.21985632097214
+          ]
+        },
+        {
+          "name": "Baseline 5",
+          "y": [
+            46.735119126642225,
+            51.96666032591953,
+            56.6018740565593,
+            60.723507014959175,
+            64.39419751763653,
+            67.65907119535001,
+            70.54969187094711,
+            73.08889394888286,
+            75.29584685431983,
+            77.19064047788365,
+            78.79774336674572,
+            80.14786147791564,
+            81.27798425502402,
+            82.22970204074412,
+            83.0461633055254,
+            83.76826298655176,
+            84.430776090132,
+            85.05915244216818,
+            85.66756864628334,
+            86.25861231530196,
+            86.82468919244052
+          ]
+        }
+      ],
+      "markers": false,
+      "markevery": 4,
+      "xscale": "linear"
+    }
+  },
+  {
+    "id": "H1",
+    "slug": "focus-original-benchmark",
+    "title": "Original Benchmark",
+    "subtitle": "One cobalt method against three gray baselines",
+    "group": "Blue-and-gray reference",
+    "source": "Source: Original figures4papers post-training data; values unchanged.",
+    "notes": "Cobalt identifies the focus; gray series are comparisons. Every source array is retained. Original repository benchmark values.",
+    "data": {
+      "id": "H1",
+      "slug": "original-benchmark",
+      "title": "Original benchmark",
+      "subtitle": "One cobalt method against three gray baselines",
+      "origin": "Original figures4papers post-training data; values unchanged.",
+      "synthetic": false,
+      "x": [
+        0,
+        200,
+        400,
+        600,
+        800
+      ],
+      "xlabel": "Post-training steps",
+      "ylabel": "Performance",
+      "xlim": [
+        -25,
+        825
+      ],
+      "ylim": [
+        0,
+        63
+      ],
+      "xticks": [
+        0,
+        200,
+        400,
+        600,
+        800
+      ],
+      "yticks": [
+        0,
+        20,
+        40,
+        60
+      ],
+      "focus": {
+        "name": "VIGIL (Ours)",
+        "y": [
+          22.0,
+          52.5,
+          56.8,
+          57.9,
+          58.5
+        ],
+        "short": "VIGIL"
+      },
+      "references": [
+        {
+          "name": "DPO",
+          "y": [
+            22.0,
+            25.5,
+            28.2,
+            29.5,
+            30.2
+          ],
+          "marker": "s"
+        },
+        {
+          "name": "DA-DPO",
+          "y": [
+            22.0,
+            33.5,
+            38.2,
+            39.8,
+            40.5
+          ],
+          "marker": "^"
+        },
+        {
+          "name": "SFT only",
+          "y": [
+            22.0,
+            22.0,
+            22.0,
+            22.0,
+            22.0
+          ],
+          "marker": null
+        }
+      ],
+      "markers": true,
+      "markevery": 1,
+      "xscale": "linear"
+    }
+  },
+  {
+    "id": "H2",
+    "slug": "focus-learning-curves",
+    "title": "Learning Curves",
+    "subtitle": "One focus among five baselines; it need not be the best",
+    "group": "Blue-and-gray reference",
+    "source": "Source: Synthetic illustration, generated deterministically; not experimental results.",
+    "notes": "Cobalt identifies the focus; gray series are comparisons. Every source array is retained. Synthetic illustrative data.",
+    "data": {
+      "id": "H2",
+      "slug": "learning-curves",
+      "title": "Learning curves",
+      "subtitle": "One focus among five baselines; it need not be the best",
+      "origin": "Synthetic illustration, generated deterministically; not experimental results.",
+      "synthetic": true,
+      "x": [
+        0,
+        5,
+        10,
+        15,
+        20,
+        25,
+        30,
+        35,
+        40,
+        45,
+        50,
+        55,
+        60,
+        65,
+        70,
+        75,
+        80,
+        85,
+        90,
+        95,
+        100
+      ],
+      "xlabel": "Training epoch",
+      "ylabel": "Illustrative score",
+      "xlim": [
+        -2,
+        103
+      ],
+      "ylim": [
+        45,
+        92
+      ],
+      "xticks": [
+        0,
+        25,
+        50,
+        75,
+        100
+      ],
+      "yticks": [
+        50,
+        60,
+        70,
+        80,
+        90
+      ],
+      "focus": {
+        "name": "Selected method",
+        "y": [
+          50.0,
+          57.28252716758258,
+          62.88313343477288,
+          67.16805931198567,
+          70.42282878842467,
+          72.87476314559576,
+          74.70868899687369,
+          76.07696014439571,
+          77.10507044335921,
+          77.8942638111022,
+          78.52256824418386,
+          79.04554797040943,
+          79.49777708247294,
+          79.89562398628863,
+          80.24146419564377,
+          80.5289909075201,
+          80.74894839101901,
+          80.89443399744614,
+          80.96493044376642,
+          80.96843272040383,
+          80.92137852171484
+        ],
+        "short": "Focus"
+      },
+      "references": [
+        {
+          "name": "Baseline 1",
+          "y": [
+            48.0,
+            55.51183602232787,
+            60.91021680377122,
+            64.76727914631695,
+            67.49486719420423,
+            69.39426044322784,
+            70.69074788628446,
+            71.5567908104288,
+            72.12673148120074,
+            72.50548976087572,
+            72.77331276043785,
+            72.98831078145083,
+            73.18816989276081,
+            73.39205524997155,
+            73.60331608979234,
+            73.81320065223213,
+            74.00542623086032,
+            74.16116691410095,
+            74.26385243527784,
+            74.30313388562065,
+            74.27746445899831
+          ]
+        },
+        {
+          "name": "Baseline 2",
+          "y": [
+            52.294514844682766,
+            57.42356958583064,
+            61.53851011340314,
+            64.82026704889803,
+            67.42589378963142,
+            69.4929950297795,
+            71.14159635508351,
+            72.47424210375797,
+            73.57520364794107,
+            74.50966341904555,
+            75.32360689279044,
+            76.04492216310857,
+            76.68590961278511,
+            77.24708943259309,
+            77.72191300867921,
+            78.10178109982203,
+            78.38067990506941,
+            78.55877957702867,
+            78.64449135130597,
+            78.65472216552655,
+            78.61335698527091
+          ]
+        },
+        {
+          "name": "Baseline 3",
+          "y": [
+            50.31825409938899,
+            55.29818109334538,
+            59.46065691464371,
+            62.94661993239756,
+            65.88178810491854,
+            68.375254891285,
+            70.51784290015962,
+            72.38097089185985,
+            74.01662915513236,
+            75.45880703797707,
+            76.72641579858939,
+            77.82744994574331,
+            78.76388096274336,
+            79.53662036989851,
+            80.14985045146962,
+            80.61410651899511,
+            80.94768903493713,
+            81.17625347132785,
+            81.33072385169885,
+            81.4439511339287,
+            81.54674252076255
+          ]
+        },
+        {
+          "name": "Baseline 4",
+          "y": [
+            54.04939200282095,
+            58.678537839963205,
+            62.63342669642992,
+            66.03588140766848,
+            68.98673863788905,
+            71.56530415847072,
+            73.830075205716,
+            75.82095596528713,
+            77.56288615707248,
+            79.07051763072087,
+            80.35335754860623,
+            81.4206852419352,
+            82.28556148043555,
+            82.967381039976,
+            83.49264890740606,
+            83.8939474803982,
+            84.20735717481573,
+            84.46884510065395,
+            84.71030244346474,
+            84.95596223123951,
+            85.21985632097214
+          ]
+        },
+        {
+          "name": "Baseline 5",
+          "y": [
+            46.735119126642225,
+            51.96666032591953,
+            56.6018740565593,
+            60.723507014959175,
+            64.39419751763653,
+            67.65907119535001,
+            70.54969187094711,
+            73.08889394888286,
+            75.29584685431983,
+            77.19064047788365,
+            78.79774336674572,
+            80.14786147791564,
+            81.27798425502402,
+            82.22970204074412,
+            83.0461633055254,
+            83.76826298655176,
+            84.430776090132,
+            85.05915244216818,
+            85.66756864628334,
+            86.25861231530196,
+            86.82468919244052
+          ]
+        }
+      ],
+      "markers": false,
+      "markevery": 4,
+      "xscale": "linear"
+    }
+  },
+  {
+    "id": "H3",
+    "slug": "focus-reference-trajectories",
+    "title": "A Trajectory in Context",
+    "subtitle": "One cobalt trajectory against eight gray references",
+    "group": "Blue-and-gray reference",
+    "source": "Source: Synthetic illustration, random seed 418; not observed time-series data.",
+    "notes": "Cobalt identifies the focus; gray series are comparisons. Every source array is retained. Synthetic illustrative data.",
+    "data": {
+      "id": "H3",
+      "slug": "reference-trajectories",
+      "title": "A trajectory in context",
+      "subtitle": "One cobalt trajectory against eight gray references",
+      "origin": "Synthetic illustration, random seed 418; not observed time-series data.",
+      "synthetic": true,
+      "x": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "xlabel": "Month",
+      "ylabel": "Illustrative index",
+      "xlim": [
+        -0.4,
+        23.6
+      ],
+      "ylim": [
+        74,
+        124
+      ],
+      "xticks": [
+        0,
+        6,
+        12,
+        18,
+        23
+      ],
+      "yticks": [
+        80,
+        90,
+        100,
+        110,
+        120
+      ],
+      "focus": {
+        "name": "Selected trajectory",
+        "y": [
+          94.14523511045786,
+          96.23953110376526,
+          97.2796119111991,
+          98.77143999081325,
+          98.42426979989357,
+          98.62683039793303,
+          98.08045862484157,
+          97.2424675752496,
+          96.31951574784323,
+          94.63249017984602,
+          93.51936043404096,
+          93.25010910018315,
+          92.66343452886619,
+          91.89967221304214,
+          93.80662324368744,
+          96.01370749079771,
+          96.26011694849028,
+          100.5226410703811,
+          99.7104929172936,
+          104.848527008245,
+          105.83914942332545,
+          107.60300655020532,
+          108.99208834896724,
+          111.20943452280535
+        ],
+        "short": "Focus"
+      },
+      "references": [
+        {
+          "name": "Reference A",
+          "y": [
+            79.30467591280765,
+            80.99469980553471,
+            82.96174695276287,
+            85.8307080074692,
+            86.23116819558435,
+            87.07956389344997,
+            88.59267927605032,
+            86.85017855711008,
+            85.89231521806083,
+            86.27033197159626,
+            86.40307132313943,
+            85.11908228076773,
+            84.5635359893818,
+            84.25805629388641,
+            86.64397210220417,
+            87.04303412219932,
+            87.24616487207464,
+            88.40479986329034,
+            91.11728179545385,
+            92.76790968076693,
+            92.7660571080236,
+            95.923215906274,
+            96.06041907564531,
+            99.30211969784217
+          ]
+        },
+        {
+          "name": "Reference B",
+          "y": [
+            84.46518914882044,
+            87.18236878791429,
+            87.82103447626383,
+            89.06053328968113,
+            89.8378890488263,
+            88.2337233596724,
+            89.17172943067504,
+            89.05004272888387,
+            88.23920859894837,
+            88.10653371315532,
+            85.81887494817245,
+            86.59680180975482,
+            86.77133788986177,
+            88.93795254269834,
+            88.43930121222043,
+            88.90265962386611,
+            91.61771101329794,
+            93.56038471793481,
+            95.73352418835543,
+            97.66510539359822,
+            100.20773922541493,
+            100.69346137011618,
+            101.38457421573351,
+            101.98988610444233
+          ]
+        },
+        {
+          "name": "Reference C",
+          "y": [
+            89.64824080043483,
+            89.9226380946316,
+            90.72522045069934,
+            90.96909947376514,
+            92.93217149222716,
+            91.66554081211729,
+            89.23633865222132,
+            90.34529044814833,
+            89.81841287995958,
+            88.16029973434944,
+            89.42223420797075,
+            90.20047290744182,
+            90.76356726775902,
+            91.9531860411671,
+            91.38182523020942,
+            95.32808060802486,
+            97.3304086262137,
+            98.64796459622552,
+            99.76367643427606,
+            102.50307658345848,
+            104.44056314694981,
+            103.65943336537515,
+            103.88016978815784,
+            103.67180918784243
+          ]
+        },
+        {
+          "name": "Reference D",
+          "y": [
+            93.95254961312592,
+            94.06568008389897,
+            93.7347576505602,
+            91.91855562678181,
+            92.1227525272769,
+            91.33845570990937,
+            91.27901317429578,
+            90.39103112955884,
+            90.40607921448692,
+            90.39354758414858,
+            91.03552567450393,
+            92.41801438438101,
+            94.9746935690359,
+            97.03662175072958,
+            97.67646863998895,
+            100.69143094797285,
+            102.05955810914408,
+            104.53996261604522,
+            104.35610830383727,
+            105.92074597837046,
+            105.51604801356346,
+            104.32862506342067,
+            104.45445773881588,
+            104.03718017429152
+          ]
+        },
+        {
+          "name": "Reference E",
+          "y": [
+            94.1576611079135,
+            94.37272203715611,
+            94.4405621543169,
+            93.71843081258245,
+            93.21034995976898,
+            93.04211521489145,
+            93.05160427451872,
+            93.75943358415503,
+            92.72777465293699,
+            92.39167528936923,
+            95.95425416006634,
+            97.48199115262246,
+            100.40157816553507,
+            102.49867916785738,
+            103.34915658373309,
+            104.53424222809014,
+            105.12480904514234,
+            107.41298364741765,
+            109.29198148942443,
+            106.2811675069813,
+            108.41280968429047,
+            106.28832386291921,
+            106.41026639932807,
+            106.05498229318457
+          ]
+        },
+        {
+          "name": "Reference F",
+          "y": [
+            96.1220047155566,
+            96.42445949187893,
+            96.76239521127894,
+            94.91865649966385,
+            94.325021509043,
+            94.65287154827497,
+            95.80626120592898,
+            96.58811994147287,
+            95.85259883144015,
+            98.77210619576627,
+            101.2123002603184,
+            103.04918561867113,
+            105.1956234965215,
+            105.96931298242367,
+            107.62759044018362,
+            110.6227721109661,
+            109.00364026145579,
+            109.66453446982383,
+            107.83748997136172,
+            109.13404334497919,
+            107.82530326646321,
+            108.00562766518256,
+            106.77785739721851,
+            105.78175388183446
+          ]
+        },
+        {
+          "name": "Reference G",
+          "y": [
+            97.4772056713851,
+            97.09271686661229,
+            96.20782981127967,
+            97.14670830723388,
+            97.04015305613646,
+            95.99082955414133,
+            99.2983874288651,
+            99.97362416179682,
+            102.13985662509073,
+            104.30038070951068,
+            106.10587940648192,
+            108.18346176357493,
+            110.24962765874871,
+            112.84907523641117,
+            111.38049985098155,
+            111.15231587053475,
+            111.92365100609454,
+            110.69353529121445,
+            110.02871825847696,
+            109.12788607775762,
+            107.79288751629221,
+            107.56831377103718,
+            109.67729422788128,
+            109.14500029620307
+          ]
+        },
+        {
+          "name": "Reference H",
+          "y": [
+            97.9873593047729,
+            98.91581228368679,
+            98.897094948645,
+            98.7305329490964,
+            99.64678413050616,
+            101.06626231625927,
+            102.54858163695168,
+            105.24704194505935,
+            107.31192668693956,
+            110.15271993162723,
+            109.83021778383268,
+            111.63364784366081,
+            111.93822422412242,
+            112.39460858552248,
+            111.85592057831767,
+            112.53329125164746,
+            112.7583726823975,
+            111.51067869892,
+            111.43511828329345,
+            111.52650961267054,
+            110.52963823857493,
+            110.03745641913729,
+            111.12582837451073,
+            111.6855817349327
+          ]
+        }
+      ],
+      "markers": false,
+      "markevery": 4,
+      "xscale": "linear"
+    }
+  },
+  {
+    "id": "H4",
+    "slug": "focus-parameter-response",
+    "title": "Crossing Response Curves",
+    "subtitle": "One cobalt method across four gray comparisons",
+    "group": "Blue-and-gray reference",
+    "source": "Source: Synthetic illustration; curves show a style example, not measured sensitivity.",
+    "notes": "Cobalt identifies the focus; gray series are comparisons. Every source array is retained. Synthetic illustrative data.",
+    "data": {
+      "id": "H4",
+      "slug": "parameter-response",
+      "title": "Crossing response curves",
+      "subtitle": "One cobalt method across four gray comparisons",
+      "origin": "Synthetic illustration; curves show a style example, not measured sensitivity.",
+      "synthetic": true,
+      "x": [
+        0.001,
+        0.0031622776601683794,
+        0.01,
+        0.03162277660168379,
+        0.1,
+        0.31622776601683794,
+        1.0,
+        3.1622776601683795,
+        10.0
+      ],
+      "xlabel": "Parameter value (log scale)",
+      "ylabel": "Illustrative score",
+      "xlim": [
+        0.0008,
+        13
+      ],
+      "ylim": [
+        60,
+        87
+      ],
+      "xticks": [
+        0.001,
+        0.01,
+        0.1,
+        1,
+        10
+      ],
+      "yticks": [
+        60,
+        65,
+        70,
+        75,
+        80,
+        85
+      ],
+      "focus": {
+        "name": "Selected method",
+        "y": [
+          66.38030312155482,
+          68.15988601467399,
+          73.24695778621535,
+          80.36496550958137,
+          82.82199116385145,
+          77.63788791962487,
+          70.7565810032451,
+          67.14852269321051,
+          66.16383557933356
+        ],
+        "short": "Focus"
+      },
+      "references": [
+        {
+          "name": "Comparison 1",
+          "y": [
+            66.48552996161857,
+            72.37098546504038,
+            77.80142179293367,
+            75.1393724629837,
+            68.4013639101605,
+            64.85134087675306,
+            64.08061379199641,
+            64.00373684315961,
+            64.00008479886627
+          ],
+          "marker": "s"
+        },
+        {
+          "name": "Comparison 2",
+          "y": [
+            65.00875156805073,
+            65.1191453291348,
+            65.93066516044281,
+            69.17095187770099,
+            75.72512073657023,
+            80.82320622870276,
+            78.39405490177222,
+            71.50511455584959,
+            66.81268821381808
+          ],
+          "marker": "^"
+        },
+        {
+          "name": "Comparison 3",
+          "y": [
+            65.89157208804252,
+            70.58434340111454,
+            76.91863932869742,
+            80.87188666375711,
+            79.0560551061557,
+            73.09257827349244,
+            67.43874535094892,
+            64.36588193923077,
+            63.294076907301964
+          ],
+          "marker": "D"
+        },
+        {
+          "name": "Comparison 4",
+          "y": [
+            67.00001861783731,
+            67.00101649947489,
+            67.02716906807876,
+            67.35549375939247,
+            69.27708307949268,
+            74.14028303024023,
+            77.96078435533448,
+            75.2367805573287,
+            70.03014222848188
+          ],
+          "marker": "v"
+        }
+      ],
+      "markers": true,
+      "markevery": 1,
+      "xscale": "log"
+    }
+  },
+  {
+    "id": "P1",
+    "slug": "repository-radar",
+    "title": "Method Comparison Across Models and Benchmarks",
+    "subtitle": "Original 12-spoke radar; each benchmark retains its own scale",
+    "group": "Repository reference",
+    "source": "Source: Chen Liu, figures4papers / figure_VIGIL/plot_comparison_radar.py. CC BY-NC 4.0.",
+    "notes": "All 36 scores and benchmark-specific radial mappings are preserved. POPE uses 75-91, MathVista 30-61, and MMBench 40-85. Polygon areas are not comparable across benchmarks.",
+    "data": {
+      "source": {
+        "methods": [
+          "DPO",
+          "DA-DPO",
+          "VIGIL (Ours)"
+        ],
+        "colors": [
+          "#D88F8A",
+          "#8BCF8B",
+          "#0F4D92"
+        ],
+        "results": {
+          "Qwen2.5-VL-7B\nPOPE$_{Adv}$": [
+            82.8,
+            84.2,
+            86.9
+          ],
+          "LLaVA-OneVision-7B\nPOPE$_{Adv}$": [
+            82.8,
+            84.2,
+            86.9
+          ],
+          "InternVL2.5-26B\nPOPE$_{Adv}$": [
+            85.5,
+            86.8,
+            89.4
+          ],
+          "Qwen2.5-VL-72B\nPOPE$_{Adv}$": [
+            84.5,
+            87.4,
+            89.8
+          ],
+          "Qwen2.5-VL-7B\nMathVista": [
+            48.0,
+            48.8,
+            49.5
+          ],
+          "LLaVA-OneVision-7B\nMathVista": [
+            50.8,
+            51.5,
+            52.8
+          ],
+          "InternVL2.5-26B\nMathVista": [
+            57.9,
+            58.8,
+            60.1
+          ],
+          "Qwen2.5-VL-72B\nMathVista": [
+            54.1,
+            55.4,
+            56.6
+          ],
+          "Qwen2.5-VL-7B\nMMBench": [
+            71.2,
+            72.0,
+            72.5
+          ],
+          "LLaVA-OneVision-7B\nMMBench": [
+            72.5,
+            73.0,
+            73.8
+          ],
+          "InternVL2.5-26B\nMMBench": [
+            79.5,
+            80.1,
+            81.3
+          ],
+          "Qwen2.5-VL-72B\nMMBench": [
+            77.2,
+            77.8,
+            78.5
+          ]
+        }
+      },
+      "normalized_radii": [
+        [
+          66.9375,
+          66.9375,
+          74.53125,
+          71.71875,
+          71.12903225806451,
+          75.19354838709677,
+          85.5,
+          79.98387096774194,
+          76.2,
+          77.5,
+          84.5,
+          82.2
+        ],
+        [
+          70.875,
+          70.875,
+          78.1875,
+          79.87500000000001,
+          72.29032258064515,
+          76.20967741935485,
+          86.80645161290323,
+          81.87096774193549,
+          77.0,
+          78.0,
+          85.1,
+          82.8
+        ],
+        [
+          78.46875000000001,
+          78.46875000000001,
+          85.50000000000001,
+          86.625,
+          73.30645161290323,
+          78.09677419354838,
+          88.69354838709677,
+          83.61290322580646,
+          77.5,
+          78.8,
+          86.3,
+          83.5
+        ]
+      ],
+      "benchmark_levels": {
+        "POPE$_{Adv}$": [
+          75,
+          80,
+          85,
+          91
+        ],
+        "MathVista": [
+          30,
+          40,
+          50,
+          61
+        ],
+        "MMBench": [
+          40,
+          55,
+          70,
+          85
+        ]
+      }
+    }
+  },
+  {
+    "id": "P2",
+    "slug": "repository-posttraining",
+    "title": "Post-Training Performance with the R1 Categorical Palette",
+    "subtitle": "Original five training steps, three methods and the SFT-only baseline",
+    "group": "Repository reference",
+    "source": "Source: Chen Liu, figures4papers / figure_VIGIL/plot_posttraining.py. CC BY-NC 4.0.",
+    "notes": "All original values are retained. This is the full categorical treatment; T1 uses direct labels and H1 demonstrates blue-and-gray emphasis.",
+    "data": {
+      "methods": [
+        "DPO",
+        "DA-DPO",
+        "VIGIL (Ours)"
+      ],
+      "colors": [
+        "#D88F8A",
+        "#8BCF8B",
+        "#0F4D92"
+      ],
+      "steps": [
+        0,
+        200,
+        400,
+        600,
+        800
+      ],
+      "results": [
+        [
+          22.0,
+          25.5,
+          28.2,
+          29.5,
+          30.2
+        ],
+        [
+          22.0,
+          33.5,
+          38.2,
+          39.8,
+          40.5
+        ],
+        [
+          22.0,
+          52.5,
+          56.8,
+          57.9,
+          58.5
+        ]
+      ]
+    }
+  },
+  {
+    "slug": "iedb-three-metrics",
+    "title": "IEDB Benchmark Comparison",
+    "subtitle": "Three metrics, nine methods; means with supplied standard deviations",
+    "source": "Source: Chen Liu, figures4papers / figure_ImmunoStruct/raw_data.py. CC BY-NC 4.0.",
+    "note": "AUROC, AUPRC and mean PPVn retain all original values. All bars start at zero and use the same scale. Values are shown above their error bars.",
+    "old": "bars_comparison_IEDB",
+    "id": "M1",
+    "group": "Multi-panel repository reference",
+    "notes": "AUROC, AUPRC and mean PPVn retain all original values. All bars start at zero and use the same scale. Values are shown above their error bars.",
+    "data": {
+      "layout": "1 x 3",
+      "panel_size_inches": [
+        3.9844444444444447,
+        2.03252560043335
+      ],
+      "horizontal_gap_inches": 0.08333333333333333,
+      "identical_y_limits": [
+        0,
+        1.04
+      ],
+      "bar_baselines_zero": true,
+      "values_and_SD_preserved": true,
+      "category_order": [
+        "Prime-2.1",
+        "NetMHCpan",
+        "MHCnuggets",
+        "MHCflurry",
+        "DeepNeo",
+        "BigMHC-EL",
+        "BigMHC-IM",
+        "BigMHC$_\\text{retrained}$",
+        "ImmunoStruct (ours)"
+      ],
+      "all_data_labels": true,
+      "adaptation": "Zero-based axes replace the earlier cropped bar axes; direct values replace numeric ticks and grids.",
+      "spacing_audit": {
+        "legend_position": "below",
+        "legend_count": 1,
+        "plot_labels_to_legend_pt": 7.5,
+        "top_export_padding_pt": 2.25,
+        "legend_group_gap_pt": null,
+        "plot_geometry_preserved": false,
+        "full_block_height_factor": 0.75,
+        "vertical_spacing_factor": 0.75,
+        "chart_width_preserved": true,
+        "font_sizes_preserved": true,
+        "stroke_widths_preserved": true,
+        "old_chart_height_pt": 295.63458251953125,
+        "new_chart_height_pt": 209.52641354370115,
+        "target_block_height_pt": 307.82652282714855,
+        "vertical_axis_scale": 0.6556534194946289,
+        "x_axis_title_pad_pt": 6.0,
+        "y_axis_title_pad_pt": 4,
+        "x_tick_label_pad_pt": 3.0,
+        "y_tick_label_pad_pt": 4,
+        "minimum_value_label_horizontal_gap_pt": 6.17,
+        "legend_text_overlap": false
+      }
+    }
+  },
+  {
+    "slug": "brute-force-eight-panels",
+    "title": "Brute-Force Composition Across Prompts and Tasks",
+    "subtitle": "Four prompt conditions for math and logic; seven models in every panel",
+    "source": "Source: Chen Liu, figures4papers / figure_Brainteaser/plot_brute_force.py. CC BY-NC 4.0.",
+    "note": "Numbers within panels label the only-model-brute-force segment. Small source rounding differences in total probability are preserved. Every panel has the same scale.",
+    "old": "brute_force",
+    "id": "M2",
+    "group": "Multi-panel repository reference",
+    "notes": "Numbers within panels label the only-model-brute-force segment. Small source rounding differences in total probability are preserved. Every panel has the same scale.",
+    "data": {
+      "layout": "2 x 4",
+      "panel_size_inches": [
+        2.9125,
+        1.725104427337646
+      ],
+      "horizontal_gap_inches": 0.08333333333333333,
+      "vertical_gap_inches": 0.41250000000000003,
+      "shared_x_limits": [
+        -0.6,
+        6.6
+      ],
+      "shared_y_limits": [
+        0,
+        1.035
+      ],
+      "source_values_preserved": true,
+      "segment_count": 224,
+      "minimum_stack_total": 0.999,
+      "maximum_stack_total": 1.001,
+      "dense_value_label_size_pt": 10.0,
+      "adaptation": "All eight panels and all seven model colors are retained. Small rounding deviations in stack totals are preserved.",
+      "spacing_audit": {
+        "legend_position": "below",
+        "legend_count": 2,
+        "plot_labels_to_legend_pt": 7.5,
+        "top_export_padding_pt": 2.25,
+        "legend_group_gap_pt": 4.5,
+        "plot_geometry_preserved": false,
+        "full_block_height_factor": 0.75,
+        "vertical_spacing_factor": 0.75,
+        "chart_width_preserved": true,
+        "font_sizes_preserved": true,
+        "stroke_widths_preserved": true,
+        "old_chart_height_pt": 511.5682373046875,
+        "new_chart_height_pt": 371.47331878662106,
+        "target_block_height_pt": 469.77676391601574,
+        "vertical_axis_scale": 0.6900417709350586,
+        "x_axis_title_pad_pt": 6.0,
+        "y_axis_title_pad_pt": 4,
+        "x_tick_label_pad_pt": 3.0,
+        "y_tick_label_pad_pt": 4,
+        "minimum_value_label_horizontal_gap_pt": 4.12,
+        "legend_text_overlap": false
+      }
+    }
+  },
+  {
+    "slug": "concept-two-panels",
+    "title": "Conditional Distributions and Representation Space",
+    "subtitle": "Original conceptual curves and seed-42 manifold illustration",
+    "source": "Source: Chen Liu, figures4papers / figure_VIGIL/plot_concept.py. CC BY-NC 4.0.",
+    "note": "Both panels are illustrative, not new measurements. The original curves, point coordinates and trajectories are retained; colors, typography and annotation placement are restyled.",
+    "old": "concept",
+    "id": "M3",
+    "group": "Multi-panel repository reference",
+    "notes": "Both panels are illustrative, not new measurements. The original curves, point coordinates and trajectories are retained; colors, typography and annotation placement are restyled.",
+    "data": {
+      "layout": "1 x 2",
+      "panel_size_inches": [
+        [
+          4.7,
+          2.2431591567993165
+        ],
+        [
+          6.83,
+          2.2431591567993165
+        ]
+      ],
+      "horizontal_gap_inches": 0.56,
+      "distribution_points": 3000,
+      "manifold_seed": 42,
+      "manifold_points": 5200,
+      "source_manifold_geometry_sha256": "62864fa25b94b2ab92c9b30ad04a00059df4b1df0fae65c21bbb2a2a213d1777",
+      "geometry_preserved": true,
+      "adaptation": "Panels share top and bottom edges; the wider schematic retains the original deterministic geometry. Original formulas use Mathtext at a 10 pt base, Arial letters, STIX symbols and conventional reduced subscripts/superscripts.",
+      "spacing_audit": {
+        "legend_position": "below",
+        "legend_count": 1,
+        "plot_labels_to_legend_pt": 7.5,
+        "top_export_padding_pt": 2.25,
+        "legend_group_gap_pt": null,
+        "plot_geometry_preserved": false,
+        "full_block_height_factor": 0.75,
+        "vertical_spacing_factor": 0.75,
+        "chart_width_preserved": true,
+        "font_sizes_preserved": true,
+        "stroke_widths_preserved": true,
+        "old_chart_height_pt": 322.36981201171875,
+        "new_chart_height_pt": 229.5772639770508,
+        "target_block_height_pt": 327.8779449462893,
+        "vertical_axis_scale": 0.6597526931762696,
+        "x_axis_title_pad_pt": 6.0,
+        "y_axis_title_pad_pt": 4,
+        "x_tick_label_pad_pt": 3.0,
+        "y_tick_label_pad_pt": 4,
+        "minimum_value_label_horizontal_gap_pt": null,
+        "legend_text_overlap": false
+      }
+    }
+  },
+  {
+    "slug": "publication-trends-two-panels",
+    "title": "Publication Trends in Text-Only and Multimodal Work",
+    "subtitle": "Cumulative counts from the repository, November 2022-July 2025",
+    "source": "Source: Chen Liu, figures4papers / figure_ophthal_review/plot_trend.py. CC BY-NC 4.0.",
+    "note": "Both panels share the same count scale. All monthly counts are retained. Release annotations follow the effective dates and labels in the source code.",
+    "old": "trend_by_month",
+    "id": "M4",
+    "group": "Multi-panel repository reference",
+    "notes": "Both panels share the same count scale. All monthly counts are retained. Release annotations follow the effective dates and labels in the source code.",
+    "data": {
+      "layout": "2 x 1",
+      "panel_size_inches": [
+        11.9,
+        1.8377839565277099
+      ],
+      "vertical_gap_inches": 0.615,
+      "common_y_limits": [
+        0,
+        125
+      ],
+      "common_x_limits": [
+        -1.2,
+        33.2
+      ],
+      "monthly_values_preserved": true,
+      "cumulative_values": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          2,
+          4,
+          5,
+          6,
+          7,
+          7,
+          7,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          10
+        ],
+        [
+          0,
+          0,
+          4,
+          4,
+          4,
+          10,
+          11,
+          14,
+          16,
+          16,
+          21,
+          21,
+          25,
+          25,
+          34,
+          35,
+          38,
+          42,
+          49,
+          55,
+          62,
+          68,
+          74,
+          75,
+          81,
+          85,
+          91,
+          93,
+          93,
+          93,
+          93,
+          94,
+          95
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          5,
+          5,
+          5,
+          5,
+          6,
+          8,
+          9,
+          9,
+          11,
+          14,
+          14,
+          15,
+          17,
+          17,
+          19,
+          19,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ]
+      ],
+      "months": [
+        "2022-11",
+        "2022-12",
+        "2023-01",
+        "2023-02",
+        "2023-03",
+        "2023-04",
+        "2023-05",
+        "2023-06",
+        "2023-07",
+        "2023-08",
+        "2023-09",
+        "2023-10",
+        "2023-11",
+        "2023-12",
+        "2024-01",
+        "2024-02",
+        "2024-03",
+        "2024-04",
+        "2024-05",
+        "2024-06",
+        "2024-07",
+        "2024-08",
+        "2024-09",
+        "2024-10",
+        "2024-11",
+        "2024-12",
+        "2025-01",
+        "2025-02",
+        "2025-03",
+        "2025-04",
+        "2025-05",
+        "2025-06",
+        "2025-07"
+      ],
+      "events_shown": [
+        {
+          "group": "dates_llm",
+          "date": "2022-11",
+          "label": "ChatGPT\n(GPT-3.5)",
+          "index": 0,
+          "value": 0
+        },
+        {
+          "group": "dates_llm",
+          "date": "2023-02",
+          "label": "LlaMA 1",
+          "index": 3,
+          "value": 4
+        },
+        {
+          "group": "dates_llm",
+          "date": "2023-03",
+          "label": "GPT-4",
+          "index": 4,
+          "value": 4
+        },
+        {
+          "group": "dates_llm",
+          "date": "2023-07",
+          "label": "LlaMA 2",
+          "index": 8,
+          "value": 16
+        },
+        {
+          "group": "dates_llm",
+          "date": "2023-12",
+          "label": "Gemini 1.0",
+          "index": 13,
+          "value": 25
+        },
+        {
+          "group": "dates_llm",
+          "date": "2024-02",
+          "label": "Gemini 1.5",
+          "index": 15,
+          "value": 35
+        },
+        {
+          "group": "dates_llm",
+          "date": "2024-04",
+          "label": "LlaMA 3",
+          "index": 17,
+          "value": 42
+        },
+        {
+          "group": "dates_llm",
+          "date": "2024-12",
+          "label": "Gemini 2.0",
+          "index": 25,
+          "value": 85
+        },
+        {
+          "group": "dates_llm",
+          "date": "2025-04",
+          "label": "LlaMA 4",
+          "index": 29,
+          "value": 93
+        },
+        {
+          "group": "dates_llm",
+          "date": "2025-06",
+          "label": "Gemini 2.5",
+          "index": 31,
+          "value": 94
+        },
+        {
+          "group": "dates_vlm",
+          "date": "2023-02",
+          "label": "BLIP-2",
+          "index": 3,
+          "value": 1
+        },
+        {
+          "group": "dates_vlm",
+          "date": "2023-07",
+          "label": "LlaVA 1.0",
+          "index": 8,
+          "value": 1
+        },
+        {
+          "group": "dates_vlm",
+          "date": "2023-10",
+          "label": "LlaVA 1.5",
+          "index": 11,
+          "value": 5
+        },
+        {
+          "group": "dates_vlm",
+          "date": "2023-12",
+          "label": "Gemini 1.0",
+          "index": 13,
+          "value": 5
+        },
+        {
+          "group": "dates_vlm",
+          "date": "2024-02",
+          "label": "Gemini 1.5",
+          "index": 15,
+          "value": 8
+        },
+        {
+          "group": "dates_vlm",
+          "date": "2024-12",
+          "label": "Gemini 2.0",
+          "index": 25,
+          "value": 19
+        },
+        {
+          "group": "dates_vlm",
+          "date": "2025-06",
+          "label": "Gemini 2.5",
+          "index": 31,
+          "value": 20
+        }
+      ],
+      "events_omitted_as_in_source": [
+        {
+          "group": "dates_llm",
+          "date": "2025-08",
+          "label": "GPT-5",
+          "reason": "Not an exact date in the source month vector"
+        },
+        {
+          "group": "dates_vlm",
+          "date": "2023-9",
+          "label": "GPT-4v",
+          "reason": "Not an exact date in the source month vector"
+        }
+      ],
+      "adaptation": "Both rows now share a 0-125 count scale; the earlier separate row scales are removed. Source event selection and every monthly count are preserved.",
+      "spacing_audit": {
+        "legend_position": "below",
+        "legend_count": 1,
+        "plot_labels_to_legend_pt": 7.5,
+        "top_export_padding_pt": 2.25,
+        "legend_group_gap_pt": null,
+        "plot_geometry_preserved": false,
+        "full_block_height_factor": 0.75,
+        "vertical_spacing_factor": 0.75,
+        "chart_width_preserved": true,
+        "font_sizes_preserved": true,
+        "stroke_widths_preserved": true,
+        "old_chart_height_pt": 516.0745849609375,
+        "new_chart_height_pt": 374.8554600524901,
+        "target_block_height_pt": 473.1565246582033,
+        "vertical_axis_scale": 0.6935033798217771,
+        "x_axis_title_pad_pt": 6.0,
+        "y_axis_title_pad_pt": 4,
+        "x_tick_label_pad_pt": 3.0,
+        "y_tick_label_pad_pt": 4,
+        "minimum_value_label_horizontal_gap_pt": null,
+        "legend_text_overlap": false
+      }
+    }
+  }
+]

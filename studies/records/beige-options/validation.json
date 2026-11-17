@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "pdf_checks": [
+    "figures4papers-minimal/beige-options/comparison.pdf : page count and text bounds pass",
+    "figures4papers-minimal/beige-options/A/gallery.pdf : page count and text bounds pass",
+    "figures4papers-minimal/beige-options/B/gallery.pdf : page count and text bounds pass",
+    "figures4papers-minimal/beige-options/C/gallery.pdf : page count and text bounds pass",
+    "figures4papers-minimal/beige-options/D/gallery.pdf : page count and text bounds pass",
+    "figures4papers-minimal/beige-options/E/gallery.pdf : page count and text bounds pass"
+  ],
+  "png_count": 30,
+  "background_checks": 30,
+  "accepted_files_unchanged": true
+}
